@@ -3,6 +3,10 @@ Research Group Web Site Template
 
 This is a [Jekyll][]-based Web site intended for research groups. Your group should be able to get up and running with minimal fuss.
 
+<p align="center">
+<img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
+</p>
+
 You can see the machinery working live at [our site][sampa].
 
 [sampa]: http://sampa.cs.washington.edu/
@@ -29,6 +33,8 @@ Setup
 3. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
 4. Type `make` to build the site and then run `jekyll serve -w` to view your site.
 5. Keep adding content. See below for instructions for each of the various sections.
+
+[Python]: https://www.python.org/
 
 
 Publication List

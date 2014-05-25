@@ -1,7 +1,7 @@
 name: Awesome Research Group
 url: http://awesome.example.com
 
-exclude: [bibble, README.md, Makefile]
+exclude: [bibble, README.md, Makefile, screenshot.png]
 
 # use this library to parse Markdown
 markdown: redcarpet
