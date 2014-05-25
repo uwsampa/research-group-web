@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ site.name }}: {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ site.base }}/css/group.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="{{ site.base }}/blog/blog.xml">
+    </head>
+    <body>
+        <div class="container">
+          <div class="header">
+            <ul class="nav nav-pills">
+              {% assign shorturl = page.url | replace:'index.html','' %}
+              {% for item in site.navigation %}
+                <li {% if item.link == shorturl %}class="active"{% endif %}>
+                  <a href="{{ site.base }}{{ item.link }}">
+                    {{ item.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          {% comment %}Liquid is sort of terrible! I think "!= true" is the
+          only way to do negation?{% endcomment %}
+          {% if page.notitle != true %}
+          <h2>{{ page.title }}</h2>
+          {% endif %}
+
+          {{ content }}
+
+          <div class="footer">
+            <p>
+              <a href="http://www.cs.washington.edu/">Computer Science &amp;
+                Engineering</a>
+              at the
+              <a href="http://www.washington.edu/">University of
+                Washington</a>
+            </p>
+          </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="{{ site.base }}/js/srcset-polyfill.js"></script>
+    </body>
+</html>

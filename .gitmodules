@@ -1,0 +1,3 @@
+[submodule "bibble"]
+	path = bibble
+	url = git://github.com/sampsyo/bibble.git

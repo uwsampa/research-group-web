@@ -1,0 +1,7 @@
+---
+layout: default
+title: Older News
+---
+{% for item in site.data.news %}
+    <p>{{ item | markdownify }}</p>
+{% endfor %}

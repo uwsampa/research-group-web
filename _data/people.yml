@@ -1,0 +1,30 @@
+profx:
+    display_name: "Professor X"
+    webpage: "http://en.wikipedia.org/wiki/Professor_X"
+    github: profx
+    role: faculty
+    bio: |
+        Professor X is the leader and founder of X-Men. 
+melody:
+    display_name: "Melody Kadenko"
+    webpage: "http://www.cs.washington.edu/homes/melody/"
+    role: staff
+    bio: |
+        Melody is our Program Director. She actually makes magic stuff happen.
+        And beware of the Spoon of Death.
+
+wolverine:
+    display_name: "Wolverine"
+    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
+    github: wolverine
+    role: postdoc
+
+storm:
+    display_name: "Storm"
+    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+    role: grad
+
+jean:
+    display_name: "Jean Grey"
+    role: alum
+    bio: "Ph.D., 2013. Now at Microsoft Research."
