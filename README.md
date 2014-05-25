@@ -16,6 +16,9 @@ Features
 * Personnel list. Organize your professors, students, staff, and alumni.
 * Combined news stream and blog posts.
 * Easily extensible navigation bar.
+* Responsive (mobile-ready) design based on [Bootstrap][].
+
+[Bootstrap]: http://getbootstrap.com/
 
 
 Setup
