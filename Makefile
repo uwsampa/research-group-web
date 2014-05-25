@@ -20,5 +20,6 @@ clean:
 	$(RM) -r _site _includes/pubs.html
 
 HOST := yourwebpage.com
+PATH := www/
 deploy: clean all
-	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(HOST):www/
+	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(HOST):$(PATH)

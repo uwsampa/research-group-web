@@ -41,11 +41,3 @@ navigation:
       link: /publications.html
     - title: Code
       link: /code.html
-
-# Rewriting of old path names.
-redirects:
-    People: people.html
-    Projects: research/
-    Publications: publications.html
-    Funding: ''
-    Main_Page: ''
