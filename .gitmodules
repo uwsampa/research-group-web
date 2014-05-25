@@ -1,3 +1,3 @@
 [submodule "bibble"]
 	path = bibble
-	url = git://github.com/sampsyo/bibble.git
+	url = https://github.com/sampsyo/bibble.git
