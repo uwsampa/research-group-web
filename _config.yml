@@ -1,5 +1,5 @@
-name: Template webpage
-url: hhttps://github.com/iyzhang/template-www
+name: Awesome Research Group
+url: http://awesome.example.com
 
 exclude: [bibble, README.md, Makefile]
 
@@ -8,7 +8,7 @@ markdown: redcarpet
 redcarpet:
     extensions: [smart, tables]
 
-# colorize code snippets with the pygment module
+# colorize code snippets with the pygments module
 pygments: true
 
 # The path structure for blog posts.
