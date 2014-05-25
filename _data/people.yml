@@ -6,12 +6,11 @@ profx:
     bio: |
         Professor X is the leader and founder of X-Men. 
 melody:
-    display_name: "Melody Kadenko"
-    webpage: "http://www.cs.washington.edu/homes/melody/"
+    display_name: "Scott Summers"
+    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
     role: staff
     bio: |
-        Melody is our Program Director. She actually makes magic stuff happen.
-        And beware of the Spoon of Death.
+        Scott, also known as Cyclops, shoots lasers from his eyes, which makes him the perfect administrative assistant.
 
 wolverine:
     display_name: "Wolverine"

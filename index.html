@@ -3,6 +3,12 @@ layout: default
 title: Home
 notitle: true
 ---
+<div class="jumbotron">
+  <p>
+    The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
+    research. Here is a place where we tell you exactly what that is!
+  </p>
+</div>
 
 <h2>News</h2>
 <ul class="news list-unstyled">
@@ -23,6 +29,4 @@ notitle: true
 {% assign numposts = site.posts | size %}
 {% if numposts >= site.front_page_news %}
 <p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
-{% else %}
-<p><a href="{{ site.base }}/oldnews.html">Older news posts&hellip;</a></p>
 {% endif %}
