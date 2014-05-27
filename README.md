@@ -7,7 +7,7 @@ This is a [Jekyll][]-based Web site intended for research groups. Your group sho
 <img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
 </p>
 
-You can see the machinery working live at [our site][sampa].
+This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
 
 [sampa]: http://sampa.cs.washington.edu/
 
@@ -29,12 +29,16 @@ Setup
 -----
 
 1. Install the dependencies. You will need [Python][], [Pybtex][] (`pip install pybtex`), and [Jekyll][] (`gem install jekyll`).
-2. Clone this repository. Use the `--recurse-submodules` flag to get the Bibble subrepository.
-3. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-4. Type `make` to build the site and then run `jekyll serve -w` to view your site.
-5. Keep adding content. See below for instructions for each of the various sections.
+2. [Fork][] this repository on GitHub.
+3. Clone the fork (along with its submodules) to your own machine: `git clone --recursive URL`.
+4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
+5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
+6. Type `make` to build the site and then run `jekyll serve -w` to view your site.
+7. Keep adding content. See below for instructions for each of the various sections.
+8. Periodically pull from the upstream repository: `git pull upstream master`.
 
 [Python]: https://www.python.org/
+[Fork]: ./fork
 
 
 Publication List
