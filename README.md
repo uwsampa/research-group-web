@@ -38,7 +38,7 @@ Setup
 8. Periodically pull from the upstream repository: `git pull upstream master`.
 
 [Python]: https://www.python.org/
-[Fork]: ./fork
+[Fork]: ../../fork
 
 
 Publication List
