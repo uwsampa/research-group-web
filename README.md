@@ -9,7 +9,10 @@ This is a [Jekyll][]-based Web site intended for research groups. Your group sho
 
 This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
 
+This work is licensed under a [license][Creative Commons Attribution-NonCommercial 4.0 International License].
+
 [sampa]: http://sampa.cs.washington.edu/
+[license]: https://creativecommons.org/licenses/by-nc/4.0/
 
 
 Features
