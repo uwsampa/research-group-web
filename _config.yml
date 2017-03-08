@@ -9,7 +9,7 @@ redcarpet:
     extensions: [smart, tables]
 
 # colorize code snippets with the pygments module
-pygments: true
+highlighter: pygments
 
 # The path structure for blog posts.
 permalink: /blog/:year/:month/:day/:title.html
