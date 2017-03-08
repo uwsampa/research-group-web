@@ -3,11 +3,6 @@ url: http://awesome.example.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
-# use this library to parse Markdown
-markdown: redcarpet
-redcarpet:
-    extensions: [smart, tables]
-
 # colorize code snippets with the pygments module
 highlighter: pygments
 
