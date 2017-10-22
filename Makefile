@@ -1,5 +1,3 @@
-PYTHON=python2.7
-
 # targets that aren't filenames
 .PHONY: all clean deploy
 
@@ -9,9 +7,11 @@ BUILDARGS :=
 _site/index.html _site/wacas14/index.html:
 	jekyll build $(BUILDARGS)
 
+BIBBLE=bibble
+
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
-	$(PYTHON) bibble/bibble.py $+ > $@
+	$(BIBBLE) $+ > $@
 
 _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 	_layouts/default.html

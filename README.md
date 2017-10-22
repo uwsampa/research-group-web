@@ -31,9 +31,9 @@ Features
 Setup
 -----
 
-1. Install the dependencies. You will need [Python][], [Pybtex][] (`pip install pybtex`), and [Jekyll][] (`gem install jekyll`).
+1. Install the dependencies. You will need [Python][], [bibble][] (`pip install bibble`), and [Jekyll][] (`gem install jekyll`).
 2. [Fork][] this repository on GitHub.
-3. Clone the fork (along with its submodules) to your own machine: `git clone --recursive git@github.com:yourgroup/research-group-web.git`.
+3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
 6. Type `make` to build the site and then run `jekyll serve -w` to view your site.
@@ -88,10 +88,7 @@ Building
 The requirements for building the site are:
 
 * [Jekyll][]: run `gem install jekyll`
-* [Pybtex][]: run `pip install pybtex`
-* [bibble][]: included as a submodule. Because git is cruel, you need to use
-  `git clone --recursive URL` or issue the commands `git submodule init ; git
-  submodule update` to check out the dependency.
+* [bibble][]: available on `pip`
 * ssh and rsync, only if you want to deploy directly.
 
 `make` compiles the bibliography and the website content to the `_site`
@@ -108,4 +105,3 @@ To upload a new version of the site via rsync over ssh, type `make deploy`. A we
 
 [Jekyll]: http://jekyllrb.com/
 [bibble]: https://github.com/sampsyo/bibble/
-[pybtex]: http://pybtex.sourceforge.net
