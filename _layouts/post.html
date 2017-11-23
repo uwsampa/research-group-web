@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="date">{{ page.date | date: '%B %d, %Y' }}</p>
 
 <div class="post">
 {{ content }}

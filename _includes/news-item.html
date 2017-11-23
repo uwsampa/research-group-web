@@ -1,0 +1,23 @@
+
+{% assign item = include.item %}
+{% if item.icon %}
+{% assign icon = item.icon %}
+{% assign class = "shortnews" %}
+{% else %}
+{% assign icon = "newspaper-o" %}
+{% endif %}
+
+<li class="{{ class }}">
+    <span class="fa fa-fw fa-{{ icon }}"></span>
+    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+    <div>
+    {% if post.shortnews %}
+        {{ post.content | remove: '<p>' | remove: '</p>' }}
+    {% else %}
+        <h4> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }}</a> </h4>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        <br>
+        <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
+        {% endif %}
+    </div>
+</li>

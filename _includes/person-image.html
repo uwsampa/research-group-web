@@ -1,0 +1,38 @@
+
+{% assign person = include.person %}
+
+{% comment %}
+
+Usage: {% include person-image.html person=person %}
+
+Sizing of the SVG is done in a viewBox, and it's resized later in CSS.
+
+text-decoration hack is for Safari. We don't SVGs to be underlined.
+
+{% endcomment %}
+
+{% if person.image %}
+    {% capture image %}
+        <img class="rounded-circle profile" src="{{ site.base }}{{ person.image }}" />
+    {% endcapture %}
+{% else %}
+    {% capture image %}
+        <svg class="profile noprofile" viewBox="0 0 100 100">
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                {{ person.display_name | slice: 0 }}
+            </text>
+        </svg>
+    {% endcapture %}
+{% endif %}
+
+{% if person.webpage %}
+    <a href="{{ person.webpage | escape }}"
+       style="text-decoration: none">
+        {{ image }}
+    </a>
+{% else %}
+    {{ image }}
+{% endif %}

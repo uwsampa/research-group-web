@@ -1,29 +1,32 @@
 ---
 layout: default
 title: People
+
+picture-role-groups:
+- {roles: [faculty, postdoc, staff], width: 4}
+- {roles: [grad], width: 8}
+
+no-picture-role-groups:
+- {roles: [collab, ugrad, ugrad-alum], width: 5}
+- {roles: [alum], width: 7}
 ---
 
-{% for role in site.roles %}
-  <h3>{{ role.name }}</h3>
-  <dl class="people">
-  {% for item in site.data.people %}
-    {% assign person = item[1] %}
-    {% if person.role == role.key %}
-      <dt class="person">
-        {% if person.webpage %}
-        <a href="{{ person.webpage |escape }}">
-        {% endif %}
-          {{ person.display_name }}
-        {% if person.webpage %}
-        </a>
-        {% endif %}
-      </dt>
-      <dd>
-        {% if person.bio %}
-          {{ person.bio | markdownify }}
-        {% endif %}
-      </dd>
-    {% endif %}
-  {% endfor %}
-  </dl>
-{% endfor %}
+<section class="people row justify-content-between">
+    {% for role-group in page.picture-role-groups %}
+        <div class="col-md-{{ role-group.width }}">
+            {% for role in role-group.roles %}
+                {% include role-people.html role=role image=true %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>
+
+<section class="people row justify-content-between">
+    {% for role-group in page.no-picture-role-groups %}
+        <div class="col-md-{{ role-group.width }}">
+            {% for role in role-group.roles %}
+                {% include role-people.html role=role image=false %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>

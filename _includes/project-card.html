@@ -1,0 +1,49 @@
+
+{% assign project = include.project %}
+
+{% capture card-content %}
+    <div class="card-body">
+        {% if project.image %}
+            {% assign imgurl = project.image %}
+            {% capture init %}{{ project.image | slice: 0,1 }}{% endcapture %}
+            {% if init == "/" %}
+                {% capture imgurl %}{{site.base}}{{project.image}}{% endcapture %}
+            {% endif %}
+            <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
+        {% endif %}
+        {% if project.notitle != true %}
+            <h3 class="card-title">{{project.title}}</h3>
+        {% endif %}
+        <div class="card-text">
+            {{ project.description | markdownify }}
+        </div>
+    </div>
+    {% if project.people %}
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            {% for uname in project.people %}
+                <div>
+                    {% assign person = site.data.people[uname]  %}
+                    {% include person-image.html person=person %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endcapture %}
+
+{% if project.link %}
+    {% assign proj-url = project.link %}
+{% else %}
+    {% capture proj-url %}{{site.base}}{{project.url}}.html{% endcapture %}
+{% endif %}
+
+{% if proj-url %}
+    <div class="card link">
+        <a href="{{proj-url}}">
+            {{ card-content }}
+        </a>
+    </div>
+{% else %}
+    <div class="card">
+        {{ card-content }}
+    </div>
+{% endif %}

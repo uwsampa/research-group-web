@@ -1,0 +1,10 @@
+---
+layout: default
+title: Research Projects
+---
+
+<div class="card-columns">
+    {% for p in site.projects %}
+        {% include project-card.html project=p %}
+    {% endfor %}
+</div>
