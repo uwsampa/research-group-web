@@ -1,7 +1,13 @@
 
 {% assign project = include.project %}
 
-{% capture card-content %}
+{% if project.link %}
+    {% assign proj-url = project.link %}
+{% else %}
+    {% capture proj-url %}{{site.base}}{{project.url}}.html{% endcapture %}
+{% endif %}
+
+<div class="card">
     <div class="card-body">
         {% if project.image %}
             {% assign imgurl = project.image %}
@@ -9,14 +15,26 @@
             {% if init == "/" %}
                 {% capture imgurl %}{{site.base}}{{project.image}}{% endcapture %}
             {% endif %}
-            <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
+            <a href="{{ proj-url }}">
+                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
+            </a>
         {% endif %}
         {% if project.notitle != true %}
-            <h3 class="card-title">{{project.title}}</h3>
+            <h4 class="card-title">
+                {{  project.title }}
+            </h4>
+        {% endif %}
+        {% if project.subtitle != null and project.subtitle != "" %}
+            <h6 class="card-subtitle mb-2 text-muted">
+                {{  project.subtitle }}
+            </h6>
         {% endif %}
         <div class="card-text">
             {{ project.description | markdownify }}
         </div>
+        {% if project.no-link != true or project.link %}
+            <a href="{{ proj-url }}"> Read more &raquo;</a>
+        {% endif %}
     </div>
     {% if project.people %}
         <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
@@ -28,22 +46,4 @@
             {% endfor %}
         </div>
     {% endif %}
-{% endcapture %}
-
-{% if project.link %}
-    {% assign proj-url = project.link %}
-{% else %}
-    {% capture proj-url %}{{site.base}}{{project.url}}.html{% endcapture %}
-{% endif %}
-
-{% if proj-url %}
-    <div class="card link">
-        <a href="{{proj-url}}">
-            {{ card-content }}
-        </a>
-    </div>
-{% else %}
-    <div class="card">
-        {{ card-content }}
-    </div>
-{% endif %}
+</div>

@@ -14,7 +14,7 @@
     {% if post.shortnews %}
         {{ post.content | remove: '<p>' | remove: '</p>' }}
     {% else %}
-        <h4> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }}</a> </h4>
+        <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
         <br>
         <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>

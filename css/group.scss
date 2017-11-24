@@ -106,14 +106,6 @@ section {
 
 .card {
 
-    &.link:hover { border-color: $gray }
-
-    > a {
-        color: inherit;
-        &:hover { text-decoration: none }
-    }
-
-
     .profile {
         height: 40px;
         width: 40px;
@@ -134,6 +126,10 @@ section {
 
     .bio {
         color: $gray;
+    }
+
+    .person-name {
+        margin: 0;
     }
 }
 
