@@ -36,7 +36,7 @@ Setup
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Type `make` to build the site and then run `jekyll serve -w` to view your site.
+6. Type `make` to build the site and then run `make serve` to view your site.
 7. Keep adding content. See below for instructions for each of the various sections.
 8. Periodically pull from the upstream repository: `git pull upstream master`.
 
@@ -93,7 +93,7 @@ The requirements for building the site are:
 
 `make` compiles the bibliography and the website content to the `_site`
 directory. To preview the site, run `jekyll serve`` and head to
-http://0.0.0.0:4000.
+http://0.0.0.0:5000.
 
 
 Deploying to Your Sever
