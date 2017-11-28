@@ -15,4 +15,5 @@ people:
 
 layout: project
 no-link: true
+last-updated: 2016-11-11
 ---

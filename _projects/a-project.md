@@ -14,6 +14,7 @@ people:
   - wolverine
 
 layout: project
+last-updated: 2015-05-05
 ---
 
 Proin massa augue, eleifend non ultricies eget, feugiat ut nisl. Fusce at
