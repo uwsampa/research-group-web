@@ -43,6 +43,8 @@ collections:
 navigation:
   - title: Home
     link: /
+  - title: People
+    link: /#people
   - title: Research
     link: /research.html
   - title: Publications
