@@ -1,12 +1,12 @@
 
-prof-tiberio:
+prof-josehernandez:
     display_name: José Tiberio Hernández
     role: faculty
     webpage: "https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/"    
     image: /img/people/foto_JoseHernandez.jpg
     bio: Associate Professor        
 
-prof-marcela:
+prof-marcelahernandez:
     display_name: Marcela Hernández Hoyos
     role: faculty 
     image: /img/people/foto_MarcelaHernandez.jpg
@@ -14,20 +14,20 @@ prof-marcela:
     webpage: "https://profesores.virtual.uniandes.edu.co/marcher/en/inicio-en/"
     bio: Associate Professor        
 
-prof-pablo:
+prof-pablofigueroa:
     display_name: Pablo Figueroa Forero
     webpage: "https://profesores.virtual.uniandes.edu.co/pfiguero/en/inicio-en/"
     role: faculty
     image: /img/people/foto_PabloFigueroa.jpg     
     bio: Associate Professor    
 
-prof-fernando:
+prof-fernandodelarosa:
     display_name: "Prof  Fernando de la Rosa Rosero"
     webpage: "https://profesores.virtual.uniandes.edu.co/fde/en/inicio-en/"
     role: faculty
     image: /img/people/foto_FernandodelaRosa.jpg 
 
-prof-john:
+prof-johnguerra:
     display_name: John Alexis Guerra Gómez
     role: faculty
     webpage: http://johnguerra.co

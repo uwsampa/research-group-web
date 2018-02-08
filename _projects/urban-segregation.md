@@ -5,7 +5,7 @@ description: This project presents a model for urban segregation based on three 
 
 people:
   - prof-josehernandez
-  - alum-meilivanegash
+  - grad-meilivanegash
 
 layout: project
 
