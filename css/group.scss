@@ -6,7 +6,7 @@ $light-gray: #EEE;
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .header {
@@ -23,9 +23,9 @@ body {
     text-align: center;
     font-size: 0.8em;
 
-    a:link, a:visited {
-        color: $gray;
-    }
+    // a:link, a:visited {
+    //     color: $gray;
+    // }
 }
 
 .fa {
@@ -53,8 +53,8 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 154px;
-    height: 35px;
+    width: 120px;
+    // height: 35px;
     margin: 2px 0 8px 0;
 }
 
@@ -144,4 +144,19 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+.bannerUniandes {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    // margin: 0px auto;
+    background-color: rgb(14,96,174);
+}
+.footer footer {
+    background-color: #141414;
+
+    a {
+        color: #418add;
+    }
 }
