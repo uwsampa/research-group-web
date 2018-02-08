@@ -32,8 +32,8 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: '/viz/imagine2'
-# base: ''
+# base: '/viz/imagine2'
+base: ''
 
 # make pages for the _projects folder
 collections:
