@@ -7,6 +7,11 @@ gem install jekyll bundler
 pip install bibble
 ```
 
+On mac you might need to update ruby first
+```
+brew install ruby
+```
+
 ## To start the site:
 ```
 make
