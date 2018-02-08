@@ -1,3 +1,180 @@
+# Imagine website
+
+## Instalation:
+
+```
+gem install jekyll bundler
+pip install bibble
+```
+
+On mac you might need to update ruby first
+```
+brew install ruby
+```
+
+## To start the site:
+```
+make
+make serve
+```
+
+
+## Usage
+
+* To add/modify people change the [people.yml](_data/people.yml) file
+* To add/modify projects, create/change the files on [\_çprojects](_projects/)
+* To add/modify news, create/change the files on [\_posts](_posts/)
+
+See below for examples
+
+#Examples of projects:
+
+###Big Project
+
+```
+---
+title: Big Project
+
+description: |
+  This project has a lot of people working on it!!
+  It also has some `Mark` _down_
+
+people:
+  - storm
+  - profx
+  - grad-a
+  - grad-b
+  - grad-c
+  - grad-d
+  - scott
+  - wolverine
+  - ugrad-a
+  - ugrad-b
+  - ugrad-c
+  - ugrad-d
+
+layout: project
+---
+
+## A Header
+
+Proin massa augue, eleifend non ultricies eget, feugiat ut nisl. Fusce at
+aliquet justo, id elementum lacus. Praesent eleifend tempus molestie. Nunc
+vulputate sed tortor a ultrices. Nullam blandit hendrerit nisi, at suscipit
+augue ultricies quis. Nulla tincidunt rhoncus nisl sed consectetur. Phasellus
+dapibus, `leo` in varius tempus, nibh velit tincidunt lacus, ut porta eros ex et
+eros. Ut diam purus, sagittis vitae cursus eu, molestie eget turpis. Sed
+consectetur magna in posuere faucibus. Morbi nibh eros, blandit ut vehicula ac,
+pellentesque ut urna.
+```
+
+###Logo project
+```---
+title: Logo Project
+
+notitle: true
+
+description: |
+  This project has a sweet logo!
+
+people:
+  - storm
+  - grad-b
+  - ugrad-c
+
+layout: project
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Xmencomic-logo.svg/2000px-Xmencomic-logo.svg.png"
+last-updated: 2017-04-11
+---
+
+Some preliminary text.
+
+## header
+
+Maecenas _scelerisque ut enim non convallis_. Mauris ut nisl vitae mi dictum
+mollis. Pellentesque iaculis lacinia nisl viverra laoreet. Integer ac lacus quis
+elit varius mollis et ultrices tortor. Aliquam id dolor cursus, sagittis arcu
+tincidunt, scelerisque nisi. Morbi scelerisque feugiat mi in faucibus. Maecenas
+suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
+ac at ipsum. Mauris a imperdiet eros.
+```
+
+###Longer Project
+```
+---
+title: Project with a Longer Title
+subtitle: And a subtitle
+
+description: |
+  This project has a long title, but no other content.
+  Setting the `no-link` property means that there's no link.
+
+people:
+  - storm
+  - profx
+  - grad-b
+  - scott
+  - wolverine
+
+layout: project
+no-link: true
+last-updated: 2016-11-11
+---
+```
+
+###Inactive project
+```
+---
+title: Short Inactive Project
+status: inactive
+
+description: |
+  This project is quite brief: it only has a description and an external link.
+  It's inactive so it should only appear on the "Research" page.
+
+people:
+  - storm
+  - grad-e
+  - collab-a
+
+layout: project
+link: "https://en.wikipedia.org/wiki/X-Men"
+---
+
+```
+
+#Posts
+
+For creating new posts for the news section write a new file on the [_posts] folder, for the file name using Year-Month-Day-title.md
+
+Examples:
+
+###A Full Blog Post
+```
+---
+layout: post
+title: "A Full Blog Post"
+icon: star-o
+---
+
+Unlike a short news post, a blog post has its own page and lots of text. Text text text.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+```
+
+###Short notice
+```
+---
+layout: post
+shortnews: true
+icon: newspaper-o
+---
+
+This is a short notice of something that happened recently. Just a news update blurb in no great detail.
+```
+
+
+
 Research Group Web Site Template
 ================================
 

@@ -1,21 +1,25 @@
 
 prof-josehernandez:
-    display_name: "Prof Jose Tiberio Hernández"
-    webpage: "https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/"
+    display_name: José Tiberio Hernández
     role: faculty
+    webpage: "https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/"    
     image: /img/people/foto_JoseHernandez.jpg
-
-prof-pablofigueroa:
-    display_name: "Prof Pablo Figueroa Forero"
-    webpage: "https://profesores.virtual.uniandes.edu.co/pfiguero/en/inicio-en/"
-    role: faculty
-    image: /img/people/foto_PabloFigueroa.jpg    
+    bio: Associate Professor        
 
 prof-marcelahernandez:
+    display_name: Marcela Hernández Hoyos
+    role: faculty 
+    image: /img/people/foto_MarcelaHernandez.jpg
     display_name: "Prof Marcela Hernández Hoyos"
     webpage: "https://profesores.virtual.uniandes.edu.co/marcher/en/inicio-en/"
+    bio: Associate Professor        
+
+prof-pablofigueroa:
+    display_name: Pablo Figueroa Forero
+    webpage: "https://profesores.virtual.uniandes.edu.co/pfiguero/en/inicio-en/"
     role: faculty
-    image: /img/people/foto_MarcelaHernandez.jpg
+    image: /img/people/foto_PabloFigueroa.jpg     
+    bio: Associate Professor    
 
 prof-fernandodelarosa:
     display_name: "Prof  Fernando de la Rosa Rosero"
@@ -24,10 +28,14 @@ prof-fernandodelarosa:
     image: /img/people/foto_FernandodelaRosa.jpg 
 
 prof-johnguerra:
-    display_name: "Prof  John Alexis Guerra Gómez"
-    webpage: "https://profesores.virtual.uniandes.edu.co/jaguerrag/en/inicio-en/"
+    display_name: John Alexis Guerra Gómez
     role: faculty
-    image: /img/people/foto_JohnGuerra.jpg        
+    webpage: http://johnguerra.co
+    github: john-guerra
+    role: faculty
+    image: /img/people/foto_JohnGuerra_2015.jpg
+    bio: Assistant Professor
+    
 
 grad-diegorodriguez:
     display_name: "Diego Rodríguez"
@@ -38,9 +46,9 @@ alum-camiloescobarv:
     display_name: "Camilo Andrés Escobar Velásquez"
     role: alum
 
-alum-meilivanegash:
+grad-meilivanegash:
     display_name: "Meili Vanegas Hernández"
-    role: alum
+    role: grad
 
 alum-danielwilches:
     display_name: "Daniel Wilches"
@@ -50,7 +58,35 @@ alum-deisydiaz:
     display_name: "Deisy Díaz Pérez"
     role: alum
 
+
+prof-fernando:
+    display_name: Fernando de la Rosa
+    role: faculty
+    bio: Associate Professor    
+
+
+# profx:
+#     display_name: Professor X
+#     webpage: http://en.wikipedia.org/wiki/Professor_X
+#     github: profx
+#     role: faculty
+#     image: /img/people/prof-x.png
+#     bio: Professor
+
+
+
+grad-juanCamiloIbarra:
+    display_name: Juan Camilo Ibarra
+    role: grad
+    # bio: Ph.D., 2013. Now at Microsoft Research.
+
+collab-pabloArbelaez:
+    display_name: Pablo Arbeláez
+    role: collab
+    
 collab-martinjagersand:
     display_name: "Prof Martin Jagersand"
     webpage: "https://webdocs.cs.ualberta.ca/~jag/"
     role: collab
+    
+
