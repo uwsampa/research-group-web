@@ -26,6 +26,7 @@ prof-fernandodelarosa:
     webpage: "https://profesores.virtual.uniandes.edu.co/fde/en/inicio-en/"
     role: faculty
     image: /img/people/foto_FernandodelaRosa.jpg 
+    bio: Associate Professor  
 
 prof-johnguerra:
     display_name: John Alexis Guerra Gómez
@@ -57,13 +58,6 @@ alum-danielwilches:
 alum-deisydiaz:
     display_name: "Deisy Díaz Pérez"
     role: alum
-
-
-prof-fernando:
-    display_name: Fernando de la Rosa
-    role: faculty
-    bio: Associate Professor    
-
 
 # profx:
 #     display_name: Professor X

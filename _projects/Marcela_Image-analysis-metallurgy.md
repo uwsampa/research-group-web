@@ -10,7 +10,7 @@ people:
 
 layout: project
 
-image: /img/projects/imageanalysismetallurgy.jpg
+image: /img/projects/Marcela/imageanalysismetallurgy.jpg
 
 last-updated: 2009-12-01
 

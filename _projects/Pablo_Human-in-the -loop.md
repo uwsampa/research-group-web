@@ -10,8 +10,6 @@ people:
 
 layout: project
 
-image: /img/projects/paperandpencil.png
-
 last-updated: 2017-12-31
 ---
 
