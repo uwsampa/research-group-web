@@ -9,7 +9,7 @@ people:
 
 layout: project
 
-image: /img/projects/paperandpencil.png
+image: /img/projects/Pablo/paperandpencil.png
 
 last-updated: 2015-12-31
 

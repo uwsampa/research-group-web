@@ -9,7 +9,7 @@ people:
 
 layout: project
 
-image: /img/projects/SandyBridgeIntel.jpg
+image: /img/projects/Pablo/SandyBridgeIntel.jpg
 
 last-updated: 2011-12-31
 

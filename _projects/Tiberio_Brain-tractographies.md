@@ -9,7 +9,7 @@ people:
 
 layout: project
 
-image: /img/projects/braintractographies.jpg
+image: /img/projects/Tiberio/braintractographies.jpg
 
 link: "http://diego0020.github.io/braviz/index.html"
 ---
