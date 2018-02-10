@@ -38,18 +38,9 @@ prof-johnguerra:
     bio: Assistant Professor
     
 
-grad-diegorodriguez:
-    display_name: "Diego Rodríguez"
-    role: grad  
-    image: /img/people/foto_DiegoRodriguez.jpg
-
 alum-camiloescobarv:
     display_name: "Camilo Andrés Escobar Velásquez"
     role: alum
-
-grad-meilivanegash:
-    display_name: "Meili Vanegas Hernández"
-    role: grad
 
 alum-danielwilches:
     display_name: "Daniel Wilches"
@@ -67,12 +58,98 @@ alum-deisydiaz:
 #     image: /img/people/prof-x.png
 #     bio: Professor
 
+ugrad-camiloAlfonso:
+    display_name: Camilo Alfonso
+    role: ugrad
+    webpage: http://camiloalfonso.com
+    image: /img/people/foto_camiloAlfonso.png
 
+ugrad-estebanDalel:
+    display_name: Esteban Dalel Rueda 
+    role: ugrad
+    webpage: https://estebandalelr.co/
+    image: /img/people/foto_estebanDalel.jpg
+
+ugrad-felipeMartinez:
+    display_name: Felipe Martinez Piazuelo
+    role: ugrad
+    webpage: https://piazuelo.com/felipe
+    image: /img/people/foto_felipeMartinez.jpg
+
+ugrad-sebastianCardona:
+    display_name: "Juan Sebastián Cardona Muñoz"
+    role: ugrad
+    webpage: https://jscardona12.github.io/MyWebPage/
+    image: /img/people/foto_sebastianCardona.jpg
+
+ugrad-luisMesa:
+    display_name: Luis Mesa
+    role: ugrad
+    webpage: http://luis-mesa.me
+    image: /img/people/foto_luisMesa.jpg
+
+ugrad-nicolarChavez:
+    display_name: Nicolas Chaves
+    role: ugrad
+    image: /img/people/foto_nicolarChavez.jpeg
+
+ugrad-antonioDeLaVega:
+    display_name: Antonio de la Vega
+    role: ugrad
+    webpage: https://adelavegaf.github.io/
+    image: /img/people/foto_antonioDeLaVega.jpeg
+
+ugrad-davidDelgado:
+    display_name: David Mauricio Delgado Ruiz
+    role: ugrad
+    webpage: https://nonameable.github.io
+    image: /img/people/foto_davidDelgado.jpg
+
+ugrad-juanGuillermo:
+    display_name: Juan Guillermo Murillo Castillo
+    role: ugrad
+    webpage: http://juanmurillo.me/
+    image: /img/people/foto_juanGuillermo.png  
+
+grad-diegorodriguez:
+    display_name: "Diego Rodríguez"
+    role: grad  
+    image: /img/people/foto_DiegoRodriguez.jpg
 
 grad-juanCamiloIbarra:
     display_name: Juan Camilo Ibarra
     role: grad
     # bio: Ph.D., 2013. Now at Microsoft Research.
+
+grad-nycholBazurto:
+    display_name: Nychol Bazurto
+    role: grad
+    webpage: http://nycholbazurto.me/
+    image: /img/people/foto_nycholBazurto.jpeg
+
+grad-meiliVanegas:
+    display_name: Meili Vanegas
+    role: grad
+    webpage: https://mvanegas10.github.io/
+    image: /img/people/foto_meiliVanegas.png
+
+grad-camiloMera:
+    display_name: David Camilo Mera David
+    role: grad
+    webpage: https://about.me/cmera
+    image: /img/people/foto_camiloMera.jpg
+
+grad-fabianPenna:
+    display_name: "Fabian Camilo Peña" 
+    role: grad
+    webpage: https://fabiancpl.github.io/
+    image: /img/people/foto_fabianPenna.jpeg
+
+grad-juanCamilo:
+    display_name: Juan Camilo Ortiz R
+    role: grad
+    webpage: http://www.juancortiz.com/
+    image: /img/people/foto_juanCamilo.jpg
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
@@ -82,5 +159,3 @@ collab-martinjagersand:
     display_name: "Prof Martin Jagersand"
     webpage: "https://webdocs.cs.ualberta.ca/~jag/"
     role: collab
-    
-
