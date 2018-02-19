@@ -150,6 +150,12 @@ grad-juanCamilo:
     role: grad
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
+    
+grad-nelsonAndresSanchez:
+    display_name: Nelson Andres Sanchez O
+    role: grad
+    webpage: https://www.researchgate.net/profile/Nelson_Sanchez_Otalora
+    image: /img/people/foto_NelsonAndresSanchez.jpg
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
