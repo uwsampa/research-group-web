@@ -6,7 +6,7 @@ images for the LSST.
 
 people:
   - prof-marcelahernandez
-  - grad-juanpabloreyes
+  - grad-juanPabloReyes
 
 layout: project
 
