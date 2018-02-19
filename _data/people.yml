@@ -109,7 +109,13 @@ ugrad-juanGuillermo:
     display_name: Juan Guillermo Murillo Castillo
     role: ugrad
     webpage: http://juanmurillo.me/
-    image: /img/people/foto_juanGuillermo.png  
+    image: /img/people/foto_juanGuillermo.png
+
+ugrad-eduardoCabello:
+    display_name: Eduardo Arturo Cabello Agüero
+    role: ugrad
+    webpage: https://eacabello10.github.io/
+    image: /img/people/foto_EduardoCabello.jpeg
 
 grad-diegorodriguez:
     display_name: "Diego Rodríguez"
