@@ -2,7 +2,7 @@
 prof-josehernandez:
     display_name: José Tiberio Hernández
     role: faculty
-    webpage: "https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/"    
+    webpage: https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/    
     image: /img/people/foto_JoseHernandez.jpg
     bio: Associate Professor        
 
@@ -10,20 +10,20 @@ prof-marcelahernandez:
     display_name: Marcela Hernández Hoyos
     role: faculty 
     image: /img/people/foto_MarcelaHernandez.jpg
-    display_name: "Prof Marcela Hernández Hoyos"
-    webpage: "https://profesores.virtual.uniandes.edu.co/marcher/en/inicio-en/"
+    display_name: Prof Marcela Hernández Hoyos
+    webpage: https://profesores.virtual.uniandes.edu.co/marcher/en/inicio-en/
     bio: Associate Professor        
 
 prof-pablofigueroa:
     display_name: Pablo Figueroa Forero
-    webpage: "https://profesores.virtual.uniandes.edu.co/pfiguero/en/inicio-en/"
+    webpage: https://profesores.virtual.uniandes.edu.co/pfiguero/en/inicio-en/
     role: faculty
     image: /img/people/foto_PabloFigueroa.jpg     
     bio: Associate Professor    
 
 prof-fernandodelarosa:
-    display_name: "Prof  Fernando de la Rosa Rosero"
-    webpage: "https://profesores.virtual.uniandes.edu.co/fde/en/inicio-en/"
+    display_name: Prof  Fernando de la Rosa Rosero
+    webpage: https://profesores.virtual.uniandes.edu.co/fde/en/inicio-en/
     role: faculty
     image: /img/people/foto_FernandodelaRosa.jpg 
     bio: Associate Professor  
@@ -39,15 +39,15 @@ prof-johnguerra:
     
 
 alum-camiloescobarv:
-    display_name: "Camilo Andrés Escobar Velásquez"
+    display_name: Camilo Andrés Escobar Velásquez
     role: alum
 
 alum-danielwilches:
-    display_name: "Daniel Wilches"
+    display_name: Daniel Wilches
     role: alum    
 
 alum-deisydiaz:
-    display_name: "Deisy Díaz Pérez"
+    display_name: Deisy Díaz Pérez
     role: alum
 
 # profx:
@@ -77,7 +77,7 @@ ugrad-felipeMartinez:
     image: /img/people/foto_felipeMartinez.jpg
 
 ugrad-sebastianCardona:
-    display_name: "Juan Sebastián Cardona Muñoz"
+    display_name: Juan Sebastián Cardona Muñoz
     role: ugrad
     webpage: https://jscardona12.github.io/MyWebPage/
     image: /img/people/foto_sebastianCardona.jpg
@@ -112,7 +112,7 @@ ugrad-juanGuillermo:
     image: /img/people/foto_juanGuillermo.png  
 
 grad-diegorodriguez:
-    display_name: "Diego Rodríguez"
+    display_name: Diego Rodríguez
     role: grad  
     image: /img/people/foto_DiegoRodriguez.jpg
 
@@ -140,7 +140,7 @@ grad-camiloMera:
     image: /img/people/foto_camiloMera.jpg
 
 grad-fabianPenna:
-    display_name: "Fabian Camilo Peña" 
+    display_name: Fabian Camilo Peña 
     role: grad
     webpage: https://fabiancpl.github.io/
     image: /img/people/foto_fabianPenna.jpeg
@@ -157,11 +157,35 @@ grad-nelsonAndresSanchez:
     webpage: https://www.researchgate.net/profile/Nelson_Sanchez_Otalora
     image: /img/people/foto_NelsonAndresSanchez.jpg
 
+grad-fmedina:
+    display_name: Fabián Medina
+    role: grad
+    webpage: http://ingfabianmedina.epizy.com
+    image: https://scontent.feoh1-1.fna.fbcdn.net/v/t31.0-8/27907873_10214654033045608_2396569445842119737_o.jpg?oh=3c9040f1045a332dc8bf63464d3d2925&oe=5B241D58
+
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
     role: collab
     
 collab-martinjagersand:
-    display_name: "Prof Martin Jagersand"
-    webpage: "https://webdocs.cs.ualberta.ca/~jag/"
+    display_name: Prof Martin Jagersand
+    webpage: https://webdocs.cs.ualberta.ca/~jag/
     role: collab
+    
+collab-dariocorreal:
+    display_name: Prof Dario Correal
+    webpage: https://profesores.virtual.uniandes.edu.co/~dcorreal/dokuwiki/doku.php
+    role: collab
+    image: https://profesores.virtual.uniandes.edu.co/~dcorreal/dokuwiki/lib/exe/fetch.php?cache=&media=dcorreal.jpg
+
+collab-eliecergutierrez:
+    display_name: Prof Eliecer Gutierrez
+    webpage: http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000145025
+    role: collab
+
+collab-oscargonzalez:
+    display_name: Prof Oscar González
+    webpage: https://profesores.virtual.uniandes.edu.co/blog/disc_profesores/o-gonza1/
+    role: collab
+    image: https://profesores.virtual.uniandes.edu.co/wp-content/uploads/2015/07/o-gonza1.jpg
+
