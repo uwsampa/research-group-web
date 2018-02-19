@@ -109,7 +109,13 @@ ugrad-juanGuillermo:
     display_name: Juan Guillermo Murillo Castillo
     role: ugrad
     webpage: http://juanmurillo.me/
-    image: /img/people/foto_juanGuillermo.png  
+    image: /img/people/foto_juanGuillermo.png
+
+ugrad-eduardoCabello:
+    display_name: Eduardo Arturo Cabello Agüero
+    role: ugrad
+    webpage: https://eacabello10.github.io/
+    image: /img/people/foto_EduardoCabello.jpeg
 
 grad-diegorodriguez:
     display_name: Diego Rodríguez
@@ -188,4 +194,5 @@ collab-oscargonzalez:
     webpage: https://profesores.virtual.uniandes.edu.co/blog/disc_profesores/o-gonza1/
     role: collab
     image: https://profesores.virtual.uniandes.edu.co/wp-content/uploads/2015/07/o-gonza1.jpg
+
 
