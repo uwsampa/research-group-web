@@ -150,6 +150,12 @@ grad-juanCamilo:
     role: grad
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
+    
+grad-nelsonAndresSanchez:
+    display_name: Nelson Andres Sanchez O
+    role: grad
+    webpage: https://www.researchgate.net/profile/Nelson_Sanchez_Otalora
+    image: /img/people/foto_NelsonAndresSanchez.jpg
 
 grad-fmedina:
     display_name: Fabián Medina
@@ -182,3 +188,4 @@ collab-oscargonzalez:
     webpage: https://profesores.virtual.uniandes.edu.co/blog/disc_profesores/o-gonza1/
     role: collab
     image: https://profesores.virtual.uniandes.edu.co/wp-content/uploads/2015/07/o-gonza1.jpg
+
