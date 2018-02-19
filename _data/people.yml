@@ -151,6 +151,18 @@ grad-juanCamilo:
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
 
+grad-juanPabloReyes:
+    display_name: Juan Pablo Reyes Gomez
+    role: grad
+    webpage: http://www.juanPabloReyes.com/
+    image: /img/people/foto_juanPabloReyes.jpg
+
+grad-ricardoMendoza:
+    display_name: Ricardo A. Mendoza Leon
+    role: grad
+    webpage: http://www.ricardoMendoza.com/
+    image: /img/people/foto_ricardoMendoza.jpg
+
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
     role: collab
@@ -158,4 +170,14 @@ collab-pabloArbelaez:
 collab-martinjagersand:
     display_name: "Prof Martin Jagersand"
     webpage: "https://webdocs.cs.ualberta.ca/~jag/"
+    role: collab
+    
+collab-dominiqueFouchez:
+    display_name: Dominique Fouchez
+    webpage: http://www.dominiqueFouchez.com/
+    role: collab
+    
+collab-johnPuentes:
+    display_name: John Puentes
+    webpage: http://www.johnPuentes.com/
     role: collab
