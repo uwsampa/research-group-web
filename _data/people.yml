@@ -49,6 +49,10 @@ alum-danielwilches:
 alum-deisydiaz:
     display_name: "Deisy Díaz Pérez"
     role: alum
+    
+alum-rogeliogarcia:
+    display_name: Rogelio García
+    role: alum
 
 # profx:
 #     display_name: Professor X
