@@ -150,6 +150,13 @@ grad-juanCamilo:
     role: grad
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
+    
+grad-davidMayorga:
+    display_name: David Ricardo Mayorga H.
+    role: grad
+    webpage: http://damayor.github.io/
+    image: /img/people/foto_davidMayorga.jpg
+
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
