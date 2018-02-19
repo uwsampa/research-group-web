@@ -159,3 +159,21 @@ collab-martinjagersand:
     display_name: "Prof Martin Jagersand"
     webpage: "https://webdocs.cs.ualberta.ca/~jag/"
     role: collab
+    
+collab-dariocorreal:
+    display_name: "Prof Dario Correal"
+    webpage: "https://profesores.virtual.uniandes.edu.co/~dcorreal/dokuwiki/doku.php"
+    role: collab
+    image: https://profesores.virtual.uniandes.edu.co/~dcorreal/dokuwiki/lib/exe/fetch.php?cache=&media=dcorreal.jpg
+
+collab-eliecergutierrez:
+    display_name: "Prof Eliecer Gutierrez"
+    webpage: "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000145025"
+    role: collab
+
+collab-oscargonzalez:
+    display_name: "Prof Oscar González"
+    webpage: "https://profesores.virtual.uniandes.edu.co/blog/disc_profesores/o-gonza1/"
+    role: collab
+    image: https://profesores.virtual.uniandes.edu.co/wp-content/uploads/2015/07/o-gonza1.jpg
+
