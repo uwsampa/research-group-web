@@ -192,8 +192,8 @@ collab-pabloArbelaez:
     role: collab
     
 collab-martinjagersand:
-    display_name: "Prof Martin Jagersand"
-    webpage: "https://webdocs.cs.ualberta.ca/~jag/"
+    display_name: Prof Martin Jagersand
+    webpage: https://webdocs.cs.ualberta.ca/~jag/
     role: collab
 
 collab-maciejOrkisz:
