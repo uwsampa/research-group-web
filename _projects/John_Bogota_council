@@ -1,7 +1,7 @@
 ---
-title: Visual Analytics for Bogotá's counsil 
+title: Visual Analytics for Bogotá's Council 
 
-description: sometinasdifjas dlkfjasñldkfj aklsdfj
+description: This project will be focused in making the data flow to the correct stakeholders, making the middleman’s job easier and dynamizing its use. The forms for data input will be simplified, the data will be reorganized and stored for future use, and visualizations will be made regarding the user’s best interests.
 
 people:
   - prof-johnguerra
@@ -11,6 +11,6 @@ layout: project
 
 last-updated: 2018-02-19
 ---
-Develop a tool for researchers to help them summarize, annotate and compare results from studies on the medical field.
+Develop a tool for political control over Bogota's Council.
 
 [Github repository](https://github.com/EstebanDalelR/Thesis-Viz)
