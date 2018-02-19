@@ -9,7 +9,7 @@ people:
 
 layout: project
 
-image: /img/projects/Tiberio/hapticOrthopedics.png
+image: /img/projects/Tiberio/hapticOrthopedics.jpg
 
 last-updated: 2018-02-19
 ---
