@@ -1,5 +1,5 @@
 ---
-title: Deep Learning Interpretability in Context: Improving User Experience in Image-Based Interactive Applications
+title: Deep Learning Interpretability in Context, Improving User Experience in Image-Based Interactive Applications
 
 description: Don't you have a suitable dataset to train a supervised learning model in your research or organization? Are you tired of poor-interpretability models (black-box models) inadequate to generate trust, reliability, robustness, causality and usability while you take decissions? We develop different kind of visual tools aimed to support task related to user labeling in an active learning environment. In addition, our tools produce explanations about learning process of different machine learning algorithms.
 
