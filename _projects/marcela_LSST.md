@@ -10,6 +10,8 @@ people:
 
 layout: project
 
+image: /img/projects/Marcela/LSST.jpg
+
 last-updated: 2018-02-19
 ---
 
