@@ -115,7 +115,7 @@ ugrad-margaritaGomez:
     display_name: Margarita Gómez Ballén
     role: ugrad
     webpage: https://margaritagomez.github.io/
-    image: /img/people/foto_margaritaGomez.png 
+    image: /img/people/foto_margaritaGomez.PNG 
 
 ugrad-camilaGarcia:
     display_name: Camila García Hernández
@@ -200,7 +200,7 @@ collab-maciejOrkisz:
     display_name: Maciej Orkisz
     webpage: https://www.creatis.insa-lyon.fr/site7/en/users/orkisz
     role: collab
-    image: /img/people/foto_maciejOrkisz.jpg
+    image: /img/people/foto_maciejOrkisz.png
     
 collab-dariocorreal:
     display_name: Prof Dario Correal
