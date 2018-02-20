@@ -11,6 +11,8 @@ people:
 
 layout: project
 
+research_area: Image Processing
+
 image: /img/projects/Marcela/poumon_final.png
 
 last-updated: 2018-02-19

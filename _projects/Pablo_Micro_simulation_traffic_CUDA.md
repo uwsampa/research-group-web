@@ -9,6 +9,9 @@ people:
   - grad-diegorodriguez
 
 layout: project
+
+research_area: Mixed Realities
+
 last-updated: 2018-02-06
 ---
 

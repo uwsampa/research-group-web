@@ -7,6 +7,8 @@ people:
   - prof-josehernandez
   - grad-meilivanegash
 
+research_area: Visual Analytics  
+
 layout: project
 
 last-updated: 2016-12-07
