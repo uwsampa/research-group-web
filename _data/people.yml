@@ -49,6 +49,7 @@ alum-danielwilches:
 alum-deisydiaz:
     display_name: Deisy Díaz Pérez
     role: alum
+    
 
 # profx:
 #     display_name: Professor X
@@ -109,7 +110,12 @@ ugrad-juanGuillermo:
     display_name: Juan Guillermo Murillo Castillo
     role: ugrad
     webpage: http://juanmurillo.me/
-    image: /img/people/foto_juanGuillermo.png 
+    image: /img/people/foto_juanGuillermo.png  
+    
+ugrad-rogeliogarcia:
+    display_name: Rogelio Garcia
+    role: ugrad
+    image: /img/people/foto_RogelioGarcia.jpeg
 
 ugrad-margaritaGomez:
     display_name: Margarita Gómez Ballén
