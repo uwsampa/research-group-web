@@ -8,6 +8,8 @@ people:
   - prof-josehernandez
   - grad-juanCamiloIbarra
 
+research_area: Visual Analytics
+
 layout: project
 last-updated: 2018-02-06
 ---

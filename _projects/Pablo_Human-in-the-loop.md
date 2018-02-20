@@ -10,6 +10,8 @@ people:
 
 layout: project
 
+research_area: Mixed Realities
+
 last-updated: 2017-12-31
 ---
 
