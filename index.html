@@ -44,16 +44,23 @@ role-tables:
 
 <section>
     <h2>Research</h2>
-    <div class="card-columns">
+    <div class="research_projects">
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
+        {% assign projects_by_area = site.projects | group_by: 'research_area' %}
+        {% assign shuffled_areas = projects_by_area | shuffle %}
+        {% for area in shuffled_areas %}
+            <h3>{{ area.name }}</h3>
+            <div class="card-columns">          
+                {% assign sorted_projects = area.items | sort: 'last-updated', 'first' | reverse %}            
+                {% for p in sorted_projects %}
+                    {% if p.status != "inactive" %}
+                        {% include project-card.html project=p %}                
+                    {% endif %}
+                {% endfor %}                
+            </div>
+            <hr>
         {% endfor %}
     </div>
 </section>

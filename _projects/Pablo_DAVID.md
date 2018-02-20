@@ -13,6 +13,8 @@ layout: project
 
 image: /img/projects/Pablo/Header-DAVID.png
 
+research_area: Mixed Realities
+
 last-updated: 2015-12-31
 
 link: http://juegos.virtual.uniandes.edu.co/

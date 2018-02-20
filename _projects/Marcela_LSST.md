@@ -9,6 +9,8 @@ people:
 
 layout: project
 
+research_area: Image Processing
+
 last-updated: 2018-02-19
 ---
 

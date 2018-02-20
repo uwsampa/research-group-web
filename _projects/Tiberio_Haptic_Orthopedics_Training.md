@@ -11,6 +11,8 @@ layout: project
 
 image: /img/projects/Tiberio/hapticOrthopedics.jpg
 
+research_area: Visual Analytics
+
 last-updated: 2018-02-19
 ---
 

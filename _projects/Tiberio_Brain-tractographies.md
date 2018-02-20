@@ -9,6 +9,8 @@ people:
 
 layout: project
 
+research_area: Visual Analytics
+
 image: /img/projects/Tiberio/braintractographies.jpg
 
 link: "http://diego0020.github.io/braviz/index.html"

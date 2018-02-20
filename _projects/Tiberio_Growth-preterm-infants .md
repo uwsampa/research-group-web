@@ -11,6 +11,8 @@ layout: project
 
 last-updated: 2017-05-19
 
+research_area: Visual Analytics
+
 link: "http://analiticafundacioncanguro.com/"
 ---
 

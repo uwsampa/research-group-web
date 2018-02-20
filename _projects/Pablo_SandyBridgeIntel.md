@@ -9,6 +9,8 @@ people:
 
 layout: project
 
+research_area: Mixed Realities
+
 image: /img/projects/Pablo/SandyBridgeIntel.jpg
 
 last-updated: 2011-12-31

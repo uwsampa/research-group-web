@@ -7,7 +7,9 @@ people:
   - prof-johnguerra
   - grad-fabianPenna
 
-layout: project  
+layout: project 
+
+research_area: Visual Analytics 
 
 last-updated: 2018-02-09
 ---

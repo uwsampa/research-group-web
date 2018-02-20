@@ -9,6 +9,8 @@ people:
 
 layout: project
 
+research_area: Mixed Realities
+
 image: /img/projects/Pablo/paperandpencil.png
 
 last-updated: 2015-12-31

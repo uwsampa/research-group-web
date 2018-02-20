@@ -9,6 +9,8 @@ people:
 
 layout: project  
 
+research_area: Visual Analytics
+
 last-updated: 2018-02-09
 ---
 Develop a machine learning tool able to identify the object present in an image and provide a tactile graphic of it.
