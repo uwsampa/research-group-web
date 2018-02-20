@@ -109,7 +109,19 @@ ugrad-juanGuillermo:
     display_name: Juan Guillermo Murillo Castillo
     role: ugrad
     webpage: http://juanmurillo.me/
-    image: /img/people/foto_juanGuillermo.png
+    image: /img/people/foto_juanGuillermo.png 
+
+ugrad-margaritaGomez:
+    display_name: Margarita Gómez Ballén
+    role: ugrad
+    webpage: https://margaritagomez.github.io/
+    image: /img/people/foto_margaritaGomez.png 
+
+ugrad-camilaGarcia:
+    display_name: Camila García Hernández
+    role: ugrad
+    webpage: http://cgarciahdez.github.io/
+    image: /img/people/foto_camilaGarcia.png
 
 ugrad-eduardoCabello:
     display_name: Eduardo Arturo Cabello Agüero
@@ -180,13 +192,15 @@ collab-pabloArbelaez:
     role: collab
     
 collab-martinjagersand:
-    display_name: "Prof Martin Jagersand"
-    webpage: "https://webdocs.cs.ualberta.ca/~jag/"
-    role: collab
-
     display_name: Prof Martin Jagersand
     webpage: https://webdocs.cs.ualberta.ca/~jag/
     role: collab
+
+collab-maciejOrkisz:
+    display_name: Maciej Orkisz
+    webpage: https://www.creatis.insa-lyon.fr/site7/en/users/orkisz
+    role: collab
+    image: /img/people/foto_maciejOrkisz.jpg
     
 collab-dariocorreal:
     display_name: Prof Dario Correal
