@@ -9,7 +9,7 @@ people:
 
 layout: project
 
-last-updated: 2017-11-31
+last-updated: 2017-11-30
 
 research_area: Mixed Realities
 ---
