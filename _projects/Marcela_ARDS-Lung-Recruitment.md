@@ -5,15 +5,15 @@ description: The goal of this project is to create global, regional and local re
 
 people:
   - prof-marcelahernandez
-  - ugrad-margaritagomez
-  - ugrad-camilagarcia
-  - collab-maciejorkisz
+  - ugrad-margaritaGomez
+  - ugrad-camilaGarcia
+  - collab-maciejOrkisz
 
 layout: project
 
 research_area: Image Processing
 
-image: /img/projects/Marcela/poumon_final.jpg
+image: /img/projects/Marcela/poumon_final.png
 
 last-updated: 2018-02-19
 
