@@ -9,7 +9,7 @@ prof-josehernandez:
 prof-marcelahernandez:
     display_name: Marcela Hernández Hoyos
     role: faculty 
-    image: /img/people/foto_MarcelaHernandez.jpg
+    image: /img/people/foto_MarcelaHernandez.png
     display_name: Prof Marcela Hernández Hoyos
     webpage: https://profesores.virtual.uniandes.edu.co/marcher/en/inicio-en/
     bio: Associate Professor        
@@ -200,20 +200,38 @@ grad-fmedina:
     webpage: http://ingfabianmedina.epizy.com
     image: /img/people/foto_fmedina.jpg
 
+grad-juanPabloReyes:
+    display_name: Juan Pablo Reyes Gomez
+    role: grad
+    webpage: http://www.juanPabloReyes.com/
+    image: /img/people/foto_juanPabloReyes.jpg
+
+grad-ricardoMendoza:
+    display_name: Ricardo A. Mendoza Leon
+    role: grad
+    webpage: http://www.ricardoMendoza.com/
+    image: /img/people/foto_ricardoMendoza.jpg
+
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
     role: collab
     
 collab-martinjagersand:
-
-    display_name: "Prof Martin Jagersand"
-    webpage: "https://webdocs.cs.ualberta.ca/~jag/"
-    role: collab
-
     display_name: Prof Martin Jagersand
     webpage: https://webdocs.cs.ualberta.ca/~jag/
     role: collab
 
+collab-dominiqueFouchez:
+    display_name: Dominique Fouchez
+    webpage: https://annuaire.in2p3.fr/agents/Y249Rm91Y2hleiBEb21pbmlxdWUsb3U9cGVvcGxlLGRjPWluMnAzLGRjPWZy/show
+    role: collab
+    image: /img/people/foto_dominiqueFouchez.jpg
+    
+collab-johnPuentes:
+    display_name: John Puentes
+    webpage: https://www.telecom-bretagne.eu/studies/msc/professors/puentes/
+    role: collab
+
 collab-maciejOrkisz:
     display_name: Maciej Orkisz
     webpage: https://www.creatis.insa-lyon.fr/site7/en/users/orkisz
@@ -236,4 +254,3 @@ collab-oscargonzalez:
     webpage: https://profesores.virtual.uniandes.edu.co/blog/disc_profesores/o-gonza1/
     role: collab
     image: https://profesores.virtual.uniandes.edu.co/wp-content/uploads/2015/07/o-gonza1.jpg
-

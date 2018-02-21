@@ -5,13 +5,16 @@ description: Develop an efficient and accurate pipeline for the detection of tra
 
 people:
   - prof-marcelahernandez
-  - grad-juanpabloreyes
+  - grad-juanPabloReyes
 
 layout: project
+
+image: /img/projects/Marcela/LSST.jpg
 
 research_area: Image Processing
 
 last-updated: 2018-02-19
+
 ---
 
 Develop an efficient and accurate pipeline for the detection of transient-like events on astronomical
