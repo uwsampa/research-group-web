@@ -199,6 +199,12 @@ grad-fmedina:
     role: grad
     webpage: http://ingfabianmedina.epizy.com
     image: /img/people/foto_fmedina.jpg
+    
+grad-joseDorado:
+    display_name: José Luis Dorado
+    role: grad
+    webpage: https://www.researchgate.net/profile/Jose_Dorado5
+    image: /img/people/foto_JoseDorado.jpg
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
