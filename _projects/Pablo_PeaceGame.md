@@ -18,4 +18,4 @@ research_area: Mixed Realities
 <b>Context:</b> Peace Process in Colombia.
 
 This is a game whose objective is to show in an interactive form, the peace process in Colombia with the help of pictures.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2eZZbDEcuIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/2eZZbDEcuIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
