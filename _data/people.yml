@@ -175,6 +175,13 @@ grad-juanCamilo:
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
     
+
+grad-julianaMM:
+    display_name: Juliana Montes Maestre
+    role: grad
+    webpage: https://www.behance.net/julyjula
+    image: /img/people/foto_julianaMM.jpg
+
 grad-davidMayorga:
     display_name: David Ricardo Mayorga H.
     role: grad
@@ -198,6 +205,11 @@ collab-pabloArbelaez:
     role: collab
     
 collab-martinjagersand:
+
+    display_name: "Prof Martin Jagersand"
+    webpage: "https://webdocs.cs.ualberta.ca/~jag/"
+    role: collab
+
     display_name: Prof Martin Jagersand
     webpage: https://webdocs.cs.ualberta.ca/~jag/
     role: collab
@@ -224,3 +236,4 @@ collab-oscargonzalez:
     webpage: https://profesores.virtual.uniandes.edu.co/blog/disc_profesores/o-gonza1/
     role: collab
     image: https://profesores.virtual.uniandes.edu.co/wp-content/uploads/2015/07/o-gonza1.jpg
+
