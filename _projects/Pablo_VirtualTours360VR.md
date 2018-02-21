@@ -11,6 +11,8 @@ layout: project
 
 last-updated: 2018-02-31
 
+research_area: Mixed Realities
+
 ---
 <b>Platform:</b> Mobile | Android. </br>
 <b>Devices:</b> A Samsung phone compatible with GearVR. </br>
