@@ -1,21 +1,20 @@
 ---
 title: Peace Game
 
-description: This is a game that does not seek to contribute directly to the peace process, but to make known about it in an indirect and interactive way with the help of images.
+description: This is a game whose objective is to show in an interactive form, the peace process in Colombia with the help of pictures.
+
 people:
   - prof-pablofigueroa
   - grad-fmedina
 
 layout: project
 
-image: /img/projects/Pablo/SandyBridgeIntel.jpg
-
 last-updated: 2017-11-31
 
 ---
-<b>Platform:</b> Mobile | Android.
-<b>Game Engine:</b> CoronaSDK.
+<b>Platform:</b> Mobile | Android. </br>
+<b>Game Engine:</b> CoronaSDK. </br>
 <b>Context:</b> Peace Process in Colombia.
 
-This is a game that does not seek to contribute directly to the peace process, but to make known about it in an indirect and interactive way with the help of images.
+This is a game whose objective is to show in an interactive form, the peace process in Colombia with the help of pictures.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2eZZbDEcuIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
