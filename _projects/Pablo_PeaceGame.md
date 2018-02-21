@@ -11,6 +11,7 @@ layout: project
 
 last-updated: 2017-11-31
 
+research_area: Mixed Realities
 ---
 <b>Platform:</b> Mobile | Android. </br>
 <b>Game Engine:</b> CoronaSDK. </br>

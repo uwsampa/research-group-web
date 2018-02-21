@@ -9,6 +9,8 @@ people:
 
 layout: project
 
+research_area: Visual Analytics
+
 last-updated: 2018-02-09
 ---
 Navigation, summarization and exploration of large repositories of images and videos in multiple dimensions without losing the context of the data 

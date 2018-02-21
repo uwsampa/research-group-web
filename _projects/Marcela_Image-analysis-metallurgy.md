@@ -10,6 +10,8 @@ people:
 
 layout: project
 
+research_area: Image Processing
+
 image: /img/projects/Marcela/imageanalysismetallurgy.jpg
 
 last-updated: 2009-12-01

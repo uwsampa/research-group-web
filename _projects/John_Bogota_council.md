@@ -9,6 +9,8 @@ people:
 
 layout: project  
 
+research_area: Visual Analytics
+
 last-updated: 2018-02-19
 ---
 Develop a tool for political control over Bogota's Council.
