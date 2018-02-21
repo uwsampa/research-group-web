@@ -143,7 +143,6 @@ grad-diegorodriguez:
 grad-juanCamiloIbarra:
     display_name: Juan Camilo Ibarra
     role: grad
-    # bio: Ph.D., 2013. Now at Microsoft Research.
 
 grad-nycholBazurto:
     display_name: Nychol Bazurto
@@ -231,7 +230,7 @@ collab-johnPuentes:
     display_name: John Puentes
     webpage: https://www.telecom-bretagne.eu/studies/msc/professors/puentes/
     role: collab
-
+
 collab-maciejOrkisz:
     display_name: Maciej Orkisz
     webpage: https://www.creatis.insa-lyon.fr/site7/en/users/orkisz
