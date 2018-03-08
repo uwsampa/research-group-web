@@ -23,9 +23,9 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= ubuntu@johnguerra.co
-DEPLOY_PATH ?= /var/www/imagine2/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e "ssh -i /Users/aguerra/documentos/dutoViz/dutoVizNew.pem"
+DEPLOY_HOST ?= ja.guerrag@172.24.98.50
+DEPLOY_PATH ?= /var/www/html/
+RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e "ssh "
 
 deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
