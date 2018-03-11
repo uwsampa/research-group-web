@@ -7,17 +7,48 @@
 {% assign icon = "newspaper-o" %}
 {% endif %}
 
-<li class="{{ class }}">
-    <span class="fa fa-fw fa-{{ icon }}"></span>
-    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+{% capture news %}
     <div>
-    {% if post.shortnews %}
-        {{ post.content | remove: '<p>' | remove: '</p>' }}
-    {% else %}
-        <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-        <br>
-        <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
+        {% if post.shortnews %}
+            {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% else %}
+            <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
+            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+            <br>
+            <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
         {% endif %}
     </div>
+{% endcapture %}
+
+{% capture header %}
+<span class="fa fa-fw fa-{{ icon }}"></span>
+<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+{% endcapture %}
+
+<li class="{{ class }}">
+    {% if post.image %}
+
+        {% capture img %}
+            <img class="img-fluid d-block mx-auto"
+                 style="{{ post.image_style }}"
+                 src="{{ post.image }}">
+        {% endcapture %}
+
+        <div class="row">
+            <div class="col-sm-10">
+                {{ header }}
+                {{ news }}
+            </div>
+            <div class="col-sm-2">
+                {% if post.image_link %}
+                    <a href="{{ post.image_link }}">{{ img }}</a>
+                {% else %}
+                    {{ img }}
+                {% endif %}
+            </div>
+        </div>
+     {% else %}
+        {{ header }}
+        {{ news }}
+    {% endif %}
 </li>
