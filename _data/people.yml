@@ -38,9 +38,12 @@ prof-johnguerra:
     bio: Assistant Professor
     
 
-alum-camiloescobarv:
-    display_name: Camilo Andrés Escobar Velásquez
-    role: alum
+ alum-camiloescobarv:
+     display_name: Camilo Andrés Escobar Velásquez
+     role: alum
+     webpage: "https://caev03.github.io/"
+     image: /img/people/foto_CamiloEscobar.jpg
+     bio: "B.S., 2016. Now GRA at The Software Design Lab."
 
 alum-danielwilches:
     display_name: Daniel Wilches
