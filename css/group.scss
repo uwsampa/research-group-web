@@ -6,7 +6,7 @@ $light-gray: #EEE;
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    overflow-x: hidden;
 }
 
 .header {
@@ -53,8 +53,8 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 154px;
-    height: 35px;
+    width: 32%;
+    height: auto;
     margin: 2px 0 8px 0;
 }
 

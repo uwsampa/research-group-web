@@ -11,20 +11,18 @@
         <link rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ site.base }}/css/group.css">
+        <link rel="stylesheet" href="{{ site.base }}/css/simple-sidebar.css">
     </head>
     <body>
-        <div class="container">
-            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
-            <div class="header d-flex
-                        flex-column
-                        flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}/" class="">
-                    <img src="{{ site.base }}/img/logo.png"
-                         srcset="{{ site.base }}/img/logo@2x.png 2x"
-                         alt="Awesome" id="logo">
-                </a>
-                <ul class="nav nav-pills justify-content-center">
-
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="{{ site.base }}/" class="">
+                        <img src="{{ site.base }}/img/logo.jpg"
+                             alt="Awesome" id="logo">
+                        </a>
+                    </li>
                     {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
                     {% for item in site.navigation %}
 
@@ -38,43 +36,71 @@
                             {% assign maybe-active = 'active' %}
                         {% endif %}
 
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
+                        <li>
+                            <a class="{{ maybe-active }}"
+                            href="{{ site.base }}{{ item.link }}">
                                 {{ item.title }}
                             </a>
                         </li>
 
                     {% endfor %}
-
                 </ul>
             </div>
-
-            {% if page.image %}
-                <img src="{{ page.image }}"
-                     alt="{{ page.title }}"
-                     style="max-width: 400px"
-                     class="img-fluid mx-auto d-block mb-4"/>
-            {% endif %}
-
-            {% if page.notitle != true %}
-                <h1>{{ page.title }}</h1>
-            {% endif %}
-
-            {{ content }}
-
-            <div class="footer">
-                <p>
-                    <a href="http://dept.example.edu/">Illustrious Department</a>
-                    at the
-                    <a href="http://example.edu/">University of Example</a>
-                </p>
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div id="header" class="header
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                        <a href="{{ site.base }}/" class="">
+                            <img src="{{ site.base }}/img/logo.jpg"
+                                alt="Awesome" id="logo">
+                        </a>
+                        <ul class="nav nav-pills justify-content-center">
+                
+                            {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                            {% for item in site.navigation %}
+                
+                                {% assign itemshorturl = item.link | replace:'.html','' %}
+                
+                                {% assign maybe-active = '' %}
+                                {% if item.title == 'Research' and page.layout == 'project' %}
+                                    {% assign maybe-active = 'active' %}
+                                {% endif %}
+                                {% if itemshorturl == shorturl or is-research %}
+                                    {% assign maybe-active = 'active' %}
+                                {% endif %}
+                
+                                <li class="nav-item">
+                                    <a class="nav-link {{ maybe-active }}"
+                                    href="{{ site.base }}{{ item.link }}">
+                                        {{ item.title }}
+                                    </a>
+                                </li>
+                
+                            {% endfor %}
+                
+                        </ul>
+                    </div>
+                    {% if page.image %}
+                        <img src="{{ page.image }}"
+                             alt="{{ page.title }}"
+                             id="pageImage"
+                             class="img-fluid mx-auto d-block mb-4"/>
+                    {% endif %}
+                
+                    {% if page.notitle != true %}
+                        <h1>{{ page.title }}</h1>
+                    {% endif %}
+                    {{ content }}
+                </div>
             </div>
-
-        </div> <!-- /container -->
+        </div>
 
         <!-- Support retina images. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript"
                 src="{{ site.base }}/js/srcset-polyfill.js"></script>
+        <script type="text/javascript"
+                src="{{ site.base }}/js/main.js"></script>
     </body>
 </html>

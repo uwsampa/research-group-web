@@ -1,4 +1,4 @@
-name: Awesome Research Group
+name: The Software Design Lab
 url: http://awesome.example.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -17,6 +17,8 @@ roles:
     name: Staff
   - key: postdoc
     name: Researchers
+  - key: doc
+    name: Doctoral Students
   - key: grad
     name: Graduate Students
   - key: ugrad
@@ -44,7 +46,7 @@ navigation:
   - title: Home
     link: /
   - title: People
-    link: /#people
+    link: /people.html
   - title: Research
     link: /research.html
   - title: Publications
