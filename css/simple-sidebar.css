@@ -43,9 +43,7 @@ body {
   width: 100%;
   position: absolute;
   padding: 15px;
-  background-image: url("https://goo.gl/PG8h9M");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: radial-gradient(white, #e0e0e0)
 }
 
 #wrapper.toggled #page-content-wrapper {
