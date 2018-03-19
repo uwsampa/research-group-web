@@ -2,7 +2,7 @@
 profMario:
     display_name: "Mario Linares-Vásquez"
     role: faculty
-    image: /img/people/fotoMarioLinares.jpg
+    image: /img/people/fotoMarioLinaresV.jpg
 
 docOlga:
     display_name: "Olga Vega"
@@ -12,12 +12,12 @@ docOlga:
 mastCamilo:
     display_name: "Camilo Escobar-Velásquez"
     role: grad
-    image: /img/people/fotoCamiloEscobarV.png
+    image: /img/people/fotoCamiloEscobarV.jpg
 
 mastSantiago:
     display_name: "Santiago Liñan"
     role: grad
-    image: /img/people/fotoSantiagoLiñan.jpg
+    image: /img/people/fotoSantiagoLinan.jpg
 
 mastSergio:
     display_name: "Sergio Velásquez"
