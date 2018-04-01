@@ -17,18 +17,18 @@ body {
 }
 
 #wrapper.toggled {
-  padding-left: 250px;
+  padding-left: 200px;
 }
 
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
-  left: 250px;
+  left: 200px;
   width: 0;
   height: 100%;
-  margin-left: -250px;
+  margin-left: -200px;
   overflow-y: auto;
-  background: #202020;
+  background: #33a5db;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -o-transition: all 0s ease;
@@ -36,19 +36,19 @@ body {
 }
 
 #wrapper.toggled #sidebar-wrapper {
-  width: 250px;
+  width: 200px;
 }
 
 #page-content-wrapper {
   width: 100%;
   position: absolute;
   padding: 15px;
-  background-image: radial-gradient(white, #e0e0e0)
+  background-color: #e0e0e0;
 }
 
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
-  margin-right: -250px;
+  margin-right: -200px;
 }
 
 
@@ -57,7 +57,7 @@ body {
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 200px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -71,20 +71,20 @@ body {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #e0e0e0;
+  color: #222222;
   font-size: 1.25em;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #e0e0e0;
-  background: rgba(255, 255, 255, 0.2);
+  color: #222222;
+  background:#e0e0e0;
 }
 
 .active {
   text-decoration: none;
-  color: #e0e0e0;
-  background: rgba(255, 255, 255, 0.2);
+  color: #222222;
+  background: #e0e0e0;
 }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -95,7 +95,7 @@ body {
   height: 320px;
   font-size: 18px;
   line-height: 60px;
-}
+-}
 
 .sidebar-nav>.sidebar-brand a {
   color: #000000;
@@ -105,8 +105,10 @@ body {
   color: #000000;
   background: none;
 }
+
 #pageImage {
-  width: 100%
+  width: 100%;
+  border: 5 black;
 }
 
 @media(min-width:768px) {
@@ -114,13 +116,13 @@ body {
     padding-left: 0;
   }
   #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: 200px;
   }
   #sidebar-wrapper {
     width: 0;
   }
   #wrapper.toggled #sidebar-wrapper {
-    width: 250px;
+    width: 200px;
   }
   #page-content-wrapper {
     padding: 20px;
@@ -132,8 +134,9 @@ body {
   }
 }
 
-@media(min-width:1200px){
-  #pageImage {
-    width: 50%
-  }
+
+.center-vert { 
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%)
 }

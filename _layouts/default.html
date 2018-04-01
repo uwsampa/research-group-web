@@ -74,6 +74,9 @@
                                     <a class="nav-link {{ maybe-active }}"
                                     href="{{ site.base }}{{ item.link }}">
                                         {{ item.title }}
+
+
+                                        
                                     </a>
                                 </li>
                 
@@ -82,11 +85,29 @@
                         </ul>
                     </div>
                     {% if page.image %}
-                        <img src="{{ page.image }}"
-                             alt="{{ page.title }}"
-                             id="pageImage"
-                             class="img-fluid mx-auto d-block mb-4"/>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <img src="{{ page.image }}"
+                                alt="{{ page.title }}"
+                                id="pageImage"
+                                class="img-fluid mx-auto d-block mb-4 page-image"/>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+			    <div class="center-vert">
+                                <div class="jumbotron">
+                                    <p>
+                                        The Software Design Lab is a research group at <a href="http://uniandes.edu.co">Los Andes University</a> 
+                                        in the <a href="http://sistemas.uniandes.edu.co">System & Computing Engineering</a> department.
+                                    </p>
+                                </div>
+			    </div>
+                        </div>
+                    </div>        
+                    
+                                
                     {% endif %}
+
+
                 
                     {% if page.notitle != true %}
                         <h1>{{ page.title }}</h1>
