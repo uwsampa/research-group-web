@@ -1,5 +1,5 @@
 
-profMario:
+facultyMario:
     display_name: "Mario Linares-Vásquez"
     role: faculty
     image: /img/people/fotoMarioLinaresV.jpg
@@ -78,3 +78,23 @@ udgMichael:
     display_name: "Michael Osorio"
     role: ugrad
     image: /img/people/fotoMichaelOsorio.jpg
+
+collSandraRueda:
+    display_name: "Sandra Rueda"
+    role: "collab"
+    image: /img/people/fotoSandraRueda.jpg
+
+collGabrieleBavota:
+    display_name: "Gabriele Bavota"
+    role: "collab"
+    image: /img/people/fotoGabrieleBavota.jpg
+
+collNicolasCardozo:
+    display_name: "Nicolas Cardozo"
+    role: "collab"
+    image: /img/people/fotoNicolasCardozo.jpg
+
+collLauraMoreno: 
+    display_name: "Laura Moreno"
+    role: "collab"
+    image: /img/people/fotoLauraMoreno.jpg

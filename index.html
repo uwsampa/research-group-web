@@ -1,23 +1,6 @@
----
-layout: default
-title: Home
-notitle: true
-image: /img/DSC_0414.jpg
-jumbotron: asdasdasdasdasdsadasdasd
-
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty]
-    width: 8
-    image: true
-- - roles: [grad]
-    width: 12
-    image: true
-- - roles: [ugrad]
-    width: 12
-    image: true
-
----
+--- layout: default title: Home notitle: true image: /img/DSC_0414.jpg jumbotron: asdasdasdasdasdsadasdasd # groups of columns
+of {roles: list, width: num, image: bool} role-tables: - - roles: [faculty] width: 8 image: true - - roles: [grad] width:
+12 image: true - - roles: [ugrad] width: 12 image: true ---
 
 
 
@@ -45,35 +28,26 @@ role-tables:
     </div>
     <br>
     <div class="card-columns" style="padding-top: 15px">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
+        {% comment %} Sort the projects by date, putting those without dates last {% endcomment %} {% assign projects_by_date = site.projects
+        | sort: 'last-updated', 'first' %} {% assign projects_by_date = projects_by_date | reverse %} {% for p in projects_by_date
+        %} {% if p.status != "inactive" %} {% include project-card.html project=p %} {% endif %} {% endfor %}
     </div>
 </section>
 
 <div id="people">
 
-        <div class="row">
-                <div class="col-lg-3" style="background-color: #33a5db; color: white">
-                    <h1>People</h1>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-lg-3" style="background-color: #33a5db; color: white">
+            <h1>People</h1>
+        </div>
+    </div>
     {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
+    <section class="people row justify-content-between">
+        {% for role-column in role-table %}
+        <div class="col-md-{{ role-column.width }}">
+            {% for role in role-column.roles %} {% include role-people.html role=role image=role-column.image %} {% endfor %}
+        </div>
+        {% endfor %}
+    </section>
     {% endfor %}
 </div>
