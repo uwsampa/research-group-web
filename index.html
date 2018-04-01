@@ -21,7 +21,7 @@ role-tables:
 
 
 
-<section>
+<!-- <section>
     <h2>News</h2>
     <ul class="news list-unstyled">
         {% for post in site.posts limit: site.front_page_news %}
@@ -35,11 +35,16 @@ role-tables:
             <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
         </p>
     {% endif %}
-</section>
+</section> -->
 
 <section>
-    <h2>Research</h2>
-    <div class="card-columns">
+    <div class="row">
+        <div class="col-lg-3" style="background-color: #33a5db; color: white">
+            <h1>Research</h1>
+        </div>
+    </div>
+    <br>
+    <div class="card-columns" style="padding-top: 15px">
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}
@@ -54,7 +59,12 @@ role-tables:
 </section>
 
 <div id="people">
-    <h2>People</h2>
+
+        <div class="row">
+                <div class="col-lg-3" style="background-color: #33a5db; color: white">
+                    <h1>People</h1>
+                </div>
+            </div>
     {% for role-table in page.role-tables %}
         <section class="people row justify-content-between">
             {% for role-column in role-table %}
