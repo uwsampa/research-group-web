@@ -7,7 +7,7 @@ window.onresize = function(){
     else {
         $("#wrapper").removeClass("toggled")
         $("#wrapper").addClass("toggled")
-        $("#logo").css("width","80%")
+        $("#logo").css("width","75%")
         $("#header").css("display","none")
     }
 }
@@ -15,7 +15,7 @@ window.onresize = function(){
 window.onload = function(){
     if(window.innerWidth>769){
         $("#wrapper").addClass("toggled")
-        $("#logo").css("width","80%")
+        $("#logo").css("width","75%")
         $("#header").css("display","none")
     }
 

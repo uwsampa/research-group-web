@@ -11,7 +11,9 @@
 
 body {
   overflow-x: hidden;
-  font-family: "TSDLFont"
+  font-family: "TSDLFont";
+  font-size: 1.25em !important;
+  font-weight: 100;
 }
 
 #wrapper {
@@ -34,7 +36,7 @@ body {
   height: 100%;
   margin-left: -200px;
   overflow-y: auto;
-  background: #33a5db;
+  background: #363636;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -o-transition: all 0s ease;
@@ -77,19 +79,19 @@ body {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #222222;
-  font-size: 1.25em;
+  color: #ffffff;
+  font-size: 1.5em !important;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #222222;
+  color: #33a5db;
   background:#e0e0e0;
 }
 
 .active {
   text-decoration: none;
-  color: #222222;
+  color: #33a5db !important;
   background: #e0e0e0;
 }
 
@@ -98,7 +100,7 @@ body {
 }
 
 .sidebar-nav>.sidebar-brand {
-  height: 320px;
+  height: 250px;
   font-size: 18px;
   line-height: 60px;
 -}
