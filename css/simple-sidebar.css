@@ -4,8 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 
+@font-face{
+  font-family: "TSDLFont";
+  src:url("../fonts/tgl_0-1451eng.ttf")
+}
+
 body {
   overflow-x: hidden;
+  font-family: "TSDLFont"
 }
 
 #wrapper {
