@@ -3,41 +3,50 @@ facultyMario:
     display_name: "Mario Linares-Vásquez"
     role: faculty
     image: /img/people/fotoMarioLinaresV.jpg
+    bio: "Professor"
+    webpage: "https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/"
 
 docOlga:
     display_name: "Olga Vega"
     role: grad
     image: /img/people/fotoOlgaVega.jpg
+    bio: "Phd. Student"
 
 mastCamilo:
     display_name: "Camilo Escobar-Velásquez"
     role: grad
     image: /img/people/fotoCamiloEscobarV.jpg
+    bio: "MSc. Student"
 
 mastSantiago:
     display_name: "Santiago Liñan"
     role: grad
     image: /img/people/fotoSantiagoLinan.jpg
+    bio: "MSc. Student"
 
 mastSergio:
     display_name: "Sergio Velásquez"
     role: grad
     image: /img/people/fotoSergioVelasquez.jpg
+    bio: "MSc. Student"
 
 mastAlejandro:
     display_name: "Alejandro Mazuera"
     role: grad
     image: /img/people/fotoAlejandroMazuera.jpg
+    bio: "MSc. Student"
 
 mastJairo:
     display_name: "Jairo Bautista"
     role: grad
-    image: /img/people/fotoJairoBautista.jpg    
+    image: /img/people/fotoJairoBautista.jpg
+    bio: "MSc. Student"    
 
 mastSamuel:
     display_name: "Samuel Salazar"
     role: grad
     image: /img/people/fotoSamuelSalazar.jpg
+    bio: "MSc. Student"
 
 udgDiego:
     display_name: "Diego Rodriguez"
@@ -83,18 +92,27 @@ collSandraRueda:
     display_name: "Sandra Rueda"
     role: "collab"
     image: /img/people/fotoSandraRueda.jpg
+    webpage: "https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/"
+    bio: "Associate Professor at Universidad de Los Andes, Bogotá, Colombia"
 
 collGabrieleBavota:
     display_name: "Gabriele Bavota"
     role: "collab"
     image: /img/people/fotoGabrieleBavota.jpg
+    webpage: "http://www.inf.usi.ch/faculty/bavota/"
+    bio: "Assistant Professor at University of Lugano, Lugano, Switzerland"
 
 collNicolasCardozo:
     display_name: "Nicolas Cardozo"
     role: "collab"
     image: /img/people/fotoNicolasCardozo.jpg
+    webpage: "https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/"
+    bio: "Assistant Professor at Universidad de Los Andes, Bogotá, Colombia"
+
 
 collLauraMoreno: 
     display_name: "Laura Moreno"
     role: "collab"
     image: /img/people/fotoLauraMoreno.jpg
+    webpage: "https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/"
+    bio: "Assistant Professor at Colorado State University, Fort Collins, Colorado, USA"
