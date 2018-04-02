@@ -1,6 +1,5 @@
 ---
 title: Android-related Vulnerabilities
-image: "https://drive.google.com/open?id=1vwpWmtoylYNYPSFyaeigKQ9GxxJBUYcB"
 description: |
   Android security research using bulletins published in Android source code webpage
 
@@ -13,5 +12,6 @@ people:
   - mastCamilo
 
 layout: project
+image: /img/project-images/Android-related_Vulnerabilities.png
 last-updated: 2018-01-25
 ---
