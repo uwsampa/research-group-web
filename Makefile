@@ -23,7 +23,7 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= ja.guerrag@172.24.98.50
+DEPLOY_HOST ?= ja.guerrag@imagine.uniandes.edu.co
 DEPLOY_PATH ?= /var/www/html/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e "ssh "
 

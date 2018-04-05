@@ -18,6 +18,12 @@ make
 make serve
 ```
 
+## To deploy the site:
+
+```
+make deploy
+```
+
 
 ## Usage
 
