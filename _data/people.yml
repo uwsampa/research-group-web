@@ -126,19 +126,19 @@ collDenysPosh:
     display_name: "Denys Poshyvanyk"
     role: "collab"
     image: /img/people/fotoDenys.jpg
-    webpage: "https://www.cs.wm.edu/~denys/index.html"
+    webpage: "http://www.cs.wm.edu/~denys/index.html"
     bio: "Associate Professor at The College of Williaa JNIm and Mary, Virginia, USA"
 
 collMassimiliano: 
     display_name: "Massimiliano Di Penta"
     role: "collab"
     image: /img/people/dipenta.png
-    webpage: "https://www.ing.unisannio.it/mdipenta/"
+    webpage: "http://www.ing.unisannio.it/mdipenta/"
     bio: "Associate Professor at University of Sannio, Benevento, Italy"
 
 collChristopher:
     display_name: "Christopher Vendome"
     role: "collab"
     image: "/img/people/fotoChristopherV.jpg"
-    webpage: "https://www.christophervendome.com"
+    webpage: "http://www.christophervendome.com"
     bio: "Assistant Professor at Miami University, Ohio, USA"
