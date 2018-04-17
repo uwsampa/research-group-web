@@ -119,27 +119,26 @@ collLauraMoreno:
     display_name: "Laura Moreno"
     role: "collab"
     image: /img/people/fotoLauraMoreno.jpg
-    webpage: "https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/"
+    webpage: "https://www.cs.colostate.edu/~lmorenoc/"
     bio: "Assistant Professor at Colorado State University, Colorado, USA"
 
 collDenysPosh: 
     display_name: "Denys Poshyvanyk"
     role: "collab"
     image: /img/people/fotoDenys.jpg
-    webpage: "www.cs.wm.edu/~denys/index.html"
+    webpage: "https://www.cs.wm.edu/~denys/index.html"
     bio: "Associate Professor at The College of Williaa JNIm and Mary, Virginia, USA"
 
 collMassimiliano: 
     display_name: "Massimiliano Di Penta"
     role: "collab"
     image: /img/people/dipenta.png
-    webpage: "www.ing.unisannio.it/mdipenta/"
+    webpage: "https://www.ing.unisannio.it/mdipenta/"
     bio: "Associate Professor at University of Sannio, Benevento, Italy"
 
 collChristopher:
     display_name: "Christopher Vendome"
     role: "collab"
     image: "/img/people/fotoChristopherV.jpg"
-    webpage: "www.christophe
-    rvendome.com"
+    webpage: "https://www.christophervendome.com"
     bio: "Assistant Professor at Miami University, Ohio, USA"
