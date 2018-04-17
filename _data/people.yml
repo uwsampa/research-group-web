@@ -3,7 +3,7 @@ facultyMario:
     display_name: "Mario Linares-Vásquez"
     role: faculty
     image: /img/people/fotoMarioLinaresV.jpg
-    bio: "Professor"
+    bio: "Assistant Professor"
     webpage: "https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/"
 
 docOlga:
@@ -16,37 +16,37 @@ mastCamilo:
     display_name: "Camilo Escobar-Velásquez"
     role: grad
     image: /img/people/fotoCamiloEscobarV.jpg
-    bio: "MSc. Student"
+    bio: "MSc. Student - Masters of Software Engineering"
 
 mastSantiago:
     display_name: "Santiago Liñan"
     role: grad
     image: /img/people/fotoSantiagoLinan.jpg
-    bio: "MSc. Student"
+    bio: "MSc. Student - Masters of Software Engineering"
 
 mastSergio:
     display_name: "Sergio Velásquez"
     role: grad
     image: /img/people/fotoSergioVelasquez.jpg
-    bio: "MSc. Student"
+    bio: "MSc. Student - Masters of Software Engineering"
 
 mastAlejandro:
     display_name: "Alejandro Mazuera"
     role: grad
     image: /img/people/fotoAlejandroMazuera.jpg
-    bio: "MSc. Student"
+    bio: "MSc. Student - Masters of Information Security"
 
 mastJairo:
     display_name: "Jairo Bautista"
     role: grad
     image: /img/people/fotoJairoBautista.jpg
-    bio: "MSc. Student"    
+    bio: "MSc. Student - Masters of Software Engineering"    
 
 mastSamuel:
     display_name: "Samuel Salazar"
     role: grad
     image: /img/people/fotoSamuelSalazar.jpg
-    bio: "MSc. Student"
+    bio: "MSc. Student - Masters of Software Engineering"
 
 udgDiego:
     display_name: "Diego Rodriguez"
@@ -56,7 +56,7 @@ udgDiego:
 udgJuan:
     display_name: "Juan Acevedo"
     role: ugrad
-    image: /img/people/fotoJuanAcevedo.jpg
+    image: /img/people/avatar2.png
 
 udgLaura:
     display_name: "Laura Bello"
@@ -73,6 +73,11 @@ udgSofia:
     role: ugrad
     image: /img/people/fotoSofiaHernandez.jpg
 
+udgValeria:
+    display_name: "Valeria Vanegas"
+    role: ugrad
+    image: /img/people/img_avatar2.png
+
 udgSantiago:
     display_name: "Santiago Saenz"
     role: ugrad
@@ -86,7 +91,7 @@ udgCamilo:
 udgMichael:
     display_name: "Michael Osorio"
     role: ugrad
-    image: /img/people/fotoMichaelOsorio.jpg
+    image: /img/people/avatar2.png
 
 collSandraRueda:
     display_name: "Sandra Rueda"
@@ -115,4 +120,26 @@ collLauraMoreno:
     role: "collab"
     image: /img/people/fotoLauraMoreno.jpg
     webpage: "https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/"
-    bio: "Assistant Professor at Colorado State University, Fort Collins, Colorado, USA"
+    bio: "Assistant Professor at Colorado State University, Colorado, USA"
+
+collDenysPosh: 
+    display_name: "Denys Poshyvanyk"
+    role: "collab"
+    image: /img/people/fotoDenys.jpg
+    webpage: "www.cs.wm.edu/~denys/index.html"
+    bio: "Associate Professor at The College of Williaa JNIm and Mary, Virginia, USA"
+
+collMassimiliano: 
+    display_name: "Massimiliano Di Penta"
+    role: "collab"
+    image: /img/people/dipenta.png
+    webpage: "www.ing.unisannio.it/mdipenta/"
+    bio: "Associate Professor at University of Sannio, Benevento, Italy"
+
+collChristopher:
+    display_name: "Christopher Vendome"
+    role: "collab"
+    image: "/img/people/fotoChristopherV.jpg"
+    webpage: "www.christophe
+    rvendome.com"
+    bio: "Assistant Professor at Miami University, Ohio, USA"

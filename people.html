@@ -1,13 +1,10 @@
 ---
 layout: default
 title: People
-
+notitle: true
 role-tables:
 - - roles: [faculty]
     width: 8
-    image: true
-- - roles: [collab]
-    width: 12
     image: true
 - - roles: [grad]
     width: 12
@@ -15,28 +12,32 @@ role-tables:
 - - roles: [ugrad]
     width: 12
     image: true
-
+- - roles: [collab]
+    width: 12
+    image: true
 ---
 
-<div class="row">
-    <div class="col-lg-3" style="background-color: #33a5db; color: white">
-        <h1>People</h1>
-    </div>
-</div>
+
 {% for role-table in page.role-tables %} {% for role-column in role-table %} {% for role-key in role-column.roles %} {% for
 role in site.roles %} {% if role.key == role-key %}
-<h3 class="pt-3"> {{ role.name }} </h3>
+<div class="row">
+    <div class="col-lg-5" style="background-color: #33a5db; color: white">
+        <h1>{{ role.name }}</h1>
+    </div>
+</div>
 <div class="card-columns role {{ role.key }}" style="padding-top: 15px">
     {% for item in site.data.people %} {% assign person = item[1] %} {% if person.role == role.key %}
-    <div class="card bg-inverse">
-        <img class="card-img" src="{{ site.base }}{{ person.image }}" alt="{{person.display_name}}">
-        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding: 0px">
-            <div style="background-color: #363636aa; color: white; padding-left: 5px">
-                <h4 class="card-title" style="margin-bottom: 0px">{{person.display_name}}</h4>
-                <h6>{{person.bio}}</h6>
+    <a href="{{person.webpage}}">
+        <div class="card bg-inverse">
+            <img class="card-img" src="{{ site.base }}{{ person.image }}" alt="{{person.display_name}}">
+            <div class="card-img-overlay d-flex flex-column justify-content-end" style="padding: 0px">
+                <div style="background-color: #363636aa; color: white; padding-left: 5px">
+                    <h4 class="card-title" style="margin-bottom: 0px">{{person.display_name}}</h4>
+                    <h6>{{person.bio}}</h6>
+                </div>
             </div>
         </div>
-    </div>
+    </a>
     {% endif %} {% endfor %}
 </div>
 {% endif %} {% endfor %} {% endfor %} {% endfor %} {% endfor %}

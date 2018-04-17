@@ -50,4 +50,3 @@
         srcset(images[i]);
     }
 })(window, document);
-

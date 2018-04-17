@@ -11,122 +11,103 @@
         <link rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ site.base }}/css/group.css">
-        <link rel="stylesheet" href="{{ site.base }}/css/simple-sidebar.css">
+        <link rel="shortcut icon" href="{{site.base}}/img/tsdl.ico" type="image/x-icon">
     </head>
     <body>
-        <div id="wrapper">
-            <div id="sidebar-wrapper">
-                <ul class="sidebar-nav">
-                    <li class="sidebar-brand">
-                        <a href="{{ site.base }}/" class="">
-                        <img src="{{ site.base }}/img/logo.jpg"
-                             alt="Awesome" id="logo">
-                        </a>
-                    </li>
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container" style="font-size: 1.35em !important;">
+                <div class="navbar-brand" style="font-size: 1.3em !important;"><!--The Software Design Lab-->
+                    <a href="{{ site.base }}/" class="">
+                        <img src="{{ site.base }}/img/tsdlFondosOscuros.png"
+                            alt="TESDLA" id="logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
 
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
+                        {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                        {% for item in site.navigation %}
 
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
+                            {% assign itemshorturl = item.link | replace:'.html','' %}
 
-                        <li>
-                            <a class="{{ maybe-active }}"
-                            href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
+                            {% assign maybe-active = '' %}
+                            {% if item.title == 'Research' and page.layout == 'project' %}
+                                {% assign maybe-active = 'active' %}
+                            {% endif %}
+                            {% if itemshorturl == shorturl or is-research %}
+                                {% assign maybe-active = 'active' %}
+                            {% endif %}
 
-                    {% endfor %}
-                </ul>
-            </div>
-            <div id="page-content-wrapper">
-                <div class="container-fluid">
-                    <div id="header" class="header
-                        flex-column
-                        flex-md-row justify-content-md-between">
-                        <a href="{{ site.base }}/" class="">
-                            <img src="{{ site.base }}/img/logo.jpg"
-                                alt="Awesome" id="logo">
-                        </a>
-                        <ul class="nav nav-pills justify-content-center">
-                
-                            {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                            {% for item in site.navigation %}
-                
-                                {% assign itemshorturl = item.link | replace:'.html','' %}
-                
-                                {% assign maybe-active = '' %}
-                                {% if item.title == 'Research' and page.layout == 'project' %}
-                                    {% assign maybe-active = 'active' %}
-                                {% endif %}
-                                {% if itemshorturl == shorturl or is-research %}
-                                    {% assign maybe-active = 'active' %}
-                                {% endif %}
-                
-                                <li class="nav-item">
-                                    <a class="nav-link {{ maybe-active }}"
-                                    href="{{ site.base }}{{ item.link }}">
-                                        {{ item.title }}
+                            <li class="nav-item {{ maybe-active }}" >
+                                <a class="nav-link"
+                                href="{{ site.base }}{{ item.link }}">
+                                    {{ item.title }}
+                                </a>
+                            </li>
 
+                        {% endfor %}
 
-                                        
-                                    </a>
-                                </li>
-                
-                            {% endfor %}
-                
-                        </ul>
-                    </div>
-                    {% if page.image or page.jumbotron%} 
-                    <div class="row" style="padding-top: 15px">
-                            {% if page.image %}
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <img src="{{ page.image }}"
-                                alt="{{ page.title }}"
-                                id="pageImage"
-                                class="img-fluid mx-auto d-block mb-4"/>
-                        </div>
-                        {% endif %}
-                        {% if page.jumbotron %}
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-			                <div class="center-vert">
-                                <div class="jumbotron">
-                                    <p>
-                                        The Software Design Lab is a research group at <a href="http://uniandes.edu.co">Los Andes University</a> 
-                                        in the <a href="http://sistemas.uniandes.edu.co">System & Computing Engineering</a> department.
-                                    </p>
-                                </div>
-			                </div>
-                        </div>
-                        {% endif %}
-                    </div>        
-                    {% endif %}
-                    
-                                
-                    
-
-
-                
-                    {% if page.notitle != true %}
-                        <h1>{{ page.title }}</h1>
-                    {% endif %}
-                    {{ content }}
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+        <div class="container body-container" style="padding-top: 20px">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            {% if page.image %}
+            <div class="row" style="padding-top: 15px">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <img src="{{ page.image }}" alt="{{ page.title }}" id="pageImage" class="img-fluid mx-auto d-block mb-4" />
+                </div>
+            </div>
+            {% endif %}
+            {% if page.jumbotron %}
+            <div class="row" style="padding-top: 15px">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="center">
+                            <img src="{{ site.base }}/img/logo.jpg" alt="TESDLA" id="logo">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="jumbotron">
+                        <p>
+                            The Software Design Lab is a research group at
+                            <a href="http://uniandes.edu.co">Los Andes University</a>
+                            in the
+                            <a href="http://sistemas.uniandes.edu.co">System & Computing Engineering</a> department. Do cupidatat excepteur id aliquip do in ex. Quis culpa enim
+                            culpa consectetur ullamco laborum deserunt nostrud eu culpa sint laboris fugiat. Aliquip magna sunt officia
+                            fugiat eu est. Cillum amet sit veniam incididunt excepteur cupidatat irure duis ex amet do ipsum aliquip.
+                            Est occaecat anim Lorem amet sint Lorem ad Lorem dolore aliqua ut aliqua. In cupidatat incididunt excepteur
+                            id laboris. Et ad nisi reprehenderit et ipsum qui exercitation elit proident labore et. Dolore aliquip nostrud
+                            tempor deserunt dolore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if page.notitle != true %}
+                <div class="row" style="padding-top: 15px">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                </div>
+                
+            {% endif %}
+
+            {{ content }}
+
+            <div class="footer">
+                <p>
+                    <a href="http://dept.example.edu/">Illustrious Department</a>
+                    at the
+                    <a href="http://example.edu/">University of Example</a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
 
         <!-- Support retina images. -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript"
                 src="{{ site.base }}/js/srcset-polyfill.js"></script>
-        <script type="text/javascript"
-                src="{{ site.base }}/js/main.js"></script>
     </body>
 </html>

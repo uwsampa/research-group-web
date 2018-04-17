@@ -9,5 +9,4 @@ people:
 
 layout: project
 image: /img/project-images/traceabilityBPMN.png
-last-updated: 2018-03-25
 ---

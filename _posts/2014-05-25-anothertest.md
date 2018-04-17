@@ -2,6 +2,8 @@
 layout: post
 title: "A Full Blog Post"
 icon: star-o
+image: /img/people/fotoJairoBautista.jpg
+localImage: true
 ---
 
 Unlike a short news post, a blog post has its own page and lots of text. Text text text.

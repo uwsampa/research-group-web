@@ -4,9 +4,21 @@
 $gray: #999;
 $light-gray: #EEE;
 
+@font-face{
+    font-family: "TSDLFont";
+    src:url("../fonts/DINCondensed-Bold.ttf")
+  }
+
 /* Space out content a bit */
 body {
-    overflow-x: hidden;
+    // padding-top: 20px;
+    font-family: "TSDLFont";
+    font-size: 1.25em !important;
+    font-weight: 100;
+}
+
+#pageImage {
+    width: 70vw;
 }
 
 .header {
@@ -53,9 +65,8 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 35%;
+    width: 210px;
     height: auto;
-    margin: 2px 0 8px 0;
 }
 
 /* Front page news. */
@@ -74,13 +85,31 @@ ul.news {
 @media (min-width: 576px) {
     .project-people { column-count: 2 }
     .card-columns   { column-count: 2 }
+    .role.faculty   { column-count: 2 }
+    .role.grad      { column-count: 2 }
+    .role.ugrad     { column-count: 3 }
+    .role.collab    { column-count: 3 }
+    .project-image  { width: 2vw }
 }
 
 @media (min-width: 768px) {
-    .role.grad      { column-count: 2 }
-    .role.ugrad     { column-count: 2 }
+    .role.faculty   { column-count: 3 }
+    .role.grad      { column-count: 3 }
+    .role.ugrad     { column-count: 5 }
+    .role.collab    { column-count: 4 }
     .project-people { column-count: 3 }
     .card-columns   { column-count: 3 }
+    .project-image  { width: 2vw }
+}
+
+@media (min-width: 1024px){
+    .role.faculty   { column-count: 3 }
+    .role.grad      { column-count: 4 }
+    .role.ugrad     { column-count: 5 }
+    .role.collab    { column-count: 4 }
+    .project-people { column-count: 3 }
+    .card-columns   { column-count: 3 }
+    .project-image  { width: 10vw }
 }
 
 .title img {
@@ -145,4 +174,27 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+.center { 
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-55%);
+}
+
+.body-container{
+    padding: 0px 50px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+    color: #33a5db;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #33a5db55;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
 }

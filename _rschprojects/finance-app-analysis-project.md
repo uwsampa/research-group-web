@@ -11,5 +11,4 @@ people:
   - udgSantiago
 
 layout: project
-last-updated: 2018-03-06
 ---

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "An accepted publication"
-icon: newspaper-o
-image: https://icse2017.gatech.edu/sites/all/themes/icse2017website/downloads/logo.jpg
+title: "An investment from a company"
+icon: money
+image: /img/taLogo.png
+localImage: true
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.

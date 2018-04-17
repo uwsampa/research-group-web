@@ -17,9 +17,6 @@ text-decoration hack is for Safari. We don't SVGs to be underlined.
              alt="{{ person.display_name }}"
              title="{{ person.display_name }}"
              src="{{ site.base }}{{ person.image }}" />
-        <script>
-            console.log("{{ site.base }}{{ person.image }}")
-        </script>
     {% endcapture %}
 {% else %}
     {% capture image %}

@@ -17,8 +17,6 @@ roles:
     name: Staff
   - key: postdoc
     name: Researchers
-  - key: doc
-    name: Doctoral Students
   - key: grad
     name: Graduate Students
   - key: ugrad
@@ -36,10 +34,14 @@ front_page_news: 8
 # Base pathname for links.
 base: ''
 
-# make pages for the _projects folder
+include: ["_rschprojects","_dvlpprojects"]
+
 collections:
-  projects:
+  rschprojects:
     output: true
+  dvlpprojects:
+    output: true
+
 
 # Navigation bar links.
 navigation:
@@ -49,6 +51,8 @@ navigation:
     link: /people.html
   - title: Research
     link: /research.html
+  - title: Development
+    link: /development.html
   - title: Publications
     link: /publications.html
   - title: Code
