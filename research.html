@@ -4,13 +4,27 @@ title: Research Projects
 notitle: true
 ---
 
-<div class="card-columns">
+<!--<div class="card-columns">-->
     {% comment %}
     Sort the projects by date, putting those without dates last
     {% endcomment %}
     {% assign projects_by_date = site.rschprojects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
+    {% assign projects_by_topic = site.rschprojects | group_by: 'topic' %}
+    {% assign topics = projects_by_topic | shuffle %}
+    {% for topic in topics %}
+
+    <div class="row">
+        <div class="col-lg-5" style="background-color: #33a5db; color: white">
+            <h1>{{topic.name}}</h1>
+        </div>
+    </div>        
+                <div class="card-body">
+                        {% assign projects = topic.items | sort: 'last-updated', 'first' | reverse %}
+                        <div class="card-columns">
+                        {% for project in projects %}
+                            {% include project-card.html project=p %}
+                        {% endfor %}
+                        </div>
+                </div>
     {% endfor %}
-</div>
+<!--</div>-->

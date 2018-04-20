@@ -9,6 +9,8 @@ people:
   - mastSantiago
   - udgValeria
 
+topic: Evolution and Maintenance of Android Apps
+
 layout: project
 image: /img/project-images/ZilicioLogo.png
 ---

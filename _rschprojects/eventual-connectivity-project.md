@@ -8,5 +8,7 @@ people:
   - mastCamilo
   - udgMichael
 
+topic: Evolution and Maintenance of Android Apps
+
 layout: project
 ---
