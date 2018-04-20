@@ -56,7 +56,7 @@
             {% if page.image %}
             <div class="row" style="padding-top: 15px">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <img src="{{ page.image }}" alt="{{ page.title }}" id="pageImage" class="img-fluid mx-auto d-block mb-4" />
+                    <img src="{{site.base}}{{ page.image }}" alt="{{ page.title }}" id="pageImage" class="img-fluid mx-auto d-block mb-4" />
                 </div>
             </div>
             {% endif %}
