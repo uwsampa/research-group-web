@@ -2,6 +2,7 @@
 title: "MDroid+: Enabling Mutation Testing for Android Apps"
 description: |
 
+
 people:
   - facultyMario
   - mastCamilo
@@ -10,7 +11,7 @@ people:
   - collMassimiliano
   - collDenysPosh
 
-topic: Mutation
+topic: Mutation Testing
 
 layout: project
 ---
