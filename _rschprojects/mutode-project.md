@@ -5,7 +5,7 @@ description: |
 
 
 people:
-  - udgDiego
+  - mastDiego
 
 topic: Mutation Testing
 
