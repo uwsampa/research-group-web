@@ -48,10 +48,11 @@ mastSamuel:
     image: /img/people/fotoSamuelSalazar.jpg
     bio: "MSc. Student - Masters of Software Engineering"
 
-udgDiego:
-    display_name: "Diego Rodriguez"
-    role: ugrad
+mastDiego:
+    display_name: "Diego Rodríguez-Baquero"
+    role: grad
     image: /img/people/fotoDiegoRodriguez.jpg
+    bio: "MSc. Student - Masters of Software Engineering"
 
 udgJuan:
     display_name: "Juan Acevedo"
@@ -113,7 +114,6 @@ collNicolasCardozo:
     image: /img/people/fotoNicolasCardozo.jpg
     webpage: "https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/"
     bio: "Assistant Professor at Universidad de Los Andes, Bogotá, Colombia"
-
 
 collLauraMoreno: 
     display_name: "Laura Moreno"
