@@ -9,11 +9,9 @@
 
 {% capture news %}
     <div>
-        {% if post.shortnews %}
-            {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
-        {% else %}
             <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
             {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% if post.shortnews != true %}
             <br>
             <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
         {% endif %}
