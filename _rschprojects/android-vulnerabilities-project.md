@@ -12,6 +12,7 @@ people:
   - mastCamilo
 
 topic: Android Security
+link: http://ml-papers.gitlab.io/android.vulnerabilities-2017/appendix/index.html
 
 layout: project
 image: /img/project-images/Android-related_Vulnerabilities.png

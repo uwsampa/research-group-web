@@ -14,7 +14,7 @@ notitle: true
     {% for topic in topics %}
 
     <div class="row">
-        <div class="col-lg-5" style="background-color: #33a5db; color: white">
+        <div class="col-lg-5" style="background-color: #33a5db; color: white; padding-top: 10px">
             <h1>{{topic.name}}</h1>
         </div>
     </div>        
@@ -22,7 +22,9 @@ notitle: true
                         {% assign projects = topic.items | sort: 'last-updated', 'first' | reverse %}
                         <div class="card-columns">
                         {% for project in projects %}
-                            {% include project-card.html project=p %}
+                            {% if project.status != "inactive" %} 
+                                {% include project-card.html project=p %}
+                            {% endif %}
                         {% endfor %}
                         </div>
                 </div>

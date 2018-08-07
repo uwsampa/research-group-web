@@ -21,7 +21,7 @@ role-tables:
 {% for role-table in page.role-tables %} {% for role-column in role-table %} {% for role-key in role-column.roles %} {% for
 role in site.roles %} {% if role.key == role-key %}
 <div class="row">
-    <div class="col-lg-5" style="background-color: #33a5db; color: white">
+    <div class="col-lg-5" style="background-color: #33a5db; color: white; padding-top: 10px">
         <h1>{{ role.name }}</h1>
     </div>
 </div>

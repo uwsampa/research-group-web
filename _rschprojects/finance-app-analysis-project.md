@@ -13,4 +13,6 @@ people:
 topic: Evolution and Maintenance of Android Apps
 
 layout: project
+
+status: inactive
 ---
