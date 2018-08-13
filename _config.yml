@@ -42,7 +42,7 @@ defaults:
 front_page_news: 8
 
 # Base pathname for links.
-base: '/viz/imagine2'
+base: ''
 # base: ''
 
 # make pages for the _projects folder
@@ -58,7 +58,7 @@ navigation:
     link: /#people
   - title: Research
     link: /research.html
-  - title: Publications
-    link: /publications.html
+  # - title: Publications
+  #   link: /publications.html
   - title: Partners
     link: /partners.html

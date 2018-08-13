@@ -11,6 +11,7 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 
 build: _includes/pubs.html
 	jekyll build
+	cp -rfv public/* _site/
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
@@ -23,9 +24,9 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= ubuntu@johnguerra.co
-DEPLOY_PATH ?= /var/www/imagine2/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e "ssh -i /Users/aguerra/documentos/dutoViz/dutoVizNew.pem"
+DEPLOY_HOST ?= ja.guerrag@imagine.uniandes.edu.co
+DEPLOY_PATH ?= /var/www/html/
+RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e "ssh "
 
 deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
