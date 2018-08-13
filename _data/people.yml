@@ -64,6 +64,12 @@ ugrad-camiloAlfonso:
     role: ugrad
     webpage: http://camiloalfonso.com
     image: /img/people/foto_camiloAlfonso.png
+    
+ugrad-davidLaiton:
+    display_name: Andrés David Laiton
+    role: ugrad
+    webpage: https://daviddlaiton.github.io/
+    image: /img/people/foto_AndresLaiton.png
 
 ugrad-estebanDalel:
     display_name: Esteban Dalel Rueda
