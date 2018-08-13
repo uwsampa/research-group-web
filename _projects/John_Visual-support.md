@@ -9,6 +9,8 @@ people:
 
 layout: project  
 
+research_area: Visual Analytics
+
 last-updated: 2018-02-09
 ---
 Develop a tool for researchers to help them summarize, annotate and compare results from studies on the medical field.
