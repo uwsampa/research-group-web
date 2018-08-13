@@ -239,7 +239,12 @@ grad-ricardoMendoza:
     display_name: Ricardo A. Mendoza Leon
     role: grad
     webpage: http://www.ricardoMendoza.com/
-    # image: /img/people/foto_ricardoMendoza.jpg
+    image: /img/people/foto_ricardoMendoza.jpg
+    
+grad-philippFeix:
+    display_name: Philipp Feix
+    role: grad
+    image: /img/people/foto_PhilippFeix.jpg
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
