@@ -114,18 +114,18 @@ ugrad-juanGuillermo:
     
 ugrad-rogeliogarcia:
     display_name: Rogelio Garcia
-    role: ugrad
+    role: alum
     image: /img/people/foto_RogelioGarcia.jpeg
 
 ugrad-margaritaGomez:
     display_name: Margarita Gómez Ballén
-    role: ugrad
+    role: alum
     webpage: https://margaritagomez.github.io/
     image: /img/people/foto_margaritaGomez.PNG 
 
 ugrad-camilaGarcia:
     display_name: Camila García Hernández
-    role: ugrad
+    role: alum
     webpage: http://cgarciahdez.github.io/
     image: /img/people/foto_camilaGarcia.png
 
@@ -146,7 +146,7 @@ grad-juanCamiloIbarra:
 
 grad-nycholBazurto:
     display_name: Nychol Bazurto
-    role: alum
+    role: grad
     webpage: http://nycholbazurto.me/
     image: /img/people/foto_nycholBazurto.jpeg
 
