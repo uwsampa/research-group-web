@@ -9,6 +9,8 @@ people:
 
 layout: project
 
+research_area: Visual Analytics
+
 image: /img/projects/John/Biological-sequence.png
 
 last-updated: 2018-02-09

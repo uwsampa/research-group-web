@@ -22,7 +22,7 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        IMAGINE is a research group of <a href="http://www.uniandes.edu.co">Los Andes University</a> at the <a href="http://sistemas.uniandes.edu.co">Computer and Systems Engineering</a> department. The group aims to develop and put in the service of knowledge-based image processing, computer graphics, human machine interaction and robotics technology company. These developments allow the group to work on applied projects in both the scientific and industrial sectors through developing the design and implementation of innovative research solutions. The main areas of application are: biomedicine, training and entertainment, visual analytics and sustainable urban systems. They activity remains active collaboration with actors first national and international level.
+        IMAGINE is a Visual Computing research group at <a href="http://www.uniandes.edu.co">Los Andes University</a> in the <a href="http://sistemas.uniandes.edu.co">Systems &amp; Computing Engineering</a> department. The group develops research and innovation with knowledge-based image processing, computer graphics, mixed reality, human machine interaction and interactive robotics. Our main application domains are: biomedicine, training and entertainment, visual analytics and sustainable urban systems.
     </p>
 </div>
 
@@ -44,16 +44,23 @@ role-tables:
 
 <section>
     <h2>Research</h2>
-    <div class="card-columns">
+    <div class="research_projects">
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
+        {% assign projects_by_area = site.projects | group_by: 'research_area' %}
+        {% assign shuffled_areas = projects_by_area | shuffle %}
+        {% for area in shuffled_areas %}
+            <h3>{{ area.name }}</h3>
+            <div class="card-columns">
+                {% assign sorted_projects = area.items | sort: 'last-updated', 'first' | reverse %}
+                {% for p in sorted_projects %}
+                    {% if p.status != "inactive" %}
+                        {% include project-card.html project=p %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <hr>
         {% endfor %}
     </div>
 </section>
