@@ -29,6 +29,6 @@ We propose a novel method to approximate the spatial perception between heteroge
 Size constancy test in the HTC Vive 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Ak0Pih7oXU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
-Demo of Immersive 3D Virtual Reality tours through 360° images 
+Path integration task
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qxspaJOLxho" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
