@@ -134,6 +134,11 @@ ugrad-eduardoCabello:
     role: ugrad
     webpage: https://eacabello10.github.io/
     image: /img/people/foto_EduardoCabello10.jpg
+    
+ugrad-ricardoGonzalez:
+    display_name: Ricardo Enrique Gonzalez Peñuela
+    role: ugrad
+    image: /img/people/Foto_RicardoGonzalez.png
 
 grad-diegorodriguez:
     display_name: Diego Rodríguez
