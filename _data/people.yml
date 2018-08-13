@@ -22,7 +22,7 @@ prof-pablofigueroa:
     bio: Associate Professor    
 
 prof-fernandodelarosa:
-    display_name: Prof  Fernando de la Rosa Rosero
+    display_name: Prof Fernando De la Rosa Rosero
     webpage: https://profesores.virtual.uniandes.edu.co/fde/en/inicio-en/
     role: faculty
     image: /img/people/foto_FernandodelaRosa.jpg 
@@ -146,7 +146,7 @@ grad-juanCamiloIbarra:
 
 grad-nycholBazurto:
     display_name: Nychol Bazurto
-    role: grad
+    role: alum
     webpage: http://nycholbazurto.me/
     image: /img/people/foto_nycholBazurto.jpeg
 
