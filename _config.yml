@@ -58,7 +58,7 @@ navigation:
     link: /#people
   - title: Research
     link: /research.html
-  - title: Publications
-    link: /publications.html
+  # - title: Publications
+  #   link: /publications.html
   - title: Partners
     link: /partners.html

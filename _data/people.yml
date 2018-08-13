@@ -2,31 +2,31 @@
 prof-josehernandez:
     display_name: José Tiberio Hernández
     role: faculty
-    webpage: https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/    
+    webpage: https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en/
     image: /img/people/foto_JoseHernandez.jpg
-    bio: Associate Professor        
+    bio: Associate Professor
 
 prof-marcelahernandez:
     display_name: Marcela Hernández Hoyos
-    role: faculty 
+    role: faculty
     image: /img/people/foto_MarcelaHernandez.png
     display_name: Prof Marcela Hernández Hoyos
     webpage: https://profesores.virtual.uniandes.edu.co/marcher/en/inicio-en/
-    bio: Associate Professor        
+    bio: Associate Professor
 
 prof-pablofigueroa:
     display_name: Pablo Figueroa Forero
     webpage: https://profesores.virtual.uniandes.edu.co/pfiguero/en/inicio-en/
     role: faculty
-    image: /img/people/foto_PabloFigueroa.jpg     
-    bio: Associate Professor    
+    image: /img/people/foto_PabloFigueroa.jpg
+    bio: Associate Professor
 
 prof-fernandodelarosa:
     display_name: Prof Fernando De la Rosa Rosero
     webpage: https://profesores.virtual.uniandes.edu.co/fde/en/inicio-en/
     role: faculty
-    image: /img/people/foto_FernandodelaRosa.jpg 
-    bio: Associate Professor  
+    image: /img/people/foto_FernandodelaRosa.jpg
+    bio: Associate Professor
 
 prof-johnguerra:
     display_name: John Alexis Guerra Gómez
@@ -36,7 +36,7 @@ prof-johnguerra:
     role: faculty
     image: /img/people/foto_JohnGuerra_2015.jpg
     bio: Assistant Professor
-    
+
 
 alum-camiloescobarv:
     display_name: Camilo Andrés Escobar Velásquez
@@ -44,12 +44,12 @@ alum-camiloescobarv:
 
 alum-danielwilches:
     display_name: Daniel Wilches
-    role: alum    
+    role: alum
 
 alum-deisydiaz:
     display_name: Deisy Díaz Pérez
     role: alum
-    
+
 
 # profx:
 #     display_name: Professor X
@@ -66,7 +66,7 @@ ugrad-camiloAlfonso:
     image: /img/people/foto_camiloAlfonso.png
 
 ugrad-estebanDalel:
-    display_name: Esteban Dalel Rueda 
+    display_name: Esteban Dalel Rueda
     role: ugrad
     webpage: https://estebandalelr.co/
     image: /img/people/foto_estebanDalel.jpg
@@ -110,28 +110,34 @@ ugrad-juanGuillermo:
     display_name: Juan Guillermo Murillo Castillo
     role: ugrad
     webpage: http://juanmurillo.me/
-    image: /img/people/foto_juanGuillermo.png  
-    
+    image: /img/people/foto_juanGuillermo.png
+
 ugrad-rogeliogarcia:
     display_name: Rogelio Garcia
-    role: ugrad
+    role: alum
     image: /img/people/foto_RogelioGarcia.jpeg
 
 ugrad-margaritaGomez:
     display_name: Margarita Gómez Ballén
-    role: ugrad
+    role: alum
     webpage: https://margaritagomez.github.io/
-    image: /img/people/foto_margaritaGomez.PNG 
+    image: /img/people/foto_margaritaGomez.PNG
 
 ugrad-camilaGarcia:
     display_name: Camila García Hernández
-    role: ugrad
+    role: alum
     webpage: http://cgarciahdez.github.io/
     image: /img/people/foto_camilaGarcia.png
+    
+ugrad-fabioLopez:
+    display_name: Fabio Andrés López Corredor
+    role: ugrad
+    webpage: https://falopez10.github.io/
+    image: /img/people/foto_fabioLopez.jpeg    
 
 ugrad-eduardoCabello:
     display_name: Eduardo Arturo Cabello Agüero
-    role: ugrad
+    role: alum
     webpage: https://eacabello10.github.io/
     image: /img/people/foto_EduardoCabello10.jpg
     
@@ -140,9 +146,16 @@ ugrad-ricardoGonzalez:
     role: ugrad
     image: /img/people/Foto_RicardoGonzalez.jpg
 
+
+ugrad-carlosGonzalez:
+    display_name: Carlos Eduardo González Álvarez
+    role: ugrad
+    webpage: https://cegonzalv.github.io
+    image: /img/people/foto_CarlosGonzalez.png
+
 grad-diegorodriguez:
     display_name: Diego Rodríguez
-    role: grad  
+    role: grad
     image: /img/people/foto_DiegoRodriguez.jpg
 
 grad-juanCamiloIbarra:
@@ -151,13 +164,13 @@ grad-juanCamiloIbarra:
 
 grad-nycholBazurto:
     display_name: Nychol Bazurto
-    role: alum
+    role: grad
     webpage: http://nycholbazurto.me/
     image: /img/people/foto_nycholBazurto.jpeg
 
 grad-meiliVanegas:
     display_name: Meili Vanegas
-    role: grad
+    role: alum
     webpage: https://mvanegas10.github.io/
     image: /img/people/foto_meiliVanegas.png
 
@@ -168,7 +181,7 @@ grad-camiloMera:
     image: /img/people/foto_camiloMera.jpg
 
 grad-fabianPenna:
-    display_name: Fabian Camilo Peña 
+    display_name: Fabian Camilo Peña
     role: grad
     webpage: https://fabiancpl.github.io/
     image: /img/people/foto_fabianPenna.jpeg
@@ -178,7 +191,7 @@ grad-juanCamilo:
     role: grad
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
-    
+
 
 grad-julianaMM:
     display_name: Juliana Montes Maestre
@@ -203,7 +216,7 @@ grad-fmedina:
     role: grad
     webpage: http://ingfabianmedina.epizy.com
     image: /img/people/foto_fmedina.jpg
-    
+
 grad-joseDorado:
     display_name: José Luis Dorado
     role: grad
@@ -214,18 +227,18 @@ grad-juanPabloReyes:
     display_name: Juan Pablo Reyes Gomez
     role: grad
     webpage: http://www.juanPabloReyes.com/
-    image: /img/people/foto_juanPabloReyes.jpg
+    # image: /img/people/foto_juanPabloReyes.jpg
 
 grad-ricardoMendoza:
     display_name: Ricardo A. Mendoza Leon
     role: grad
     webpage: http://www.ricardoMendoza.com/
-    image: /img/people/foto_ricardoMendoza.jpg
+    # image: /img/people/foto_ricardoMendoza.jpg
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
     role: collab
-    
+
 collab-martinjagersand:
     display_name: Prof Martin Jagersand
     webpage: https://webdocs.cs.ualberta.ca/~jag/
@@ -236,7 +249,7 @@ collab-dominiqueFouchez:
     webpage: https://annuaire.in2p3.fr/agents/Y249Rm91Y2hleiBEb21pbmlxdWUsb3U9cGVvcGxlLGRjPWluMnAzLGRjPWZy/show
     role: collab
     image: /img/people/foto_dominiqueFouchez.jpg
-    
+
 collab-johnPuentes:
     display_name: John Puentes
     webpage: https://www.telecom-bretagne.eu/studies/msc/professors/puentes/
@@ -247,7 +260,7 @@ collab-maciejOrkisz:
     webpage: https://www.creatis.insa-lyon.fr/site7/en/users/orkisz
     role: collab
     image: /img/people/foto_maciejOrkisz.png
-    
+
 collab-dariocorreal:
     display_name: Prof Dario Correal
     webpage: https://profesores.virtual.uniandes.edu.co/~dcorreal/dokuwiki/doku.php
