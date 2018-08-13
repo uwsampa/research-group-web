@@ -28,7 +28,7 @@ make deploy
 ## Usage
 
 * To add/modify people change the [people.yml](_data/people.yml) file
-* To add/modify projects, create/change the files on [\_çprojects](_projects/)
+* To add/modify projects, create/change the files on [\_projects](_projects/)
 * To add/modify news, create/change the files on [\_posts](_posts/)
 
 See below for examples
