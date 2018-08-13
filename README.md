@@ -44,6 +44,8 @@ title: Big Project
 description: |
   This project has a lot of people working on it!!
   It also has some `Mark` _down_
+  
+research_area: Image Processing
 
 people:
   - storm
@@ -82,6 +84,8 @@ notitle: true
 
 description: |
   This project has a sweet logo!
+  
+research_area: Image Processing
 
 people:
   - storm
@@ -121,6 +125,8 @@ people:
   - grad-b
   - scott
   - wolverine
+  
+research_area: Image Processing
 
 layout: project
 no-link: true
@@ -142,6 +148,8 @@ people:
   - storm
   - grad-e
   - collab-a
+  
+research_area: Image Processing
 
 layout: project
 link: "https://en.wikipedia.org/wiki/X-Men"
