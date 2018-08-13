@@ -139,7 +139,13 @@ ugrad-fabioLopez:
     display_name: Fabio Andrés López Corredor
     role: ugrad
     webpage: https://falopez10.github.io/
-    image: /img/people/foto_fabioLopez.jpeg    
+    image: /img/people/foto_fabioLopez.jpeg 
+
+ugrad-joanTorres:
+    display_name: Joan David Torres Pinzón
+    role: ugrad
+    webpage: https://github.com/JDTorresP/
+    image: /img/people/foto_joanTorres.jpg 
 
 ugrad-eduardoCabello:
     display_name: Eduardo Arturo Cabello Agüero
