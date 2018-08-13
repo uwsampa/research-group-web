@@ -7,7 +7,6 @@ prof-josehernandez:
     bio: Associate Professor
 
 prof-marcelahernandez:
-    display_name: Marcela Hernández Hoyos
     role: faculty
     image: /img/people/foto_MarcelaHernandez.png
     display_name: Prof Marcela Hernández Hoyos
@@ -61,10 +60,10 @@ alum-deisydiaz:
 
 ugrad-camiloAlfonso:
     display_name: Camilo Alfonso
-    role: ugrad
+    role: ugrad-alum
     webpage: http://camiloalfonso.com
     image: /img/people/foto_camiloAlfonso.png
-    
+
 ugrad-davidLaiton:
     display_name: Andrés David Laiton
     role: ugrad
@@ -73,95 +72,95 @@ ugrad-davidLaiton:
 
 ugrad-estebanDalel:
     display_name: Esteban Dalel Rueda
-    role: ugrad
+    role: ugrad-alum
     webpage: https://estebandalelr.co/
     image: /img/people/foto_estebanDalel.jpg
 
 ugrad-felipeMartinez:
     display_name: Felipe Martinez Piazuelo
-    role: ugrad
+    role: ugrad-alum
     webpage: https://piazuelo.com/felipe
     image: /img/people/foto_felipeMartinez.jpg
 
 ugrad-sebastianCardona:
     display_name: Juan Sebastián Cardona Muñoz
-    role: ugrad
+    role: ugrad-alum
     webpage: https://jscardona12.github.io/MyWebPage/
     image: /img/people/foto_sebastianCardona.jpg
 
 ugrad-luisMesa:
     display_name: Luis Mesa
-    role: ugrad
+    role: ugrad-alum
     webpage: http://luis-mesa.me
     image: /img/people/foto_luisMesa.jpg
 
 ugrad-nicolarChavez:
     display_name: Nicolas Chaves
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/foto_nicolarChavez.jpeg
 
 ugrad-antonioDeLaVega:
     display_name: Antonio de la Vega
-    role: ugrad
+    role: ugrad-alum
     webpage: https://adelavegaf.github.io/
     image: /img/people/foto_antonioDeLaVega.jpeg
 
 ugrad-davidDelgado:
     display_name: David Mauricio Delgado Ruiz
-    role: ugrad
+    role: ugrad-alum
     webpage: https://nonameable.github.io
     image: /img/people/foto_davidDelgado.jpg
 
 ugrad-juanGuillermo:
     display_name: Juan Guillermo Murillo Castillo
-    role: ugrad
+    role: ugrad-alum
     webpage: http://juanmurillo.me/
     image: /img/people/foto_juanGuillermo.png
 
 ugrad-rogeliogarcia:
     display_name: Rogelio Garcia
-    role: alum
+    role: ugrad-alum
     image: /img/people/foto_RogelioGarcia.jpeg
 
 ugrad-margaritaGomez:
     display_name: Margarita Gómez Ballén
-    role: alum
+    role: ugrad-alum
     webpage: https://margaritagomez.github.io/
     image: /img/people/foto_margaritaGomez.PNG
 
 ugrad-camilaGarcia:
     display_name: Camila García Hernández
-    role: alum
+    role: ugrad-alum
     webpage: http://cgarciahdez.github.io/
     image: /img/people/foto_camilaGarcia.png
-    
+
 ugrad-fabioLopez:
     display_name: Fabio Andrés López Corredor
     role: ugrad
     webpage: https://falopez10.github.io/
-    image: /img/people/foto_fabioLopez.jpeg 
+    image: /img/people/foto_fabioLopez.jpeg
 
 ugrad-joanTorres:
     display_name: Joan David Torres Pinzón
     role: ugrad
     webpage: https://github.com/JDTorresP/
-    image: /img/people/foto_joanTorres.jpg 
+    image: /img/people/foto_joanTorres.jpg
 
 ugrad-eduardoCabello:
     display_name: Eduardo Arturo Cabello Agüero
-    role: alum
+    role: ugrad-alum
     webpage: https://eacabello10.github.io/
     image: /img/people/foto_EduardoCabello10.jpg
-    
+
 ugrad-ricardoGonzalez:
     display_name: Ricardo Enrique Gonzalez Peñuela
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/Foto_RicardoGonzalez.jpg
 
 
 ugrad-carlosGonzalez:
     display_name: Carlos Eduardo González Álvarez
-    role: ugrad
+    role: ugrad-alum
     webpage: https://cegonzalv.github.io
     image: /img/people/foto_CarlosGonzalez.png
 
@@ -176,7 +175,7 @@ grad-juanCamiloIbarra:
 
 grad-nycholBazurto:
     display_name: Nychol Bazurto
-    role: grad
+    role: alum
     webpage: http://nycholbazurto.me/
     image: /img/people/foto_nycholBazurto.jpeg
 
@@ -203,7 +202,6 @@ grad-juanCamilo:
     role: grad
     webpage: http://www.juancortiz.com/
     image: /img/people/foto_juanCamilo.jpg
-
 
 grad-julianaMM:
     display_name: Juliana Montes Maestre
@@ -245,8 +243,8 @@ grad-ricardoMendoza:
     display_name: Ricardo A. Mendoza Leon
     role: grad
     webpage: http://www.ricardoMendoza.com/
-    image: /img/people/foto_ricardoMendoza.jpg
-    
+    # image: /img/people/foto_ricardoMendoza.jpg
+
 grad-philippFeix:
     display_name: Philipp Feix
     role: grad
