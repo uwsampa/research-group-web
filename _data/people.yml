@@ -141,6 +141,12 @@ ugrad-eduardoCabello:
     webpage: https://eacabello10.github.io/
     image: /img/people/foto_EduardoCabello10.jpg
     
+ugrad-ricardoGonzalez:
+    display_name: Ricardo Enrique Gonzalez Peñuela
+    role: ugrad
+    image: /img/people/Foto_RicardoGonzalez.jpg
+
+
 ugrad-carlosGonzalez:
     display_name: Carlos Eduardo González Álvarez
     role: ugrad
