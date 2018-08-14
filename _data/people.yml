@@ -196,6 +196,12 @@ grad-fabianPenna:
     role: grad
     webpage: https://fabiancpl.github.io/
     image: /img/people/foto_fabianPenna.jpeg
+    
+grad-miguelFeijoo:
+    display_name: Miguel Alfonso Feijóo G
+    role: grad
+    webpage: https://miguelalfonsofeijoo.wixsite.com/miguelfeijoo
+    image: /img/people/foto_miguelFeijoo.jpg
 
 grad-juanCamilo:
     display_name: Juan Camilo Ortiz R
