@@ -51,7 +51,13 @@ role-tables:
         {% assign projects_by_area = site.projects | group_by: 'research_area' %}
         {% assign shuffled_areas = projects_by_area | shuffle %}
         {% for area in shuffled_areas %}
-            <h3>{{ area.name }}</h3>
+            <a href="#{{ area.name }}" > {{ area.name }} </a>
+            &nbsp;&nbsp;
+        {% endfor %}
+        <br>
+        <br>
+        {% for area in shuffled_areas %}
+            <h3 id ="{{ area.name }}" >{{ area.name }}</h3>
             <div class="card-columns">
                 {% assign sorted_projects = area.items | sort: 'last-updated', 'first' | reverse %}
                 {% for p in sorted_projects %}

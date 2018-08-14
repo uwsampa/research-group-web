@@ -43,7 +43,7 @@ front_page_news: 8
 
 # Base pathname for links.
 base: ''
-# base: ''
+# base: '/public'
 
 # make pages for the _projects folder
 collections:
@@ -58,7 +58,7 @@ navigation:
     link: /#people
   - title: Research
     link: /research.html
-  - title: Publications
-    link: /publications.html
+  # - title: Publications
+  #   link: /publications.html
   - title: Partners
     link: /partners.html
