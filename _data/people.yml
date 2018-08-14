@@ -58,6 +58,12 @@ alum-deisydiaz:
 #     image: /img/people/prof-x.png
 #     bio: Professor
 
+ugrad-carlosGonzalez:
+    display_name: Carlos Eduardo González Álvarez
+    role: ugrad
+    webpage: https://cegonzalv.github.io
+    image: /img/people/foto_CarlosGonzalez.png
+    
 ugrad-camiloAlfonso:
     display_name: Camilo Alfonso
     role: ugrad-alum
@@ -154,15 +160,8 @@ ugrad-eduardoCabello:
 
 ugrad-ricardoGonzalez:
     display_name: Ricardo Enrique Gonzalez Peñuela
-    role: ugrad-alum
+    role: ugrad
     image: /img/people/Foto_RicardoGonzalez.jpg
-
-
-ugrad-carlosGonzalez:
-    display_name: Carlos Eduardo González Álvarez
-    role: ugrad-alum
-    webpage: https://cegonzalv.github.io
-    image: /img/people/foto_CarlosGonzalez.png
 
 grad-diegorodriguez:
     display_name: Diego Rodríguez
