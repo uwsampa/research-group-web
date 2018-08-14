@@ -11,6 +11,7 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 
 build: _includes/pubs.html
 	jekyll build
+	cp -rf public/* _site/
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
@@ -25,7 +26,7 @@ clean:
 
 DEPLOY_HOST ?= ja.guerrag@imagine.uniandes.edu.co
 DEPLOY_PATH ?= /var/www/html/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e "ssh "
+RSYNC := rsync -uvh --compress --recursive --checksum --itemize-changes --delete -e "ssh "
 
 deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
