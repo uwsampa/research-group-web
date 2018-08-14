@@ -6,6 +6,7 @@ description: An efficent architecture for the exploration of big photo datasets 
 people:
   - prof-johnguerra
   - ugrad-davidDelgado
+  - ugrad-davidLaiton
 
 layout: project  
 
