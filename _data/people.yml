@@ -63,7 +63,7 @@ ugrad-carlosGonzalez:
     role: ugrad
     webpage: https://cegonzalv.github.io
     image: /img/people/foto_CarlosGonzalez.png
-    
+
 ugrad-camiloAlfonso:
     display_name: Camilo Alfonso
     role: ugrad-alum
@@ -74,7 +74,7 @@ ugrad-davidLaiton:
     display_name: Andrés David Laiton
     role: ugrad
     webpage: https://daviddlaiton.github.io/
-    image: /img/people/foto_AndresLaiton.png
+    # image: /img/people/foto_AndresLaiton.png
 
 ugrad-estebanDalel:
     display_name: Esteban Dalel Rueda
@@ -195,12 +195,12 @@ grad-fabianPenna:
     role: grad
     webpage: https://fabiancpl.github.io/
     image: /img/people/foto_fabianPenna.jpeg
-    
+
 grad-miguelFeijoo:
     display_name: Miguel Alfonso Feijóo G
     role: grad
     webpage: https://miguelalfonsofeijoo.wixsite.com/miguelfeijoo
-    image: /img/people/foto_miguelFeijoo.jpg
+    # image: /img/people/foto_miguelFeijoo.jpg
 
 grad-juanCamilo:
     display_name: Juan Camilo Ortiz Román
