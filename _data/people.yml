@@ -36,6 +36,15 @@ prof-johnguerra:
     image: /img/people/foto_JohnGuerra_2015.jpg
     bio: Assistant Professor
 
+prof-johnguerra:
+    display_name: Sebastián Gil Parga
+    role: faculty
+    webpage: https://sgilparga.wixsite.com/profile
+    github: speregil
+    role: faculty
+    image: /img/people/foto_SebastianGil.jpg
+    bio: Instructor Professor
+
 
 alum-camiloescobarv:
     display_name: Camilo Andrés Escobar Velásquez
