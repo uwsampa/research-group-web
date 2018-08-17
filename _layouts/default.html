@@ -54,11 +54,24 @@
         <div class="container body-container" style="padding-top: 20px">
             <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
             {% if page.image %}
-            <div class="row" style="padding-top: 15px">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <img src="{{site.base}}{{ page.image }}" alt="{{ page.title }}" id="pageImage" class="img-fluid mx-auto d-block mb-4" />
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="{{site.base}}{{page.image }}" alt="{{ page.title }}">
+                  </div>
                 </div>
-            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
             {% endif %}
             {% if page.jumbotron %}
             <div class="row" style="padding-top: 15px">
