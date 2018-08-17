@@ -13,7 +13,7 @@ $light-gray: #EEE;
 body {
     // padding-top: 20px;
     font-family: "TSDLFont";
-    font-size: 1.25em !important;
+    font-size: 14px !important;
     font-weight: 100;
 }
 
@@ -33,7 +33,7 @@ body {
     color: $gray;
     border-top: 1px solid $light-gray;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 11px;
 
     a:link, a:visited {
         color: $gray;
@@ -60,7 +60,7 @@ a > .fa {
     text-align: justify;
     padding-top: 1.5em;
     padding-bottom: 0.5em;
-    font-size: 125%
+    font-size: 15px%
 }
 
 /* Group logo */
