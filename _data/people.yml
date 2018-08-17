@@ -138,7 +138,7 @@ collDenysPosh:
 collMassimiliano: 
     display_name: "Massimiliano Di Penta"
     role: "collab"
-    image: /img/people/dipenta.png
+    image: /img/people/dipenta.jpg
     webpage: "http://www.ing.unisannio.it/mdipenta/"
     bio: "Associate Professor at University of Sannio, Benevento, Italy"
 
