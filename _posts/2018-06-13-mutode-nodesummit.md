@@ -6,4 +6,4 @@ image: https://pbs.twimg.com/profile_images/1566852138/twitter-avatar-summit_400
 shortnews: true
 ---
 
-Diego Rodríguez-Baquero has been accepted as Speaker at Node Summit 2018. He would give a talk named "Beyond Code Coverage, Mutation Testing: Tests for your tests" where he will share his experience creating Mutode.
+Diego Rodríguez-Baquero has been accepted as Speaker at Node Summit 2018. He will give a talk named "Beyond Code Coverage, Mutation Testing: Tests for your tests" where he will share his experience creating Mutode.
