@@ -10,54 +10,65 @@ docOlga:
     display_name: "Olga Vega"
     role: grad
     image: /img/people/fotoOlgaVega.jpg
-    bio: "Phd. Student"
+    bio: "Ph.D. Student"
+
+
 
 mastCamilo:
     display_name: "Camilo Escobar-Velásquez"
     role: grad
     image: /img/people/fotoCamiloEscobarV.jpg
-    bio: "MSc. Student - Masters of Software Engineering"
+    bio: "MSc. Student - Software Engineering"
+
+docAlejandro:
+    display_name: "Alejandro Mazuera"
+    role: grad
+    image: /img/people/fotoAlejandroMazuera.jpg
+    bio: "Ph.D. Student"
 
 mastSantiago:
-    display_name: "Santiago Liñan"
+    display_name: "Santiago Liñán"
     role: grad
     image: /img/people/fotoSantiagoLinan.jpg
-    bio: "MSc. Student - Masters of Software Engineering"
+    bio: "MSc. Student - Software Engineering"
 
 mastSergio:
     display_name: "Sergio Velásquez"
     role: grad
     image: /img/people/fotoSergioVelasquez.jpg
-    bio: "MSc. Student - Masters of Software Engineering"
+    bio: "MSc. Student - Software Engineering"
 
-mastAlejandro:
-    display_name: "Alejandro Mazuera"
-    role: grad
-    image: /img/people/fotoAlejandroMazuera.jpg
-    bio: "MSc. Student - Masters of Information Security"
 
-mastJairo:
-    display_name: "Jairo Bautista"
-    role: grad
-    image: /img/people/fotoJairoBautista.jpg
-    bio: "MSc. Student - Masters of Software Engineering"    
+
+# mastJairo:
+#     display_name: "Jairo Bautista"
+#     role: grad
+#     image: /img/people/fotoJairoBautista.jpg
+#     bio: "MSc. Student - Software Engineering"    
 
 mastSamuel:
     display_name: "Samuel Salazar"
     role: grad
     image: /img/people/fotoSamuelSalazar.jpg
-    bio: "MSc. Student - Masters of Software Engineering"
+    bio: "MSc. Student - Software Engineering"
 
 mastDiego:
     display_name: "Diego Rodríguez-Baquero"
     role: grad
     image: /img/people/fotoDiegoRodriguez.jpg
-    bio: "MSc. Student - Masters of Software Engineering"
+    bio: "MSc. Student - Software Engineering"
 
-udgJuan:
-    display_name: "Juan Acevedo"
-    role: ugrad
+mastCamiloOrtiz:
+    display_name: "Camilo Ortiz-Casas"
+    role: grad
     image: /img/people/avatar2.png
+    bio: "MSc. Student - Information Security"
+
+mastAnamaria:
+    display_name: "Anamaria Mojica"
+    role: grad
+    image: /img/people/img_avatar2.png
+    bio: "MSc. Student - Information Engineering"
 
 udgLaura:
     display_name: "Laura Bello"
@@ -68,11 +79,6 @@ udgMaria:
     display_name: "Maria Arevalo"
     role: ugrad
     image: /img/people/fotoMariaArevalo.jpg
-
-udgSofia:
-    display_name: "Sofia Hernández"
-    role: ugrad
-    image: /img/people/fotoSofiaHernandez.jpg
 
 udgValeria:
     display_name: "Valeria Vanegas"
@@ -127,7 +133,7 @@ collDenysPosh:
     role: "collab"
     image: /img/people/fotoDenys.jpg
     webpage: "http://www.cs.wm.edu/~denys/index.html"
-    bio: "Associate Professor at The College of Williaa JNIm and Mary, Virginia, USA"
+    bio: "Associate Professor at The College of William and Mary, Virginia, USA"
 
 collMassimiliano: 
     display_name: "Massimiliano Di Penta"
@@ -142,3 +148,8 @@ collChristopher:
     image: "/img/people/fotoChristopherV.jpg"
     webpage: "http://www.christophervendome.com"
     bio: "Assistant Professor at Miami University, Ohio, USA"
+
+alumSofia:
+    display_name: "Sofia Hernández"
+    role: alum
+    image: /img/people/fotoSofiaHernandez.jpg
