@@ -9,6 +9,11 @@ $light-gray: #EEE;
     src:url("../fonts/Raleway-Regular.ttf")
   }
 
+@font-face{
+    font-family: "TSDLFontBold";
+    src:url("../fonts/Raleway-Bold.ttf")
+  }
+
 /* Space out content a bit */
 body {
     // padding-top: 20px;
@@ -26,6 +31,7 @@ body {
     padding-bottom: 10px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: "TSDLFontBold";
 }
 
 .footer {
