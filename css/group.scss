@@ -1,12 +1,33 @@
----
----
-
+---	
+--- 
 $gray: #999;
 $light-gray: #EEE;
 
+@font-face{
+    font-family: "TSDLFont";
+    src:url("../fonts/Raleway-Regular.ttf")
+  }
+
+@font-face{
+    font-family: "TSDLFontBold";
+    src:url("../fonts/Raleway-Bold.ttf")
+  }
+
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    // padding-top: 20px;
+    font-family: "TSDLFont";
+    font-size: 14px !important;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: "TSDLFontBold";
+}
+
+#pageImage {
+    width: 70vw;
 }
 
 .header {
@@ -14,6 +35,7 @@ body {
     padding-bottom: 10px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: "TSDLFontBold";
 }
 
 .footer {
@@ -21,7 +43,7 @@ body {
     color: $gray;
     border-top: 1px solid $light-gray;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 11px;
 
     a:link, a:visited {
         color: $gray;
@@ -48,14 +70,13 @@ a > .fa {
     text-align: justify;
     padding-top: 1.5em;
     padding-bottom: 0.5em;
-    font-size: 125%
+    font-size: 15px;
 }
 
 /* Group logo */
 #logo {
-    width: 154px;
-    height: 35px;
-    margin: 2px 0 8px 0;
+    width: 210px;
+    height: auto;
 }
 
 /* Front page news. */
@@ -73,13 +94,38 @@ ul.news {
 
 @media (min-width: 576px) {
     .project-people { column-count: 2 }
-    .card-columns   { column-count: 2 }
+    .card-columns   { column-count: 3 }
+    .role.faculty   { column-count: 2 }
+    .role.grad      { column-count: 2 }
+    .role.ugrad     { column-count: 2 }
+    .role.collab    { column-count: 2 }
+    .role.alum      { column-count: 2 }
+    .project-image  { width: 2vw }
+    .project-card           { width: 60vw !important}
 }
 
 @media (min-width: 768px) {
-    .role.grad      { column-count: 2 }
     .project-people { column-count: 3 }
     .card-columns   { column-count: 3 }
+    .role.faculty   { column-count: 3 }
+    .role.grad      { column-count: 3 }
+    .role.ugrad     { column-count: 3 }
+    .role.collab    { column-count: 3 }
+    .role.alum      { column-count: 3 }
+    .project-image  { width: 8vw }
+    .project-card           { width: 40vw !important}
+}
+
+@media (min-width: 1024px){
+    .project-card           { width: 30vw !important}
+    .project-people { column-count: 3 }
+    .card-columns   { column-count: 3 }
+    .role.faculty   { column-count: 5 }
+    .role.grad      { column-count: 5 }
+    .role.ugrad     { column-count: 5 }
+    .role.collab    { column-count: 5 }
+    .role.alum      { column-count: 5 }
+    .project-image  { width: 10vw }
 }
 
 .title img {
@@ -144,4 +190,27 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+.center { 
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-55%);
+}
+
+.body-container{
+    padding: 0px 50px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+    color: #33a5db;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #33a5db55;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
 }

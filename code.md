@@ -2,8 +2,6 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
+We try to publish all of our code promptly when publishing new research. If you don find the code you're looking for here, contact the corresponding authors.
 
-If you like this template, find our group's other code here:
-
- * [uwsampa on GitHub](https://github.com/uwsampa/)
+ * Mutode: [GitHub](https://github.com/TheSoftwareDesignLab/mutode) - [NPM](https://www.npmjs.com/package/mutode) - Lic. MIT

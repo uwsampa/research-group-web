@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: The Software Design Lab
+url: https://thesoftwaredesignlab.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -34,19 +34,25 @@ front_page_news: 8
 # Base pathname for links.
 base: ''
 
-# make pages for the _projects folder
+include: ["_rschprojects","_dvlpprojects"]
+
 collections:
-  projects:
+  rschprojects:
     output: true
+  dvlpprojects:
+    output: true
+
 
 # Navigation bar links.
 navigation:
   - title: Home
     link: /
   - title: People
-    link: /#people
+    link: /people.html
   - title: Research
     link: /research.html
+  - title: Development
+    link: /development.html
   - title: Publications
     link: /publications.html
   - title: Code

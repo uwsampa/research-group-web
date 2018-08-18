@@ -9,11 +9,9 @@
 
 {% capture news %}
     <div>
-        {% if post.shortnews %}
-            {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
-        {% else %}
             <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
             {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% if post.shortnews != true %}
             <br>
             <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
         {% endif %}
@@ -29,26 +27,31 @@
     {% if post.image %}
 
         {% capture img %}
-            <img class="img-fluid d-block mx-auto"
-                 style="{{ post.image_style }}"
-                 src="{{ post.image }}">
+            {% if post.localImage %}
+                <img class="img-fluid d-block mx-auto"
+                    style="height: 120px"
+                    src="{{site.base}}{{ post.image }}">
+            {% else %}
+                <img class="img-fluid d-block mx-auto"
+                    style="height: 120px"
+                    src="{{ post.image }}">
+            {% endif %}
         {% endcapture %}
 
         <div class="row">
+            <div class="col-sm-2" style="text-align: center">
+                {{ img }}
+            </div>
             <div class="col-sm-10">
                 {{ header }}
                 {{ news }}
             </div>
-            <div class="col-sm-2">
-                {% if post.image_link %}
-                    <a href="{{ post.image_link }}">{{ img }}</a>
-                {% else %}
-                    {{ img }}
-                {% endif %}
-            </div>
+            
         </div>
+        
      {% else %}
         {{ header }}
         {{ news }}
     {% endif %}
+    <div style="background-color: #33a5db; height: 2px; margin-top: 10px"></div>
 </li>

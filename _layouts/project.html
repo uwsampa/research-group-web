@@ -3,8 +3,12 @@ layout: default
 ---
 
 {{ content }}
-
-<h2> People </h2>
+<h2>{{page.title}}</h2>
+<p>{{ page.description }}</p>
+{% if page.external-link%}
+<h4><a href="{{page.external-link}}">Visit our external page for more info.</a></h4>
+{% endif %}
+<h4> People </h2>
 <section class="people project-people">
     {% for uname in page.people %}
         {% assign person = site.data.people[uname] %}

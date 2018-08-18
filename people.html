@@ -1,32 +1,46 @@
 ---
 layout: default
 title: People
-
-picture-role-groups:
-- {roles: [faculty, postdoc, staff], width: 4}
-- {roles: [grad], width: 8}
-
-no-picture-role-groups:
-- {roles: [collab, ugrad, ugrad-alum], width: 5}
-- {roles: [alum], width: 7}
+notitle: true
+role-tables:
+- - roles: [faculty]
+    width: 12
+    image: true
+- - roles: [grad]
+    width: 12
+    image: true
+- - roles: [ugrad]
+    width: 12
+    image: true
+- - roles: [collab]
+    width: 12
+    image: true
+- - roles: [alum]
+    width: 12
+    image: true
 ---
 
-<section class="people row justify-content-between">
-    {% for role-group in page.picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=true %}
-            {% endfor %}
+{% for role-table in page.role-tables %} {% for role-column in role-table %} {% for role-key in role-column.roles %} {% for
+role in site.roles %} {% if role.key == role-key %}
+<div class="row">
+    <div class="col-lg-6" style="background-color: #33a5db; color: white; padding-top: 10px">
+        <h1>{{ role.name }}</h1>
+    </div>
+</div>
+<div class="card-columns role {{ role.key }}" style="padding-top: 15px">
+    {% for item in site.data.people %} {% assign person = item[1] %} {% if person.role == role.key %}
+    <a href="{{person.webpage}}">
+        <div class="card bg-inverse">
+            <img class="card-img" src="{{ site.base }}{{ person.image }}" alt="{{person.display_name}}">
+            <div class="card-img-overlay d-flex flex-column justify-content-end" style="padding: 0px">
+                <div style="background-color: #363636aa; color: white; padding-left: 5px">
+                    <h4 class="card-title" style="margin-bottom: 0px; font-size: 18px">{{person.display_name}}</h4>
+                    <h6 style="font-size: 12px">{{person.bio}}</h6>
+                </div>
+            </div>
         </div>
-    {% endfor %}
-</section>
-
-<section class="people row justify-content-between">
-    {% for role-group in page.no-picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=false %}
-            {% endfor %}
-        </div>
-    {% endfor %}
-</section>
+    </a>
+    {% endif %} {% endfor %}
+</div>
+<div style="margin-top: 20px"></div>
+{% endif %} {% endfor %} {% endfor %} {% endfor %} {% endfor %}

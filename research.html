@@ -1,15 +1,50 @@
 ---
 layout: default
 title: Research Projects
+notitle: true
 ---
 
-<div class="card-columns">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
-    {% endfor %}
+
+<script src="{{site.base}}/js/jquery.flipster.min.js"></script>
+<div id="coverflow">
+    <ul class="flip-items">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.rschprojects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_topic = site.rschprojects | group_by: 'topic' %}
+        {% assign topics = projects_by_topic | shuffle %}
+        {% for topic in topics %}
+        
+        {% assign topicName = topic.name %}
+        {% assign projects = topic.items | sort: 'last-updated', 'first' | reverse %}
+        {% for project in projects %}
+            {% if project.inactive != true %}
+            <li data-flip-title="{{project.title}}" data-flip-category="{{topicName}}">
+                {% include project-card.html project=p %}
+            </li>
+            {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </ul>
 </div>
+<script>
+        $("#coverflow").flipster({
+            style: 'flat',
+            spacing: -0.25,
+            start: 0,
+            nav: true,
+            buttons: true,
+            click: false,
+            onItemSwitch: function(currentItem, previousItem){
+                console.log(currentItem)
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- <div class="card-columns">-->
+<!--</div> -->

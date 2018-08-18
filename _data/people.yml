@@ -1,161 +1,156 @@
 
-prof-a:
-    display_name: "Prof A"
+facultyMario:
+    display_name: "Mario Linares-Vásquez"
     role: faculty
+    image: /img/people/fotoMarioLinaresV.jpg
+    bio: "Assistant Professor"
+    webpage: "https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/"
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
-
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+docOlga:
+    display_name: "Olga Vega"
     role: grad
-    image: /img/people/storm.png
-
-grad-a:
-    display_name: "Grad A"
+    image: /img/people/fotoOlgaVega.jpg
+    bio: "Ph.D. Student"
+docAlejandro:
+    display_name: "Alejandro Mazuera"
     role: grad
-
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+    image: /img/people/fotoAlejandroMazuera.jpg
+    bio: "Ph.D. Student" 
+mastCamilo:
+    display_name: "Camilo Escobar-Velásquez"
     role: grad
+    image: /img/people/fotoCamiloEscobarV.jpg
+    bio: "MSc. Student - Software Engineering"
 
-grad-c:
-    display_name: "Grad C"
+mastSantiago:
+    display_name: "Santiago Liñán"
     role: grad
+    image: /img/people/fotoSantiagoLinan.jpg
+    bio: "MSc. Student - Software Engineering"
 
-grad-d:
-    display_name: "Grad D"
+mastSergio:
+    display_name: "Sergio Velásquez"
     role: grad
+    image: /img/people/fotoSergioVelasquez.jpg
+    bio: "MSc. Student - Software Engineering"
 
-grad-e:
-    display_name: "Grad E"
+
+
+# mastJairo:
+#     display_name: "Jairo Bautista"
+#     role: grad
+#     image: /img/people/fotoJairoBautista.jpg
+#     bio: "MSc. Student - Software Engineering"    
+
+mastSamuel:
+    display_name: "Samuel Salazar"
     role: grad
+    image: /img/people/fotoSamuelSalazar.jpg
+    bio: "MSc. Student - Software Engineering"
 
-grad-f:
-    display_name: "Grad F"
+mastDiego:
+    display_name: "Diego Rodríguez-Baquero"
     role: grad
+    image: /img/people/fotoDiegoRodriguez.jpg
+    bio: "MSc. Student - Software Engineering"
 
-grad-g:
-    display_name: "Grad G"
+mastCamiloOrtiz:
+    display_name: "Camilo Ortiz-Casas"
     role: grad
+    image: /img/people/avatar2.png
+    bio: "MSc. Student - Information Security"
 
-grad-h:
-    display_name: "Grad H"
+mastAnamaria:
+    display_name: "Anamaria Mojica"
     role: grad
+    image: /img/people/img_avatar2.png
+    bio: "MSc. Student - Information Engineering"
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
+udgLaura:
+    display_name: "Laura Bello"
     role: ugrad
+    image: /img/people/fotoLauraBello.jpg
 
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
+udgMaria:
+    display_name: "Maria Arevalo"
     role: ugrad
+    image: /img/people/fotoMariaArevalo.jpg
 
-ugrad-c:
-    display_name: "Ugrad C"
+udgValeria:
+    display_name: "Valeria Vanegas"
     role: ugrad
+    image: /img/people/img_avatar2.png
 
-ugrad-d:
-    display_name: "Ugrad D"
+udgSantiago:
+    display_name: "Santiago Saenz"
     role: ugrad
+    image: /img/people/fotoSantiagoSaenz.jpg
 
-ugrad-e:
-    display_name: "Ugrad E"
+udgCamilo:
+    display_name: "Camilo Sanchez"
     role: ugrad
+    image: /img/people/fotoCamiloSanchez.jpg
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+udgMichael:
+    display_name: "Michael Osorio"
+    role: ugrad
+    image: /img/people/avatar2.png
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+collSandraRueda:
+    display_name: "Sandra Rueda"
+    role: "collab"
+    image: /img/people/fotoSandraRueda.jpg
+    webpage: "https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/"
+    bio: "Associate Professor at Universidad de Los Andes, Bogotá, Colombia"
+
+collGabrieleBavota:
+    display_name: "Gabriele Bavota"
+    role: "collab"
+    image: /img/people/fotoGabrieleBavota.jpg
+    webpage: "http://www.inf.usi.ch/faculty/bavota/"
+    bio: "Assistant Professor at University of Lugano, Lugano, Switzerland"
+
+collNicolasCardozo:
+    display_name: "Nicolas Cardozo"
+    role: "collab"
+    image: /img/people/fotoNicolasCardozo.jpg
+    webpage: "https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/"
+    bio: "Assistant Professor at Universidad de Los Andes, Bogotá, Colombia"
+
+collLauraMoreno: 
+    display_name: "Laura Moreno"
+    role: "collab"
+    image: /img/people/fotoLauraMoreno.jpg
+    webpage: "https://www.cs.colostate.edu/~lmorenoc/"
+    bio: "Assistant Professor at Colorado State University, Colorado, USA"
+
+collDenysPosh: 
+    display_name: "Denys Poshyvanyk"
+    role: "collab"
+    image: /img/people/fotoDenys.jpg
+    webpage: "http://www.cs.wm.edu/~denys/index.html"
+    bio: "Associate Professor at The College of William and Mary, Virginia, USA"
+
+collMassimiliano: 
+    display_name: "Massimiliano Di Penta"
+    role: "collab"
+    image: /img/people/dipenta.jpg
+    webpage: "http://www.ing.unisannio.it/mdipenta/"
+    bio: "Associate Professor at University of Sannio, Benevento, Italy"
+
+collChristopher:
+    display_name: "Christopher Vendome"
+    role: "collab"
+    image: "/img/people/fotoChristopherV.jpg"
+    webpage: "http://www.christophervendome.com"
+    bio: "Assistant Professor at Miami University, Ohio, USA"
+
+alumSofia:
+    display_name: "Sofia Hernández"
+    role: alum
+    image: /img/people/fotoSofiaHernandez.jpg
+
+mastJairo:
+    display_name: "Jairo Bautista"
+    role: alum
+    image: /img/people/fotoJairoBautista.jpg

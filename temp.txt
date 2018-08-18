@@ -1,0 +1,26 @@
+{% if page.notitle != true %}
+        <div class="row" style="padding-top: 15px">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h1>{{ page.title }} asdasdasdasd</h1>
+            </div>
+        </div>
+
+        {% endif %}
+
+
+
+<!-- <div class="row">
+                <div class="col-lg-5" style="background-color: #33a5db; color: white; padding-top: 10px">
+                    <h1>{{topic.name}}</h1>
+                </div>
+        </div> -->
+        <!-- <div style="margin: 1rem"></div> -->
+        <!-- <div id="{{topic.name | replace: ' ', ''}}"> -->
+                <!-- <ul class="flip-items"> -->
+
+
+                {% if project.notitle != true %}
+    	<div class="card-header">
+	        <h5 style="font-size: 18px; text-align: justify">{{  project.title }}</h5>
+    	</div>
+    {% endif %}
