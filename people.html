@@ -4,7 +4,7 @@ title: People
 notitle: true
 role-tables:
 - - roles: [faculty]
-    width: 8
+    width: 12
     image: true
 - - roles: [grad]
     width: 12
@@ -20,11 +20,10 @@ role-tables:
     image: true
 ---
 
-
 {% for role-table in page.role-tables %} {% for role-column in role-table %} {% for role-key in role-column.roles %} {% for
 role in site.roles %} {% if role.key == role-key %}
 <div class="row">
-    <div class="col-lg-5" style="background-color: #33a5db; color: white; padding-top: 10px">
+    <div class="col-lg-6" style="background-color: #33a5db; color: white; padding-top: 10px">
         <h1>{{ role.name }}</h1>
     </div>
 </div>
