@@ -6,13 +6,12 @@ description: |
 
 people:
   - facultyMario
-  - mastJairo
+  - mastCamiloOrtiz
   - udgCamilo
   - udgSantiago
 
-topic: Evolution and Maintenance of Android Apps
+topic: Android Security
 
 layout: project
-
-status: inactive
+inactive: true
 ---

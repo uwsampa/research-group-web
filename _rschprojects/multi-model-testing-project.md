@@ -9,6 +9,5 @@ people:
   - udgMaria
 
 topic: Android Testing
-no-link: true
 layout: project
 ---

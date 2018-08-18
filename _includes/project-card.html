@@ -7,15 +7,10 @@
     {% capture proj-url %}{{site.base}}{{project.url}}.html{% endcapture %}
 {% endif %}
 
-<div class="card">
-    {% if project.notitle != true %}
-    	<div class="card-header">
-	        <h5>{{  project.title }}</h5>
-    	</div>
-    {% endif %}
+<div class="card project-card" >
+    
     <div class="card-body">
-        
-	{% if project.image %}
+            {% if project.image %}
             {% assign imgurl = project.image %}
             {% capture init %}{{ project.image | slice: 0,1 }}{% endcapture %}
             {% if init == "/" %}
@@ -27,14 +22,15 @@
                 <!-- </a> -->
             </div>
     {% endif %}
+	
     {% if project.subtitle != null and project.subtitle != "" %}
         <h6 class="card-subtitle mb-2 text-muted">
                 {{  project.subtitle }}
             </h6>
     {% endif %}
-        <div class="card-text">
-            {{ project.description }}
-        </div>
+    <div class="card-text" style="text-align: justify">
+        {{ project.description }}
+    </div>
         {% if project.no-link != true or project.link %}
             <a href="{{ proj-url }}"> Read more &raquo;</a>
         {% endif %}

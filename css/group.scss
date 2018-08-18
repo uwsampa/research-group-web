@@ -1,6 +1,5 @@
 ---	
----	
-
+--- 
 $gray: #999;
 $light-gray: #EEE;
 
@@ -18,7 +17,7 @@ $light-gray: #EEE;
 body {
     // padding-top: 20px;
     font-family: "TSDLFont";
-    font-size: 13px !important;
+    font-size: 14px !important;
     font-weight: 100;
 }
 
@@ -102,27 +101,30 @@ ul.news {
     .role.collab    { column-count: 2 }
     .role.alum      { column-count: 2 }
     .project-image  { width: 2vw }
+    .project-card           { width: 60vw !important}
 }
 
 @media (min-width: 768px) {
-    .role.faculty   { column-count: 3 }
-    .role.grad      { column-count: 3 }
-    .role.ugrad     { column-count: 5 }
-    .role.collab    { column-count: 4 }
-    .role.alum      { column-count: 5 }
     .project-people { column-count: 3 }
     .card-columns   { column-count: 3 }
-    .project-image  { width: 2vw }
+    .role.faculty   { column-count: 3 }
+    .role.grad      { column-count: 3 }
+    .role.ugrad     { column-count: 3 }
+    .role.collab    { column-count: 3 }
+    .role.alum      { column-count: 3 }
+    .project-image  { width: 8vw }
+    .project-card           { width: 40vw !important}
 }
 
 @media (min-width: 1024px){
-    .role.faculty   { column-count: 4 }
-    .role.grad      { column-count: 4 }
-    .role.ugrad     { column-count: 4 }
-    .role.collab    { column-count: 4 }
-    .role.alum      { column-count: 4 }
+    .project-card           { width: 30vw !important}
     .project-people { column-count: 3 }
     .card-columns   { column-count: 3 }
+    .role.faculty   { column-count: 5 }
+    .role.grad      { column-count: 5 }
+    .role.ugrad     { column-count: 5 }
+    .role.collab    { column-count: 5 }
+    .role.alum      { column-count: 5 }
     .project-image  { width: 10vw }
 }
 

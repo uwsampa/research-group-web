@@ -4,29 +4,47 @@ title: Research Projects
 notitle: true
 ---
 
-<!--<div class="card-columns">-->
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.rschprojects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_topic = site.rschprojects | group_by: 'topic' %}
-    {% assign topics = projects_by_topic | shuffle %}
-    {% for topic in topics %}
 
-    <div class="row">
-        <div class="col-lg-5" style="background-color: #33a5db; color: white; padding-top: 10px">
-            <h1>{{topic.name}}</h1>
-        </div>
-    </div>        
-                <div class="card-body">
-                        {% assign projects = topic.items | sort: 'last-updated', 'first' | reverse %}
-                        <div class="card-columns">
-                        {% for project in projects %}
-                            {% if project.status != "inactive" %} 
-                                {% include project-card.html project=p %}
-                            {% endif %}
-                        {% endfor %}
-                        </div>
-                </div>
-    {% endfor %}
-<!--</div>-->
+<script src="{{site.base}}/js/jquery.flipster.min.js"></script>
+<div id="coverflow">
+    <ul class="flip-items">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.rschprojects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_topic = site.rschprojects | group_by: 'topic' %}
+        {% assign topics = projects_by_topic | shuffle %}
+        {% for topic in topics %}
+        
+        {% assign topicName = topic.name %}
+        {% assign projects = topic.items | sort: 'last-updated', 'first' | reverse %}
+        {% for project in projects %}
+            {% if project.inactive != true %}
+            <li data-flip-title="{{project.title}}" data-flip-category="{{topicName}}">
+                {% include project-card.html project=p %}
+            </li>
+            {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</div>
+<script>
+        $("#coverflow").flipster({
+            style: 'flat',
+            spacing: -0.25,
+            start: 0,
+            nav: true,
+            buttons: true,
+            click: false,
+            onItemSwitch: function(currentItem, previousItem){
+                console.log(currentItem)
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- <div class="card-columns">-->
+<!--</div> -->

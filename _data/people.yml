@@ -11,20 +11,16 @@ docOlga:
     role: grad
     image: /img/people/fotoOlgaVega.jpg
     bio: "Ph.D. Student"
-
-
-
+docAlejandro:
+    display_name: "Alejandro Mazuera"
+    role: grad
+    image: /img/people/fotoAlejandroMazuera.jpg
+    bio: "Ph.D. Student" 
 mastCamilo:
     display_name: "Camilo Escobar-Velásquez"
     role: grad
     image: /img/people/fotoCamiloEscobarV.jpg
     bio: "MSc. Student - Software Engineering"
-
-docAlejandro:
-    display_name: "Alejandro Mazuera"
-    role: grad
-    image: /img/people/fotoAlejandroMazuera.jpg
-    bio: "Ph.D. Student"
 
 mastSantiago:
     display_name: "Santiago Liñán"
@@ -153,3 +149,8 @@ alumSofia:
     display_name: "Sofia Hernández"
     role: alum
     image: /img/people/fotoSofiaHernandez.jpg
+
+mastJairo:
+    display_name: "Jairo Bautista"
+    role: alum
+    image: /img/people/fotoJairoBautista.jpg

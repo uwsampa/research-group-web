@@ -6,12 +6,11 @@ description: This project was created by the Software Engineering Maintenance an
 people:
   - facultyMario
   - mastCamilo
-  - udgJuan
   - collGabrieleBavota
   - collMassimiliano
   - collDenysPosh
 
 topic: Mutation Testing
-link: https://www.android-dev-tools.com/mdroid
+external-link: https://www.android-dev-tools.com/mdroid
 layout: project
 ---
