@@ -5,7 +5,7 @@ description: This project presents a model for urban segregation based on three 
 
 people:
   - prof-josehernandez
-  - grad-meilivanegash
+  - grad-meiliVanegas
 
 research_area: Visual Analytics  
 
