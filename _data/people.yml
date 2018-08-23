@@ -149,6 +149,10 @@ ugrad-camilaGarcia:
     webpage: http://cgarciahdez.github.io/
     image: /img/people/foto_camilaGarcia.png
 
+ugrad-santiagoBeltran:
+    display_name: Santiago Beltran
+    role: ugrad-alum
+
 ugrad-fabioLopez:
     display_name: Fabio Andrés López Corredor
     role: ugrad
