@@ -9,7 +9,9 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
-build: _includes/pubs.html
+
+# build: _includes/pubs.html
+build: 
 	jekyll build
 	cp -rf public/* _site/
 
@@ -18,7 +20,9 @@ build: _includes/pubs.html
 SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000
 
-serve: _includes/pubs.html
+# We aren't using bibble so remove it's support
+# serve: _includes/pubs.html
+serve: 
 	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
