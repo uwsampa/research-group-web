@@ -36,7 +36,7 @@ prof-johnguerra:
     image: /img/people/foto_JohnGuerra_2015.jpg
     bio: Assistant Professor
 
-prof-johnguerra:
+prof-sebastiangil:
     display_name: Sebastián Gil Parga
     role: faculty
     webpage: https://sgilparga.wixsite.com/profile
@@ -267,6 +267,10 @@ grad-philippFeix:
     display_name: Philipp Feix
     role: grad
     image: /img/people/foto_PhilippFeix.jpg
+
+grad-cynthiaOchoa:
+    display_name: Cynthia Ochoa
+    role: grad
 
 collab-pabloArbelaez:
     display_name: Pablo Arbeláez
