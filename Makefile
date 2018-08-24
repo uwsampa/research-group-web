@@ -26,7 +26,8 @@ serve:
 	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
-	$(RM) -r _site _includes/pubs.html
+	$(RM) -r _site
+# $(RM) -r _site _includes/pubs.html	
 
 DEPLOY_HOST ?= ja.guerrag@imagine.uniandes.edu.co
 DEPLOY_PATH ?= /var/www/html/

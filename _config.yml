@@ -1,7 +1,7 @@
 name: IMAGINE Research Group
 url: http://imagine.uniandes.edu.co
 
-exclude: [bibble, README.md, Makefile, screenshot.png]
+exclude: [bibble, README.md, Makefile, screenshot.png, publications.html]
 
 # colorize code snippets with the pygments module
 highlighter: pygments
@@ -13,10 +13,10 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
-  - key: postdoc
-    name: Researchers
+  # - key: staff
+  #   name: Staff
+  # - key: postdoc
+  #   name: Researchers
   - key: grad
     name: Graduate Students
   - key: ugrad
