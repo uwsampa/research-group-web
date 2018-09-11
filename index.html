@@ -51,9 +51,27 @@ role-tables:
         {% endcomment %}
         {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
         {% assign projects_by_date = projects_by_date | reverse %}
+        {% assign projects_count = projects_by_date | size %}
         {% for p in projects_by_date %}
             {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
+
+                {% if forloop.index >= 6%}
+                    <div class="card bg-light mb-3">
+                                <div class="card-header">
+                                    All Reasearch Projects
+                                </div>
+                        <div class="card-body">
+                            <p>
+                                <span class="fa fa-fw fa-history"></span>
+                                <a href="{{ site.base }}/research.html">Other Projects&hellip;</a>
+                            </p>
+                        </div>
+                    <div>
+                    {% break %}
+            {% endif %}
+
+            {% include project-card.html project=p %}
+
             {% endif %}
         {% endfor %}
     </div>
