@@ -1,22 +1,10 @@
 
-prof-a:
-    display_name: "Prof A"
-    role: faculty
-
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
 profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
+    display_name: "Professor Mohamed Azab"
+    webpage: "https://scholar.google.com.eg/citations?user=pOxASp0AAAAJ&hl=en"
+    github: mazab
     role: faculty
-    image: /img/people/prof-x.png
+    image: /img/people/mazab.jpg
     bio: Professor
 
 scott:

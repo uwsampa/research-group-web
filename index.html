@@ -22,10 +22,23 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+        <b>IoT & Cybersecurity Lab</b> at <b>Alexandira University</b> focuses on Software Defined Networking, Internet of Things and Cloud Computing
     </p>
 </div>
+
+<section>
+    <h2>Bridging the gap</h2>
+
+
+The mission of the research school is to establish a solid connection between the fresh and senior students from one side, and the industry and research from the other side. The mission starts by preparing our students to the after graduation life, with all the expertise and the tools needed for them to proceed with their preferred tracks.
+<br><br>
+
+Our goal is to construct a working network between our academic team, and former graduates with industrial-expertise and market-awareness from one end, and our fresh students from the other end. This connection is the life-line and the main guide for our school dynamic curriculum.
+<br><br>
+
+The school aims to address the cutting edge topics in both research and industry while emphasizing on the technical experience using the latest tools and technologies employed by both domains.
+
+</section>
 
 <section>
     <h2>News</h2>
@@ -51,11 +64,25 @@ role-tables:
         {% endcomment %}
         {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
         {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
+        {% assign projects_count = projects_by_date | size %}
+        {% for p in projects_by_date limit: site.front_page_projects %}
             {% if p.status != "inactive" %}
                 {% include project-card.html project=p %}
             {% endif %}
         {% endfor %}
+
+        <div class="card bg-light mb-3">
+            <div class="card-header">
+                All Reasearch Projects
+            </div>
+    <div class="card-body">
+        <p>
+            <span class="fa fa-fw fa-folder"></span>
+            <a href="{{ site.base }}/research.html">All Projects&hellip;</a>
+        </p>
+    </div>
+<div>
+
     </div>
 </section>
 
