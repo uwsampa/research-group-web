@@ -1,7 +1,7 @@
 ---
-title: Deep Learning Interpretability in Context, Improving User Experience in Image-Based Interactive Applications
+title: Interpretable and Interactive Machine Learning
 
-description: Don't you have a suitable dataset to train a supervised learning model in your research or organization? Are you tired of poor-interpretability models (black-box models) inadequate to generate trust, reliability, robustness, causality and usability while you take decissions? We develop different kind of visual tools aimed to support task related to user labeling in an active learning environment. In addition, our tools produce explanations about learning process of different machine learning algorithms.
+description: Did you obtain a high-performance for your machine learning model but you are not able to explain how your black-box model solves that specific task? How can someone make decisions then? In a similar way, what about if your automatic model need to be incorporated in an application used by multiple users requiring interact with the data and the backstage model in real time? It would be a shame that your powerful model could not be deployed in environments where additional requirements to high performance need to be meet.
 
 people:
   - prof-johnguerra
@@ -9,10 +9,10 @@ people:
 
 layout: project 
 
-research_area: Visual Analytics 
+research_area: Visual Analytics
 
-last-updated: 2018-02-09
+image: /img/projects/John/InterpretableML.png
+
+last-updated: 2018-10-17
 ---
-Don't you have a suitable dataset to train a supervised learning model in your research or organization? Are you tired of poor-interpretability models (black-box models) inadequate to generate trust, reliability, robustness, causality and usability while you take decissions? We develop different kind of visual tools aimed to support task related to user labeling in an active learning environment. In addition, our tools produce explanations about learning process of different machine learning algorithms.
-
-[Github repository](https://github.com/fabiancpl/i2ML)
+Did you obtain a high-performance for your machine learning model but you are not able to explain how your black-box model solves that specific task? How can someone make decisions then? In a similar way, what about if your automatic model need to be incorporated in an application used by multiple users requiring interact with the data and the backstage model in real time? It would be a shame that your powerful model could not be deployed in environments where additional requirements to high performance need to be meet.
