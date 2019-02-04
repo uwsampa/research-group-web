@@ -24,7 +24,7 @@ You can use this to test that everyting is working properly on your local machin
 ```
 make deploy
 ```
-Deployment uses the (Makefile)[] configuration, which you might need to change to your username
+Deployment uses the (Makefile)[https://github.com/john-guerra/imagine/blob/53d43440b61b780dce3a7bbc5a982b60866295d0/Makefile#L32] configuration, which you might need to change to your username
 
 
 ## Usage
