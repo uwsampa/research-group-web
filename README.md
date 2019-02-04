@@ -76,7 +76,7 @@ consectetur magna in posuere faucibus. Morbi nibh eros, blandit ut vehicula ac,
 pellentesque ut urna.
 ```
 
-###Logo project
+### Logo project
 ```---
 title: Logo Project
 
@@ -109,7 +109,7 @@ suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
 ac at ipsum. Mauris a imperdiet eros.
 ```
 
-###Longer Project
+### Longer Project
 ```
 ---
 title: Project with a Longer Title
@@ -134,7 +134,7 @@ last-updated: 2016-11-11
 ---
 ```
 
-###Inactive project
+### Inactive project
 ```
 ---
 title: Short Inactive Project
@@ -157,13 +157,13 @@ link: "https://en.wikipedia.org/wiki/X-Men"
 
 ```
 
-#Posts
+# Posts
 
 For creating new posts for the news section write a new file on the [_posts] folder, for the file name using Year-Month-Day-title.md
 
 Examples:
 
-###A Full Blog Post
+### A Full Blog Post
 ```
 ---
 layout: post
@@ -176,7 +176,7 @@ Unlike a short news post, a blog post has its own page and lots of text. Text te
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ```
 
-###Short notice
+### Short notice
 ```
 ---
 layout: post
