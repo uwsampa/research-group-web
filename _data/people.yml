@@ -45,6 +45,13 @@ prof-sebastiangil:
     image: /img/people/foto_SebastianGil.jpg
     bio: Instructor Professor
 
+prof-nelsonAndresSanchez:
+    display_name: Nelson Andres Sanchez O
+    role: faculty
+    webpage: https://www.researchgate.net/profile/Nelson_Sanchez_Otalora
+    role: faculty
+    image: /img/people/foto_NelsonAndresSanchez.jpg
+    bio: Instructor Professor
 
 alum-camiloescobarv:
     display_name: Camilo Andrés Escobar Velásquez
@@ -232,12 +239,6 @@ grad-davidMayorga:
     role: grad
     webpage: http://damayor.github.io/
     image: /img/people/foto_davidMayorga.jpg
-
-grad-nelsonAndresSanchez:
-    display_name: Nelson Andres Sanchez O
-    role: grad
-    webpage: https://www.researchgate.net/profile/Nelson_Sanchez_Otalora
-    image: /img/people/foto_NelsonAndresSanchez.jpg
 
 grad-fmedina:
     display_name: Fabián Medina
