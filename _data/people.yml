@@ -267,7 +267,12 @@ grad-philippFeix:
     display_name: Philipp Feix
     role: grad
     image: /img/people/foto_PhilippFeix.jpg
-
+    
+grad-praimbaud:
+    display_name: Pierre Raimbaud
+    role: grad
+    image: /img/people/foto_PierreRaimbaud.jpg
+    
 grad-cynthiaOchoa:
     display_name: Cynthia Ochoa
     role: grad
