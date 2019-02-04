@@ -17,12 +17,14 @@ brew install ruby
 make
 make serve
 ```
+You can use this to test that everyting is working properly on your local machine (visit http://localhost:5000), then you can use the next step to deploy to the server
 
 ## To deploy the site:
 
 ```
 make deploy
 ```
+Deployment uses the (Makefile)[] configuration, which you might need to change to your username
 
 
 ## Usage
@@ -44,7 +46,7 @@ title: Big Project
 description: |
   This project has a lot of people working on it!!
   It also has some `Mark` _down_
-  
+
 research_area: Image Processing
 
 people:
@@ -84,7 +86,7 @@ notitle: true
 
 description: |
   This project has a sweet logo!
-  
+
 research_area: Image Processing
 
 people:
@@ -125,7 +127,7 @@ people:
   - grad-b
   - scott
   - wolverine
-  
+
 research_area: Image Processing
 
 layout: project
@@ -148,7 +150,7 @@ people:
   - storm
   - grad-e
   - collab-a
-  
+
 research_area: Image Processing
 
 layout: project
