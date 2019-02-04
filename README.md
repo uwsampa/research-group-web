@@ -33,9 +33,9 @@ make deploy
 
 See below for examples
 
-#Examples of projects:
+# Projects examples
 
-###Big Project
+### Big Project
 
 ```
 ---
