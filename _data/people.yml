@@ -1,161 +1,102 @@
 
-prof-a:
-    display_name: "Prof A"
-    role: faculty
+venkat:
+    display_name: "Prof. Venkat Viswanathan"
+    webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
+    role: leadership
+    image: /img/people/Venkat_Viswanathan.png
+    bio: Associate Professor of Mechanical Engineering, Carnegie Mellon University
+    email: "venkvis [at] cmu [dot] edu"
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
+alan:
+    display_name: "Prof. Alan Edelman"
+    webpage: "http://www-math.mit.edu/~edelman/"
+    role: leadership
+    image: /img/people/Alan_Edelman.png
+    bio: Professor of Applied Mathematics, Massachusetts Institute of Technology
+    email: "edelman [at] mit [dot] edu"
 
-prof-c:
-    display_name: "Prof C"
-    role: faculty
+viral:
+    display_name: "Dr. Viral Shah"
+    github: ViralBShah
+    role: leadership
+    bio: Co-Founder and CEO, Julia Computing, Inc.
 
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
+chris:
+    display_name: "Dr. Chris Rackauckas"
+    github: ChrisRackauckas
+    webpage: "http://www-math.mit.edu/~edelman/"
+    role: leadership
+    image: /img/people/Chris_Rackauckas.jpg
+    bio: Scientific Advisor, Julia Computing, Inc.; Instructor in Applied Mathematics, Massachusetts Institute of Technology
 
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
+bryce:
+    display_name: "Dr. Bryce Meredig"
+    role: leadership
+    image: /img/people/Bryce_Meredig.jpg
+    bio: CSO and Co-Founder, Citrine Informatics
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
+james:
+    display_name: "James Saal"
+    role: leadership
+    bio: Manger of External Research Programs, Citrine Informatics
+
+rachel:
+    display_name: "Dr. Rachel Kurchin"
     role: postdoc
+    image: /img/people/Rachel_Kurchin.jpg
+    webpage: "http://rkurchin.github.io"
+    email: "rkurchin [at] cmu [dot] edu"
+    bio: Manufacturing Future Initiatives Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+clara:
+    display_name: "Dr. Clara Nyby"
+    role: postdoc
+    bio: Postdoctoral Fellow, Citrine Informatics
+
+vinay:
+    display_name: "Dr. Vinay Hegde"
+    role: postdoc
+    bio: Postdoctoral Fellow, Citrine Informatics
+
+dhairya:
+    display_name: "Dhairya Gandhi"
+    role: staff
+    webpage: "https://github.com/dhairyagandhi96"
+    bio: Data Scientist, Julia Computing
+    email: "dhairya [at] juliacomputing [dot] com"
+
+jason:
+    display_name: "Jason Koeller"
+    role: staff
+    bio: Data Scientist, Citrine Informatics
+
+lance:
+    display_name: "Lance Kavalsky"
     role: grad
-    image: /img/people/storm.png
+    image: /img/people/Lance_Kavalsky.jpg
+    bio: PhD Student, CMU Mechanical Engineering, NSERC Graduate Fellow
+    webpage: "https://scholar.google.com/citations?user=kPsUy9IAAAAJ&hl=en"
+    email: lkavalsk [at] andrew [dot] cmu [dot] edu
 
-grad-a:
-    display_name: "Grad A"
+sean:
+    display_name: "Xiaoyu (Sean) Sun"
     role: grad
+    image: /img/people/Sean_Sun.jpg
+    bio: Master's Student, CMU Computer Science
+    email: seansun [at] andrew [dot] cmu [dot] edu
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
-
-grad-c:
-    display_name: "Grad C"
-    role: grad
-
-grad-d:
-    display_name: "Grad D"
-    role: grad
-
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
+shaojie:
+    display_name: "Shaojie Bai"
     role: collab
+    bio: PhD Student, CMU Computer Science
 
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
+ernest:
+    display_name: "Qingyang (Ernest) Zhang"
+    role: staff
+    bio: Post-bachelor's Researcher
 
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
+yy:
+    display_name: "Yu Yeol (Andy) Lee"
     role: ugrad
-
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
-
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
-
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
-
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
-
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+    image: /img/people/YY_Lee.png
+    bio: Chemical Engineering exchange student from Yonsei University

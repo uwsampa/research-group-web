@@ -11,22 +11,18 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Sections on the "people" page.
 roles:
-  - key: faculty
-    name: Faculty
-  - key: staff
-    name: Staff
+  - key: leadership
+    name: Leadership
   - key: postdoc
-    name: Researchers
+    name: Postdoctoral Researchers
+  - key: staff
+    name: Reasearch Staff
   - key: grad
     name: Graduate Students
   - key: ugrad
     name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
   - key: collab
     name: Collaborators
-  - key: alum
-    name: Alumni
 
 # Number of news stories on the front page.
 front_page_news: 8
@@ -49,5 +45,5 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
-  - title: Code
-    link: /code.html
+#  - title: Code
+#    link: /code.html

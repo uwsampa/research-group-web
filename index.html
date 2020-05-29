@@ -5,43 +5,24 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
-    width: 4
-    image: true
-  - roles: [grad]
-    width: 8
-    image: true
-- - roles: [collab, ugrad, ugrad-alum]
+- - roles: [leadership, postdoc]
     width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
+    image: true
+  - roles: [staff, grad, ugrad, collab]
+    width: 5
+    image: true
 
 ---
 
 <div class="jumbotron">
+  <h1>High-Fidelity Accelerated Design of High-Performance Electrochemical Sysatems</h1>
+
+  <p>
+      Two key efforts to curb global greenhouse gas emissions involve reducing CO2 into energy-dense liquid fuels and replacing the energy-intensive Haber-Bosch process for nitrogen reduction with an electrochemical alternative. In addition, efforts to electrify long-distance trucking or aviation are limited by the low-energy density of modern lithium-ion chemistries compared to petroleum fuels. Novel materials can address both of these challenges; however, systematic, theoretical evaluations of candidate material systems in-silico are limited to small design spaces and low-fidelity screening that fail to model realistic operating conditions.</p>
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+The goal of this project is to alter this paradigm by enabling rapid, high-fidelity screening of large numbers of electrochemical functional materials for use in new energy technologies. The team brings together complementary expertise in advanced computing, numerical methods, and materials science.  Overall, the team expects the accelerate the overall energy material development and optimization process by 80%.
     </p>
 </div>
-
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
 
 <section>
     <h2>Research</h2>
@@ -73,3 +54,19 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>
