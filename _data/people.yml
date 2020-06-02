@@ -19,6 +19,7 @@ viral:
     display_name: "Dr. Viral Shah"
     github: ViralBShah
     role: leadership
+    image: img/people/Viral_Shah.jpg
     bio: Co-Founder and CEO, Julia Computing, Inc.
 
 chris:
@@ -27,7 +28,7 @@ chris:
     webpage: "http://www-math.mit.edu/~edelman/"
     role: leadership
     image: img/people/Chris_Rackauckas.jpg
-    bio: Scientific Advisor, Julia Computing, Inc.; Instructor in Applied Mathematics, Massachusetts Institute of Technology
+    bio: Scientific Advisor, Julia Computing, Inc.
 
 bryce:
     display_name: "Dr. Bryce Meredig"
@@ -38,6 +39,7 @@ bryce:
 james:
     display_name: "James Saal"
     role: leadership
+    image: img/people/James_Saal.jpg
     bio: Manger of External Research Programs, Citrine Informatics
 
 rachel:
