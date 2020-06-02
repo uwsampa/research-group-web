@@ -3,7 +3,7 @@ venkat:
     display_name: "Prof. Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
     role: leadership
-    image: /img/people/Venkat_Viswanathan.png
+    image: img/people/Venkat_Viswanathan.png
     bio: Associate Professor of Mechanical Engineering, Carnegie Mellon University
     email: "venkvis [at] cmu [dot] edu"
 
@@ -11,7 +11,7 @@ alan:
     display_name: "Prof. Alan Edelman"
     webpage: "http://www-math.mit.edu/~edelman/"
     role: leadership
-    image: /img/people/Alan_Edelman.png
+    image: img/people/Alan_Edelman.png
     bio: Professor of Applied Mathematics, Massachusetts Institute of Technology
     email: "edelman [at] mit [dot] edu"
 
@@ -26,13 +26,13 @@ chris:
     github: ChrisRackauckas
     webpage: "http://www-math.mit.edu/~edelman/"
     role: leadership
-    image: /img/people/Chris_Rackauckas.jpg
+    image: img/people/Chris_Rackauckas.jpg
     bio: Scientific Advisor, Julia Computing, Inc.; Instructor in Applied Mathematics, Massachusetts Institute of Technology
 
 bryce:
     display_name: "Dr. Bryce Meredig"
     role: leadership
-    image: /img/people/Bryce_Meredig.jpg
+    image: img/people/Bryce_Meredig.jpg
     bio: CSO and Co-Founder, Citrine Informatics
 
 james:
@@ -43,7 +43,7 @@ james:
 rachel:
     display_name: "Dr. Rachel Kurchin"
     role: postdoc
-    image: /img/people/Rachel_Kurchin.jpg
+    image: img/people/Rachel_Kurchin.jpg
     webpage: "http://rkurchin.github.io"
     email: "rkurchin [at] cmu [dot] edu"
     bio: Manufacturing Future Initiatives Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
@@ -73,7 +73,7 @@ jason:
 lance:
     display_name: "Lance Kavalsky"
     role: grad
-    image: /img/people/Lance_Kavalsky.jpg
+    image: img/people/Lance_Kavalsky.jpg
     bio: PhD Student, CMU Mechanical Engineering, NSERC Graduate Fellow
     webpage: "https://scholar.google.com/citations?user=kPsUy9IAAAAJ&hl=en"
     email: lkavalsk [at] andrew [dot] cmu [dot] edu
@@ -81,7 +81,7 @@ lance:
 sean:
     display_name: "Xiaoyu (Sean) Sun"
     role: grad
-    image: /img/people/Sean_Sun.jpg
+    image: img/people/Sean_Sun.jpg
     bio: Master's Student, CMU Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
 
@@ -98,5 +98,5 @@ ernest:
 yy:
     display_name: "Yu Yeol (Andy) Lee"
     role: ugrad
-    image: /img/people/YY_Lee.png
+    image: img/people/YY_Lee.png
     bio: Chemical Engineering exchange student from Yonsei University

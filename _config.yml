@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: ACED-DIFFERENTIATE
+url: https://www.cmu.edu/aced
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -38,12 +38,12 @@ collections:
 # Navigation bar links.
 navigation:
   - title: Home
-    link: /
+    link: index.html
   - title: People
-    link: /#people
+    link: '#people'
   - title: Research
-    link: /research.html
+    link: research.html
   - title: Publications
-    link: /publications.html
+    link: publications.html
 #  - title: Code
 #    link: /code.html
