@@ -1,5 +1,5 @@
 name: ACED-DIFFERENTIATE
-url: https://www.cmu.edu/aced
+url: https://www.cmu.edu/aced/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -40,9 +40,11 @@ navigation:
   - title: Home
     link: index.html
   - title: People
-    link: '#people'
+    link: index.html#people
   - title: Research
     link: research.html
+  - title: News
+    link: index.html#news
   - title: Publications
     link: publications.html
 #  - title: Code
