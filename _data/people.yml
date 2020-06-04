@@ -60,17 +60,19 @@ vinay:
     role: postdoc
     bio: Postdoctoral Fellow, Citrine Informatics
 
+eric:
+    display_name: "Dr. Eric Muckley"
+    role: staff
+    image: img/people/Eric_Muckley.jpg
+    email: "emuckley [at] citrine [dot] io"
+    bio: Research Scientist, Citrine Informatics
+
 dhairya:
     display_name: "Dhairya Gandhi"
     role: staff
     webpage: "https://github.com/dhairyagandhi96"
     bio: Data Scientist, Julia Computing
     email: "dhairya [at] juliacomputing [dot] com"
-
-jason:
-    display_name: "Jason Koeller"
-    role: staff
-    bio: Data Scientist, Citrine Informatics
 
 lance:
     display_name: "Lance Kavalsky"
