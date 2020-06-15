@@ -25,7 +25,7 @@ viral:
 chris:
     display_name: "Dr. Chris Rackauckas"
     github: ChrisRackauckas
-    webpage: "http://www-math.mit.edu/~edelman/"
+    webpage: "https://chrisrackauckas.com"
     role: leadership
     image: img/people/Chris_Rackauckas.jpg
     bio: Scientific Advisor, Julia Computing, Inc.
@@ -71,6 +71,7 @@ dhairya:
     display_name: "Dhairya Gandhi"
     role: staff
     webpage: "https://github.com/dhairyagandhi96"
+    image: img/people/Dhairya_Gandhi.jpeg
     bio: Data Scientist, Julia Computing
     email: "dhairya [at] juliacomputing [dot] com"
 
