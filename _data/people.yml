@@ -1,6 +1,6 @@
 
 venkat:
-    display_name: "Prof. Venkat Viswanathan"
+    display_name: "Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
     role: leadership
     image: img/people/Venkat_Viswanathan.png
@@ -8,7 +8,7 @@ venkat:
     email: "venkvis [at] cmu [dot] edu"
 
 alan:
-    display_name: "Prof. Alan Edelman"
+    display_name: "Alan Edelman"
     webpage: "http://www-math.mit.edu/~edelman/"
     role: leadership
     image: img/people/Alan_Edelman.png
@@ -16,14 +16,14 @@ alan:
     email: "edelman [at] mit [dot] edu"
 
 viral:
-    display_name: "Dr. Viral Shah"
+    display_name: "Viral Shah"
     github: ViralBShah
     role: leadership
     image: img/people/Viral_Shah.jpg
     bio: Co-Founder and CEO, Julia Computing, Inc.
 
 chris:
-    display_name: "Dr. Chris Rackauckas"
+    display_name: "Chris Rackauckas"
     github: ChrisRackauckas
     webpage: "https://chrisrackauckas.com"
     role: leadership
@@ -31,19 +31,19 @@ chris:
     bio: Scientific Advisor, Julia Computing, Inc.
 
 bryce:
-    display_name: "Dr. Bryce Meredig"
+    display_name: "Bryce Meredig"
     role: leadership
     image: img/people/Bryce_Meredig.jpg
     bio: CSO and Co-Founder, Citrine Informatics
 
 james:
-    display_name: "Dr. James Saal"
+    display_name: "James Saal"
     role: leadership
     image: img/people/James_Saal.jpg
     bio: Manger of External Research Programs, Citrine Informatics
 
 rachel:
-    display_name: "Dr. Rachel Kurchin"
+    display_name: "Rachel Kurchin"
     role: postdoc
     image: img/people/Rachel_Kurchin.jpg
     webpage: "http://rkurchin.github.io"
@@ -51,17 +51,17 @@ rachel:
     bio: Manufacturing Future Initiatives Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
 clara:
-    display_name: "Dr. Clara Nyby"
+    display_name: "Clara Nyby"
     role: postdoc
     bio: Postdoctoral Fellow, Citrine Informatics
 
 vinay:
-    display_name: "Dr. Vinay Hegde"
+    display_name: "Vinay Hegde"
     role: postdoc
     bio: Postdoctoral Fellow, Citrine Informatics
 
 eric:
-    display_name: "Dr. Eric Muckley"
+    display_name: "Eric Muckley"
     role: staff
     image: img/people/Eric_Muckley.jpg
     email: "emuckley [at] citrine [dot] io"
