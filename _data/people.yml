@@ -90,18 +90,25 @@ sean:
     bio: Master's Student, CMU Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
 
-shaojie:
-    display_name: "Shaojie Bai"
-    role: collab
-    bio: PhD Student, CMU Computer Science
-
 ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
-    bio: Post-bachelor's Researcher
+    bio: Post-master's Researcher
 
 yy:
     display_name: "Yu Yeol (Andy) Lee"
     role: ugrad
     image: img/people/YY_Lee.png
     bio: Chemical Engineering exchange student from Yonsei University
+
+bharath:
+    display_name: "Bharath Ramsundar"
+    role: collab
+    bio: Lead developer for DeepChem
+    webpage: "https://rbharath.github.io"
+    image: img/people/Bharath_Ramsundar.jpeg
+
+shaojie:
+    display_name: "Shaojie Bai"
+    role: collab
+    bio: PhD Student, CMU Computer Science
