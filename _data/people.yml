@@ -112,3 +112,13 @@ shaojie:
     display_name: "Shaojie Bai"
     role: collab
     bio: PhD Student, CMU Computer Science
+
+david:
+    display_name: "David Poole"
+    role: collab
+    bio: PhD Student from Iowa State University; lead developer of JuliaChem.jl 
+    github: davpoolechem 
+    image: img/people/David_Poole.png
+    email: "davpoole [at] iastate [dot] edu"
+
+
