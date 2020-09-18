@@ -108,6 +108,13 @@ bharath:
     webpage: "https://rbharath.github.io"
     image: img/people/Bharath_Ramsundar.jpeg
 
+valentin:
+    display_name: "Valentin Sulzer"
+    role: collab
+    bio: Postdoctoral Research Fellow (U Michigan) and PyBaMM lead developer
+    webpage: "http://www-personal.umich.edu/~vsulzer"
+    image: img/people/Valentin_Sulzer.png
+
 shaojie:
     display_name: "Shaojie Bai"
     role: collab
