@@ -112,3 +112,11 @@ shaojie:
     display_name: "Shaojie Bai"
     role: collab
     bio: PhD Student, CMU Computer Science
+
+michael:
+    display_name: "Michael F. Herbst"
+    role: collab
+    bio: Postdoctoral fellow at CERMICS lab, École des Ponts ParisTech, France; Lead developer of DFTK.jl
+    email: michael [dot] herbst [at] inria [dot] fr
+    webpage: "https://michael-herbst.com"
+    image: img/people/Michael_Herbst.jpg
