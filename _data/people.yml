@@ -59,6 +59,7 @@ vinay:
     display_name: "Vinay Hegde"
     role: postdoc
     bio: Postdoctoral Fellow, Citrine Informatics
+    image: img/people/Vinay_Hegde.jpg
 
 eric:
     display_name: "Eric Muckley"
@@ -94,12 +95,6 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
-
-yy:
-    display_name: "Yu Yeol (Andy) Lee"
-    role: ugrad
-    image: img/people/YY_Lee.png
-    bio: Chemical Engineering exchange student from Yonsei University
 
 bharath:
     display_name: "Bharath Ramsundar"
