@@ -120,3 +120,18 @@ michael:
     email: michael [dot] herbst [at] inria [dot] fr
     webpage: "https://michael-herbst.com"
     image: img/people/Michael_Herbst.jpg
+
+david:
+    display_name: "David Poole"
+    role: collab
+    bio: PhD Student from Iowa State University; lead developer of JuliaChem.jl 
+    github: davpoolechem 
+    image: img/people/David_Poole.png
+    email: "davpoole [at] iastate [dot] edu"
+
+matt:
+    display_name: "Matthew Johnson"
+    role: grad
+    image: img/people/Matthew_Johnson.jpg
+    bio: PhD Student in MIT Chemical Engineering and Lead Developer for RMG and RMS
+    email: mattsj [at] mit [dot] edu
