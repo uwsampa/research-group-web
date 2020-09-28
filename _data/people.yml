@@ -112,3 +112,10 @@ shaojie:
     display_name: "Shaojie Bai"
     role: collab
     bio: PhD Student, CMU Computer Science
+
+matt:
+    display_name: "Matthew Johnson"
+    role: grad
+    image: img/people/Matthew_Johnson.jpg
+    bio: PhD Student in MIT Chemical Engineering and Lead Developer for RMG and RMS
+    email: mattsj [at] mit [dot] edu
