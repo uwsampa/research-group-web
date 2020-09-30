@@ -41,6 +41,8 @@ navigation:
     link: index.html
   - title: People
     link: index.html#people
+  - title: SciML course
+    link: sciML.html
   - title: Research
     link: research.html
   - title: News
