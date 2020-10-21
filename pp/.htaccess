@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile aced/pp/.htpasswd
+require sciML-user
