@@ -84,6 +84,14 @@ lance:
     webpage: "https://scholar.google.com/citations?user=kPsUy9IAAAAJ&hl=en"
     email: lkavalsk [at] andrew [dot] cmu [dot] edu
 
+Dilip:
+    display_name: "Dilip Krishnamurthy"
+    role: grad
+    image: img/people/dilip_headshot.jpg
+    bio: Mechanical Engineering
+    email: dkrishn1 [at] andrew [dot] cmu [dot] edu
+    webpage: "http://dilipkrishnamurthy.github.io/"
+
 sean:
     display_name: "Xiaoyu (Sean) Sun"
     role: grad
