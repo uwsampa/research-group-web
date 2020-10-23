@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Password Protected Area"
-AuthUserFile aced/pp/.htpasswd
-require sciML-user
+AuthName "Protected Site"
+AuthUserFile https://publishing.andrew.cmu.edu/collections/aced/pp/.htpasswd
+require valid-user
