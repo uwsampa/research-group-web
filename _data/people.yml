@@ -99,6 +99,12 @@ sean:
     bio: Master's Student, CMU Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
 
+paul:
+   display_name: "Paul Shen"
+   role: staff
+   bio: Post-master's Researcher
+   image: img/people/Paul_Shen.jpg
+
 ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
