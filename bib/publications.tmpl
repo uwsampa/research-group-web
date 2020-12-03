@@ -1,23 +1,25 @@
 <table class="table">
 <tbody>
-	{%- set prev_year = 1900 %}
+	{%- set prev_year = dict() %}
+	{% set _ = prev_year.update({'val': 1900}) %}
 	{%- for entry in entries %}
 	<tr>
 		<td>
 			<span class="date">
-				{% if entry.fields['year'] != prev_year %}
+				{% if entry.fields['year'] != prev_year['val'] %}
 				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
 				{% endif %}
-				{%- set prev_year = entry.fields['year'] %}
-				{{ entry.fields['month']|monthname }}
+				{% set _ = prev_year.update({'val': entry.fields['year']}) %}
 			</span>
 		</td>
 		<td class="publication">
 			<span class="pubtitle">
 				{%- set url = entry|main_url %}
 				{%- if url %}
-				<img src="img/pdficon_small.png" width="16"
-					height="16" alt="PDF" />
+					{%- if '.pdf' in url %}
+					<img src="img/pdficon_small.png" width="16"
+						height="16" alt="PDF" />
+					{%- endif %}
 				<a href="{{ url|escape }}">{{ entry|title }}</a>.
 				{%- else %}
 				{{ entry|title }}.
@@ -29,12 +31,13 @@
 			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
 			{%- if entry.fields['note'] %}
 			<span class="note">
-			{{ entry.fields['note']|escape }}.
+			<br />
+			<strong>{{ entry.fields['note']|escape }}</strong>
 			</span>
 			{%- endif %}
 			<br />
 			<span class="links">
-			{%- for type, url in (entry|extra_urls).iteritems() %}
+			{%- for type, url in (entry|extra_urls).items() %}
 				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
 			{%- endfor %}
 				{%- if entry.fields['abstract'] %}

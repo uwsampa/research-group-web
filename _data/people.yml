@@ -48,18 +48,26 @@ rachel:
     image: img/people/Rachel_Kurchin.jpg
     webpage: "http://rkurchin.github.io"
     email: "rkurchin [at] cmu [dot] edu"
-    bio: Manufacturing Future Initiatives Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
-
-clara:
-    display_name: "Clara Nyby"
-    role: postdoc
-    bio: Postdoctoral Fellow, Citrine Informatics
+    bio: MolSSI Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
 vinay:
     display_name: "Vinay Hegde"
     role: postdoc
     bio: Postdoctoral Fellow, Citrine Informatics
     image: img/people/Vinay_Hegde.jpg
+
+dong:
+    display_name: "Dong Zhang"
+    role: postdoc
+    bio: Postdoctoral Research Associate, CMU Mechanical Engineering
+    image: img/people/Dong_Zhang.jpg
+
+dan:
+    display_name: "Dan Girshovich"
+    role: staff
+    bio: Contractor, MIT Julia Lab
+    image: img/people/Dan_Girshovich.jpg
+    webpage: "http://dangirsh.org/about.html"
 
 eric:
     display_name: "Eric Muckley"
@@ -88,9 +96,23 @@ Dilip:
     display_name: "Dilip Krishnamurthy"
     role: grad
     image: img/people/dilip_headshot.jpg
-    bio: Mechanical Engineering
+    bio: PhD Student, CMU Mechanical Engineering
     email: dkrishn1 [at] andrew [dot] cmu [dot] edu
     webpage: "http://dilipkrishnamurthy.github.io/"
+
+lydia:
+    display_name: "Lydia Tsiverioti"
+    role: grad
+    image: img/people/Lydia_Tsiverioti.jpeg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: ltsiveri [at] andrew [dot] cmu [dot] edu
+
+ranjan:
+    display_name: "Ranjan Anantharaman"
+    role: grad
+    image: img/people/Ranjan_Anantharaman.jpg
+    bio: PhD Student, MIT Math
+    webpage: "https://ranjanan.github.io/"
 
 sean:
     display_name: "Xiaoyu (Sean) Sun"
@@ -121,7 +143,7 @@ bharath:
 valentin:
     display_name: "Valentin Sulzer"
     role: collab
-    bio: Postdoctoral Research Fellow (U Michigan) and PyBaMM lead developer
+    bio: Postdoctoral Research Fellow, University of Michigan
     webpage: "http://www-personal.umich.edu/~vsulzer"
     image: img/people/Valentin_Sulzer.png
 
@@ -133,7 +155,7 @@ shaojie:
 michael:
     display_name: "Michael F. Herbst"
     role: collab
-    bio: Postdoctoral fellow at CERMICS lab, École des Ponts ParisTech, France; Lead developer of DFTK.jl
+    bio: Postdoctoral Fellow, École des Ponts ParisTech
     email: michael [dot] herbst [at] inria [dot] fr
     webpage: "https://michael-herbst.com"
     image: img/people/Michael_Herbst.jpg
@@ -141,7 +163,7 @@ michael:
 david:
     display_name: "David Poole"
     role: collab
-    bio: PhD Student from Iowa State University; lead developer of JuliaChem.jl 
+    bio: PhD Student, Iowa State University
     github: davpoolechem 
     image: img/people/David_Poole.png
     email: "davpoole [at] iastate [dot] edu"
@@ -150,5 +172,5 @@ matt:
     display_name: "Matthew Johnson"
     role: grad
     image: img/people/Matthew_Johnson.jpg
-    bio: PhD Student in MIT Chemical Engineering and Lead Developer for RMG and RMS
+    bio: PhD Student, MIT Chemical Engineering
     email: mattsj [at] mit [dot] edu
