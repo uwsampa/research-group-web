@@ -34,7 +34,7 @@
 			{%- endif %}
 			<br />
 			<span class="links">
-			{%- for type, url in (entry|extra_urls).iteritems() %}
+			{%- for type, url in (entry|extra_urls).items() %}
 				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
 			{%- endfor %}
 				{%- if entry.fields['abstract'] %}
