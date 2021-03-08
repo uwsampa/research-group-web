@@ -62,13 +62,6 @@ dong:
     bio: Postdoctoral Research Associate, CMU Mechanical Engineering
     image: img/people/Dong_Zhang.jpg
 
-dan:
-    display_name: "Dan Girshovich"
-    role: staff
-    bio: Contractor, MIT Julia Lab
-    image: img/people/Dan_Girshovich.jpg
-    webpage: "http://dangirsh.org/about.html"
-
 eric:
     display_name: "Eric Muckley"
     role: staff
@@ -127,12 +120,6 @@ paul:
    bio: Post-master's Researcher
    image: img/people/Paul_Shen.jpg
 
-ernest:
-    display_name: "Qingyang (Ernest) Zhang"
-    role: staff
-    bio: Post-master's Researcher
-    image: img/people/Ernest_Zhang.jpeg
-
 bharath:
     display_name: "Bharath Ramsundar"
     role: collab
@@ -174,3 +161,11 @@ matt:
     image: img/people/Matthew_Johnson.jpg
     bio: PhD Student, MIT Chemical Engineering
     email: mattsj [at] mit [dot] edu
+
+emil:
+    display_name: "Emil	Annevelink"
+    role: postdoc
+    image: img/people/Annevelink.png
+    webpage: "https://scholar.google.com/citations?user=1PBVqewAAAAJ&hl=en"
+    email: "eannevel [at] andrew [dot] cmu [dot] edu"
+    bio: Postdocroal Research Associate, Carnegie Mellon Mechanical Engineering
