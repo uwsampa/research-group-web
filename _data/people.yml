@@ -168,4 +168,20 @@ emil:
     image: img/people/Annevelink.png
     webpage: "https://scholar.google.com/citations?user=1PBVqewAAAAJ&hl=en"
     email: "eannevel [at] andrew [dot] cmu [dot] edu"
-    bio: Postdocroal Research Associate, Carnegie Mellon Mechanical Engineering
+    bio: Postdoctoral Research Associate, Carnegie Mellon Mechanical Engineering
+
+emmanuel:
+    display_name: "Emmanuel Lujan"
+    role: postdoc
+    image: img/people/elujan.jpg
+    email: eljn [at] mit [dot] edu
+    webpage: "www.emmanuellujan.com"
+    bio: Postdoctoral Research Associate, MIT Electrical Engineering and Computer Science
+
+kirill:
+    display_name: "Kirill Zubov"
+    role: staff
+    image: img/people/Kirill_Zubov.png
+    email: kirillzubov3 [at] gmail [dot] com
+    webpage: "https://www.linkedin.com/in/kirill-zubov/"
+    bio: Developer of NeuralPDE.jl
