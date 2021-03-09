@@ -176,7 +176,7 @@ emmanuel:
     image: img/people/elujan.jpg
     email: eljn [at] mit [dot] edu
     webpage: "www.emmanuellujan.com"
-    bio: Postdoctoral Research Associate, MIT Electrical Engineering and Computer Science
+    bio: Postdoctoral Research Associate, MIT Julia Lab
 
 kirill:
     display_name: "Kirill Zubov"
@@ -185,3 +185,9 @@ kirill:
     email: kirillzubov3 [at] gmail [dot] com
     webpage: "https://www.linkedin.com/in/kirill-zubov/"
     bio: Developer of NeuralPDE.jl
+
+zoe:
+    display_name: "Zoe McCarthy"
+    role: staff
+    email: zoemccarthy12 [at] gmail [dot] com
+    bio: Research Engineer, MIT Julia Lab
