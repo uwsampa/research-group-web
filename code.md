@@ -2,8 +2,5 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
+We are actively developing software for this project! We may eventually have some blurbs about it here, but for now you can go check out [our GitHub organization](https://github.com/aced-differentiate) for all the latest.
 
-If you like this template, find our group's other code here:
-
- * [uwsampa on GitHub](https://github.com/uwsampa/)

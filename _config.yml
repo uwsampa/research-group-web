@@ -49,5 +49,5 @@ navigation:
     link: index.html#news
   - title: Publications
     link: publications.html
-#  - title: Code
-#    link: /code.html
+  - title: Code
+    link: /code.html
