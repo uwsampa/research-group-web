@@ -191,3 +191,11 @@ zoe:
     role: staff
     email: zoemccarthy12 [at] gmail [dot] com
     bio: Research Engineer, MIT Julia Lab
+
+anant:
+    display_name: "Anant Thazhemadam"
+    role: collab
+    image: img/people/Anant_Thazhemadam.jpeg
+    bio: Undergraduate Student, PES University
+    webpage: "https://thazhemadam.github.io/"
+    email: anant [dot] thazhemadam [at] gmail [dot] com
