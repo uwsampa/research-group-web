@@ -6,6 +6,8 @@ description: |
 
 people:
   - chris
+  - emmanuel
+  - kirill
 
 layout: project
 last-updated: 2020-06-02

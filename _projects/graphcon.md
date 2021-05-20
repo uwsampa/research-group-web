@@ -8,8 +8,7 @@ people:
   - rachel
   - dhairya
   - sean
-  - ernest
-  - yy
+  - anant
 
 layout: project
 last-updated: 2020-06-02
