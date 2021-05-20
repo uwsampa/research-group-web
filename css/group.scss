@@ -48,8 +48,19 @@ a > .fa {
     text-align: justify;
     padding-top: 1.5em;
     padding-bottom: 0.5em;
-    font-size: 125%
+    font-size: 15px
+    //font-size: 125%
 }
+
+// Matt has .center, .center-medium, .center-large
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%
+}
+
 
 /* Group logo */
 #logo {
@@ -79,7 +90,14 @@ ul.news {
 @media (min-width: 768px) {
     .role.grad      { column-count: 1 }
     .project-people { column-count: 3 }
-    .card-columns   { column-count: 3 }
+    //.card-columns   { column-count: 3 }
+    .card-columns   { display: flex;
+                      flex-wrap: wrap;
+                      justify-content: start;      
+                      column-gap: 0;   
+                      align-items: start; }
+    .card           { margin: 10px;
+                      max-width: 350px;   }
 }
 
 .title img {
@@ -105,23 +123,25 @@ section {
 }
 
 .card {
-
+    border-radius: 20px;
     .profile {
         height: 40px;
         width: 40px;
         margin: 3px;
     }
 
-    .card-footer { padding: 0.5em }
+    //.card-footer { padding: 0.5em }
+    .card-footer { padding: 0.5em; 
+                   border-radius: 0 0 20px 20px}
 }
 
 .person {
 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     .profile {
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
     }
 
     .bio {
