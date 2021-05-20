@@ -8,6 +8,7 @@ people:
   - chris
   - emmanuel
   - kirill
+  - matt
 
 layout: project
 last-updated: 2020-06-02

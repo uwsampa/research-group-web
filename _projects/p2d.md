@@ -12,6 +12,6 @@ people:
 
 layout: project
 image: img/research/pybamm_julia_vision.png
-last-updated: 2021-05-20
+last-updated: 2099-01-01
 no-link: true
 ---
