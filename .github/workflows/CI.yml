@@ -1,0 +1,51 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Test and Build Site
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3
+          bundler-cache: true
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - run: python -m pip install -r requirements.txt
+      - run: make -j build
+      - run: make -j test
+      - run: make -j site-publish.zip
+      - uses: actions/upload-artifact@v2
+        with:
+          name: site-publish
+          path: site-publish.zip
+  publish:
+    if: ${{ github.ref == 'refs/heads/master' }}
+    name: "Upload Publishable Site"
+    needs: test
+    runs-on: ubuntu-latest
+    concurrency:
+      group: publish
+      cancel-in-progress: true
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: site-publish
+          path: site-publish.zip
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          title: "Website"
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          files: site-publish.zip

@@ -1,17 +1,17 @@
 
 venkat:
     display_name: "Venkat Viswanathan"
-    webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
+    webpage: "https://www.andrew.cmu.edu/user/venkatv/index.html"
     role: leadership
-    image: img/people/Venkat_Viswanathan.png
+    image: /img/people/Venkat_Viswanathan.png
     bio: Associate Professor of Mechanical Engineering, Carnegie Mellon University
     email: "venkvis [at] cmu [dot] edu"
 
 alan:
     display_name: "Alan Edelman"
-    webpage: "http://www-math.mit.edu/~edelman/"
+    webpage: "https://www-math.mit.edu/~edelman/"
     role: leadership
-    image: img/people/Alan_Edelman.png
+    image: /img/people/Alan_Edelman.png
     bio: Professor of Applied Mathematics, Massachusetts Institute of Technology
     email: "edelman [at] mit [dot] edu"
 
@@ -19,7 +19,7 @@ viral:
     display_name: "Viral Shah"
     github: ViralBShah
     role: leadership
-    image: img/people/Viral_Shah.jpg
+    image: /img/people/Viral_Shah.jpg
     bio: Co-Founder and CEO, Julia Computing, Inc.
 
 chris:
@@ -27,26 +27,26 @@ chris:
     github: ChrisRackauckas
     webpage: "https://chrisrackauckas.com"
     role: leadership
-    image: img/people/Chris_Rackauckas.jpg
+    image: /img/people/Chris_Rackauckas.jpg
     bio: Scientific Advisor, Julia Computing, Inc.
 
 bryce:
     display_name: "Bryce Meredig"
     role: leadership
-    image: img/people/Bryce_Meredig.jpg
+    image: /img/people/Bryce_Meredig.jpg
     bio: CSO and Co-Founder, Citrine Informatics
 
 james:
     display_name: "James Saal"
     role: leadership
-    image: img/people/James_Saal.jpg
+    image: /img/people/James_Saal.jpg
     bio: Manger of External Research Programs, Citrine Informatics
 
 rachel:
     display_name: "Rachel Kurchin"
     role: postdoc
-    image: img/people/Rachel_Kurchin.jpg
-    webpage: "http://rkurchin.github.io"
+    image: /img/people/Rachel_Kurchin.jpg
+    webpage: "https://rkurchin.github.io"
     email: "rkurchin [at] cmu [dot] edu"
     bio: MolSSI Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
@@ -54,18 +54,18 @@ vinay:
     display_name: "Vinay Hegde"
     role: postdoc
     bio: Postdoctoral Fellow, Citrine Informatics
-    image: img/people/Vinay_Hegde.jpg
+    image: /img/people/Vinay_Hegde.jpg
 
 dong:
     display_name: "Dong Zhang"
     role: postdoc
     bio: Postdoctoral Research Associate, CMU Mechanical Engineering
-    image: img/people/Dong_Zhang.jpg
+    image: /img/people/Dong_Zhang.jpg
 
 eric:
     display_name: "Eric Muckley"
     role: staff
-    image: img/people/Eric_Muckley.jpg
+    image: /img/people/Eric_Muckley.jpg
     email: "emuckley [at] citrine [dot] io"
     bio: Research Scientist, Citrine Informatics
 
@@ -73,14 +73,14 @@ dhairya:
     display_name: "Dhairya Gandhi"
     role: staff
     webpage: "https://github.com/DhairyaLGandhi"
-    image: img/people/Dhairya_Gandhi.jpeg
+    image: /img/people/Dhairya_Gandhi.jpeg
     bio: Data Scientist, Julia Computing
     email: "dhairya [at] juliacomputing [dot] com"
 
 lance:
     display_name: "Lance Kavalsky"
     role: grad
-    image: img/people/Lance_Kavalsky.jpg
+    image: /img/people/Lance_Kavalsky.jpg
     bio: NSERC Graduate Fellow, CMU Mechanical Engineering
     webpage: "https://scholar.google.com/citations?user=kPsUy9IAAAAJ&hl=en"
     email: lkavalsk [at] andrew [dot] cmu [dot] edu
@@ -88,29 +88,29 @@ lance:
 Dilip:
     display_name: "Dilip Krishnamurthy"
     role: grad
-    image: img/people/dilip_headshot.jpg
+    image: /img/people/dilip_headshot.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: dkrishn1 [at] andrew [dot] cmu [dot] edu
-    webpage: "http://dilipkrishnamurthy.github.io/"
+    webpage: "https://dilipkrishnamurthy.github.io/"
 
 lydia:
     display_name: "Lydia Tsiverioti"
     role: grad
-    image: img/people/Lydia_Tsiverioti.jpeg
+    image: /img/people/Lydia_Tsiverioti.jpeg
     bio: PhD Student, CMU Mechanical Engineering
     email: ltsiveri [at] andrew [dot] cmu [dot] edu
 
 ranjan:
     display_name: "Ranjan Anantharaman"
     role: grad
-    image: img/people/Ranjan_Anantharaman.jpg
+    image: /img/people/Ranjan_Anantharaman.jpg
     bio: PhD Student, MIT Math
     webpage: "https://ranjanan.github.io/"
 
 sean:
     display_name: "Xiaoyu (Sean) Sun"
     role: grad
-    image: img/people/Sean_Sun.jpg
+    image: /img/people/Sean_Sun.jpg
     bio: Master's Student, CMU Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
 
@@ -118,21 +118,21 @@ paul:
    display_name: "Paul Shen"
    role: staff
    bio: Post-master's Researcher
-   image: img/people/Paul_Shen.jpg
+   image: /img/people/Paul_Shen.jpg
 
 bharath:
     display_name: "Bharath Ramsundar"
     role: collab
     bio: Lead developer for DeepChem
     webpage: "https://rbharath.github.io"
-    image: img/people/Bharath_Ramsundar.jpeg
+    image: /img/people/Bharath_Ramsundar.jpeg
 
 valentin:
     display_name: "Valentin Sulzer"
     role: collab
     bio: Postdoctoral Research Fellow, University of Michigan
-    webpage: "http://www-personal.umich.edu/~vsulzer"
-    image: img/people/Valentin_Sulzer.jpg
+    webpage: "https://www-personal.umich.edu/~vsulzer"
+    image: /img/people/Valentin_Sulzer.jpg
 
 shaojie:
     display_name: "Shaojie Bai"
@@ -145,27 +145,27 @@ michael:
     bio: Postdoctoral Researcher, RWTH Aachen University
     email: herbst [at] acom [dot] rwth-aachen [dot] de
     webpage: "https://michael-herbst.com"
-    image: img/people/Michael_Herbst.jpg
+    image: /img/people/Michael_Herbst.jpg
 
 david:
     display_name: "David Poole"
     role: collab
     bio: PhD Student, Iowa State University
-    github: davpoolechem 
-    image: img/people/David_Poole.png
+    github: davpoolechem
+    image: /img/people/David_Poole.png
     email: "davpoole [at] iastate [dot] edu"
 
 matt:
     display_name: "Matthew Johnson"
     role: grad
-    image: img/people/Matthew_Johnson.jpg
+    image: /img/people/Matthew_Johnson.jpg
     bio: PhD Student, MIT Chemical Engineering
     email: mattsj [at] mit [dot] edu
 
 emil:
     display_name: "Emil	Annevelink"
     role: postdoc
-    image: img/people/Annevelink.png
+    image: /img/people/Annevelink.png
     webpage: "https://scholar.google.com/citations?user=1PBVqewAAAAJ&hl=en"
     email: "eannevel [at] andrew [dot] cmu [dot] edu"
     bio: Postdoctoral Research Associate, Carnegie Mellon Mechanical Engineering
@@ -173,15 +173,15 @@ emil:
 emmanuel:
     display_name: "Emmanuel Lujan"
     role: postdoc
-    image: img/people/elujan.jpg
+    image: /img/people/elujan.jpg
     email: eljn [at] mit [dot] edu
-    webpage: "www.emmanuellujan.com"
+    webpage: "https://www.emmanuellujan.com/"
     bio: Postdoctoral Research Associate, MIT Julia Lab
 
 kirill:
     display_name: "Kirill Zubov"
     role: staff
-    image: img/people/Kirill_Zubov.png
+    image: /img/people/Kirill_Zubov.png
     email: kirillzubov3 [at] gmail [dot] com
     webpage: "https://www.linkedin.com/in/kirill-zubov/"
     bio: Developer of NeuralPDE.jl
@@ -195,7 +195,7 @@ zoe:
 anant:
     display_name: "Anant Thazhemadam"
     role: collab
-    image: img/people/Anant_Thazhemadam.jpeg
+    image: /img/people/Anant_Thazhemadam.jpeg
     bio: Undergraduate Student, PES University
     webpage: "https://thazhemadam.github.io/"
     email: anant [dot] thazhemadam [at] gmail [dot] com
