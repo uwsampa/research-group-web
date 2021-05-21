@@ -26,3 +26,6 @@ With `AutoCat`, DFT-ready structures for heterogeneous catalysis studies (i.e., 
 - `dftflow`: construct and execute DFT calculation workflows (To be open sourced)
 
 For the ongoing development of these packages to support `GPAW` for this project, see the forks on GitHub repositories [here](https://github.com/aced-differentiate)
+
+![dftitc figure](img/research/dftitc_figure.png)
+
