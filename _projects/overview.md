@@ -8,6 +8,6 @@ description: |
 
 layout: project
 image: /img/research/overview.png
-last-updated: 2020-06-03
+last-updated: 2100-01-01
 no-link: true
 ---
