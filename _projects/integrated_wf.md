@@ -12,7 +12,7 @@ people:
 
 
 layout: project
-image: img/research/wf_controller.png
+image: /img/research/wf_controller.png
 last-updated: 2098-01-01
 no-link: true
 ---
