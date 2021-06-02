@@ -133,7 +133,7 @@ valentin:
     bio: Postdoctoral Research Associate, Carnegie Mellon University
     email: "vsulzer [at] andrew [dot] cmu [dot] edu"
     webpage: "https://sites.google.com/view/valentinsulzer"
-    image: img/people/Valentin_Sulzer.jpg
+    image: /img/people/Valentin_Sulzer.jpg
 
 shaojie:
     display_name: "Shaojie Bai"
