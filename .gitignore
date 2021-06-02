@@ -1,7 +1,17 @@
-_site
-_includes/pubs.html
-/test-deploy.sh
+# Misc
 *#
 Icon*
 */Icon*
+*/*/Icon*
 .jekyll-cache/*
+*.DS_Store
+*/.DS_Store
+*~
+*.jekyll-metadata
+Gemfile.lock
+
+# Make Targets
+_site/
+_site-publish/
+_includes/pubs.html
+_includes/patents.html

@@ -10,7 +10,7 @@
               crossorigin="anonymous">
         <link rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ site.base }}css/group.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/group.css">
     </head>
     <body>
         <div class="container">
@@ -18,9 +18,9 @@
             <div class="header d-flex
                         flex-column
                         flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}" class="">
-                    <img src="{{ site.base }}img/logo.png"
-                         srcset="{{ site.base }}img/logo@2x.png 2x"
+                <a href="{{ site.baseurl }}" class="">
+                    <img src="{{ site.baseurl }}/img/logo.png"
+                         srcset="{{ site.baseurl }}/img/logo@2x.png 2x"
                          alt="Awesome" id="logo">
                 </a>
                 <ul class="nav nav-pills justify-content-center">
@@ -40,7 +40,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
+                               href="{{ site.baseurl }}{{ item.link }}">
                                 {{ item.title }}
                             </a>
                         </li>
@@ -51,7 +51,7 @@
             </div>
 
             {% if page.image %}
-                <img src="{{ page.image }}"
+                <img src="{{ site.baseurl }}{{page.image}}"
                      alt="{{ page.title }}"
                      style="max-width: 400px"
                      class="img-fluid mx-auto d-block mb-4"/>
@@ -65,8 +65,8 @@
 
             <div class="footer">
                 <p>
-                    This project is funded by <a href="https://arpa-e.energy.gov">ARPA-E</a> and led by a team from the <a href="http://www.meche.engineering.cmu.edu/">Mechanical Engineering Department</a> at
-                    <a href="http://www.cmu.edu/">Carnegie Mellon University</a>, the <a href="https://math.mit.edu/">Mathematics Department</a> at the <a href="https://web.mit.edu">Massachusetts Institute of Technology</a>, <a href="https://juliacomputing.com">Julia Computing, Inc.</a>, and <a href="https://citrine.io">Citrine Informatics</a>.
+                    This project is funded by <a href="https://arpa-e.energy.gov">ARPA-E</a> and led by a team from the <a href="https://www.meche.engineering.cmu.edu/">Mechanical Engineering Department</a> at
+                    <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, the <a href="https://math.mit.edu/">Mathematics Department</a> at the <a href="https://web.mit.edu">Massachusetts Institute of Technology</a>, <a href="https://juliacomputing.com">Julia Computing, Inc.</a>, and <a href="https://citrine.io">Citrine Informatics</a>.
                 </p>
             </div>
 
@@ -74,6 +74,6 @@
 
         <!-- Support retina images. -->
         <script type="text/javascript"
-                src="{{ site.base }}js/srcset-polyfill.js"></script>
+                src="{{ site.baseurl }}/js/srcset-polyfill.js"></script>
     </body>
 </html>
