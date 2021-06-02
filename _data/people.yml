@@ -129,9 +129,10 @@ bharath:
 
 valentin:
     display_name: "Valentin Sulzer"
-    role: collab
-    bio: Postdoctoral Research Fellow, University of Michigan
-    webpage: "http://www-personal.umich.edu/~vsulzer"
+    role: postdoc
+    bio: Postdoctoral Research Associate, Carnegie Mellon University
+    email: "vsulzer [at] andrew [dot] cmu [dot] edu"
+    webpage: "https://sites.google.com/view/valentinsulzer"
     image: img/people/Valentin_Sulzer.jpg
 
 shaojie:
