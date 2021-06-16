@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Site"
-AuthUserFile https://publishing.andrew.cmu.edu/collections/aced/pp/.htpasswd
-require valid-user
