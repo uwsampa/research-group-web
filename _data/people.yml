@@ -100,6 +100,13 @@ lydia:
     bio: PhD Student, CMU Mechanical Engineering
     email: ltsiveri [at] andrew [dot] cmu [dot] edu
 
+kian:
+    display_name: "Jiankun (Kian) Pu"
+    role: grad
+    image: /img/people/jiankun_pu.jpeg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: jiankunp [at] andrew [dot] cmu [dot] edu
+
 ranjan:
     display_name: "Ranjan Anantharaman"
     role: grad
