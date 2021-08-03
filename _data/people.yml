@@ -207,3 +207,11 @@ anant:
     bio: Undergraduate Student, PES University
     webpage: "https://thazhemadam.github.io/"
     email: anant [dot] thazhemadam [at] gmail [dot] com
+
+dwarak:
+    display_name: "Dwaraknath Gnaneshwar"
+    role: staff
+    image: /img/people/Dwaraknath.jpeg
+    bio: Research Engineer 
+    webpage: "https://www.linkedin.com/in/dwaraknath-gnaneshwar/"
+    email: "dgnanesh [at] andrew [dot] cmu [dot] edu"
