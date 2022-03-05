@@ -38,11 +38,11 @@
 				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
 			{%- endfor %}
 				{%- if entry.fields['abstract'] %}
-				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
+				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="jQuery('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
 				{%- endif %}
 			</span>
 			{%- if entry.fields['abstract'] %}
-			<div id="abstract_{{entry.fields['key']}}" class="abstract">
+			<div id="abstract_{{entry.fields['key']}}" class="abstract" style="display: none;">
 			{{ entry.fields['abstract'] |escape }}
 			</div>
 			{%- endif %}

@@ -8,13 +8,15 @@ BIBBLE = bibble
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
+	clatex2text $@ > $@.2
+	mv $@.2 $@
 
 build: _includes/pubs.html
-	jekyll build
+	jekyll build -d docs
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
-SERVE_HOST ?= 127.0.0.1
+SERVE_HOST ?= 0.0.0.0
 SERVE_PORT ?= 5000
 
 serve: _includes/pubs.html
