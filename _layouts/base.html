@@ -1,85 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ site.name }}: {{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="{{site.base}}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{site.base}}/css/sampa.css" rel="stylesheet">
-        <link rel="alternate" type="application/atom+xml" title="Atom"
-            href="{{ site.base }}/blog/blog.xml">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="shortcut icon" href="{{ site.base }}/favicon.ico" type="image/vnd.microsoft.icon">
 
-        <!-- style added to support collaposible sections -->
-        <style>
-          details {
-            user-select: none;
-          }
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.name }}: {{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="{{site.base}}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{site.base}}/css/sampa.css" rel="stylesheet">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="{{ site.base }}/blog/blog.xml">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="{{ site.base }}/favicon.ico" type="image/vnd.microsoft.icon">
 
-          details>summary span.icon {
-            width: 24px;
-            height: 24px;
-            transition: all 0.3s;
-            margin-left: auto;
-          }
+  <!-- style added to support collaposible sections -->
+  <style>
+    details {
+      user-select: none;
+    }
 
-          details[open] summary span.icon {
-            transform: rotate(-90deg);
-          }
+    details>summary span.icon {
+      width: 24px;
+      height: 24px;
+      transition: all 0.3s;
+      margin-left: auto;
+    }
 
-          summary {
-            display: flex;
-            cursor: pointer;
-          }
+    details[open] summary span.icon {
+      transform: rotate(-90deg);
+    }
 
-          summary::-webkit-details-marker {
-            display: none;
-          }
-        </style>
+    summary {
+      display: flex;
+      cursor: pointer;
+    }
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50108133-2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
 
-          gtag('config', 'UA-50108133-2');
-        </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50108133-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() { dataLayer.push(arguments) }
+    gtag('js', new Date())
 
-    </head>
-    <body>
-        <div class="container">
-          <div class="header">
-            <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/img/wonder-logo.png"
-                    srcset="{{ site.base }}/img/wonder-logo.png 2x"
-                    alt="Sampa" id="logo">
-            </a>
-            <ul class="nav nav-pills pull-right">
-                  {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                  {% for item in site.navigation %}
-                    {% assign myshorturl = item.link | replace:'.html','' %}
-                    <li class="nav-item">
-                      <a class="nav-link {% if myshorturl == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
-                        {{ item.title }}
-                      </a>
-                    </li>
-                  {% endfor %}
-            </ul>
-          </div>
+    gtag('config', 'UA-50108133-2');
+  </script>
 
-          {{ content }}
+</head>
 
-      {% include footer.html %}
-        </div> <!-- /container -->
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="{{ site.base }}/">
+        <img src="{{ site.base }}/img/aybu-logo.png" srcset="{{ site.base }}/img/aybu-logo.png 2x" alt="Sampa"
+          id="logo">
+      </a>
+      <ul class="nav nav-pills pull-right">
+        {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+        {% for item in site.navigation %}
+        {% assign myshorturl = item.link | replace:'.html','' %}
+        <li class="nav-item">
+          <a class="nav-link {% if myshorturl == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        <!-- Support retina images. -->
-        <script type="text/javascript"
-            src="{{ site.base }}/js/srcset-polyfill.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="{{site.base}}/js/bootstrap.min.js"></script>
+    {{ content }}
 
-    </body>
+    {% include footer.html %}
+  </div> <!-- /container -->
+
+  <!-- Support retina images. -->
+  <script type="text/javascript" src="{{ site.base }}/js/srcset-polyfill.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="{{site.base}}/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
