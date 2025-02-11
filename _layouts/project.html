@@ -1,13 +1,18 @@
 ---
-layout: default
+layout: base
 ---
 
-{{ content }}
+<link rel="stylesheet" href="{{site.base}}/css/accordion.css">
 
-<h2> People </h2>
-<section class="people project-people">
-    {% for uname in page.people %}
-        {% assign person = site.data.people[uname] %}
-        {% include person.html person=person image=true%}
-    {% endfor %}
-</section>
+{% if page.notitle != true %}
+  <h1>{{ page.title }}</h1>
+  {% if page.people %}
+  <div>
+  {% include project-people.html people=page.people %}
+  </div>
+  {% endif %}
+{% endif %}
+
+<div class="content">
+    {{ content }}
+</div>

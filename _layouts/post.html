@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<p class="date">{{ page.date | date: '%B %d, %Y' }}</p>
+<!-- <h2>{{ page.title }}</h2> -->
+<p class="meta">By: <b>{{page.author}}</b>, on {{ page.date | date_to_string }}</p>
 
 <div class="post">
 {{ content }}

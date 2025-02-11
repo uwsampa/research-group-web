@@ -1,0 +1,841 @@
+Year,type,amount
+1949,Coal,135451.32
+1950,Coal,154519.994
+1951,Coal,185203.657
+1952,Coal,195436.666
+1953,Coal,218846.325
+1954,Coal,239145.966
+1955,Coal,301362.698
+1956,Coal,338503.484
+1957,Coal,346386.207
+1958,Coal,344365.781
+1959,Coal,378424.21
+1960,Coal,403067.357
+1961,Coal,421870.669
+1962,Coal,450249.238
+1963,Coal,493926.719
+1964,Coal,526230.019
+1965,Coal,570925.951
+1966,Coal,613474.8
+1967,Coal,630483.363
+1968,Coal,684904.58
+1969,Coal,706001.24
+1970,Coal,704394.479
+1971,Coal,713102.454
+1972,Coal,771131.265
+1973,Coal,847651.47
+1974,Coal,828432.921
+1975,Coal,852786.222
+1976,Coal,944390.993
+1977,Coal,985218.596
+1978,Coal,975742.083
+1979,Coal,1075037.091
+1980,Coal,1161562.368
+1981,Coal,1203203.232
+1982,Coal,1192004.204
+1983,Coal,1259424.279
+1984,Coal,1341680.752
+1985,Coal,1402128.125
+1986,Coal,1385831.452
+1987,Coal,1463781.289
+1988,Coal,1540652.774
+1989,Coal,1583779.139
+1990,Coal,1594011.479
+1991,Coal,1590622.748
+1992,Coal,1621206.039
+1993,Coal,1690070.232
+1994,Coal,1690693.864
+1995,Coal,1709426.468
+1996,Coal,1795195.593
+1997,Coal,1845015.736
+1998,Coal,1873515.69
+1999,Coal,1881087.224
+2000,Coal,1966264.596
+2001,Coal,1903955.942
+2002,Coal,1933130.354
+2003,Coal,1973736.752
+2004,Coal,1978300.549
+2005,Coal,2012873.046
+2006,Coal,1990511.135
+2007,Coal,2016455.584
+2008,Coal,1985801.247
+2009,Coal,1755904.253
+2010,Coal,1847290.279
+2011,Coal,1733430.005
+2012,Coal,1514042.945
+2013,Coal,1581114.716
+2014,Coal,1581710.35
+2015,Coal,1352398.197
+2016,Coal,1239148.654
+2017,Coal,1205835.275
+2018,Coal,1146392.716
+1949,Petroleum,28547.232
+1950,Petroleum,33734.288
+1951,Petroleum,28712.116
+1952,Petroleum,29749.761
+1953,Petroleum,38404.449
+1954,Petroleum,31520.175
+1955,Petroleum,37138.308
+1956,Petroleum,35946.772
+1957,Petroleum,40499.357
+1958,Petroleum,40371.54
+1959,Petroleum,46839.719
+1960,Petroleum,47986.893
+1961,Petroleum,48519.376
+1962,Petroleum,48879.536
+1963,Petroleum,52001.61
+1964,Petroleum,56953.712
+1965,Petroleum,64801.224
+1966,Petroleum,78926.172
+1967,Petroleum,89270.724
+1968,Petroleum,104275.833
+1969,Petroleum,137847.152
+1970,Petroleum,184183.402
+1971,Petroleum,220225.423
+1972,Petroleum,274295.961
+1973,Petroleum,314342.926
+1974,Petroleum,300930.537
+1975,Petroleum,289094.9
+1976,Petroleum,319988.136
+1977,Petroleum,358178.822
+1978,Petroleum,365060.441
+1979,Petroleum,303525.209
+1980,Petroleum,245994.189
+1981,Petroleum,206420.775
+1982,Petroleum,146797.49
+1983,Petroleum,144498.593
+1984,Petroleum,119807.913
+1985,Petroleum,100202.273
+1986,Petroleum,136584.867
+1987,Petroleum,118492.571
+1988,Petroleum,148899.561
+1989,Petroleum,164358.52
+1990,Petroleum,126460.202
+1991,Petroleum,119751.573
+1992,Petroleum,100154.163
+1993,Petroleum,112788.18
+1994,Petroleum,105900.983
+1995,Petroleum,74554.065
+1996,Petroleum,81411.225
+1997,Petroleum,92554.873
+1998,Petroleum,128800.173
+1999,Petroleum,118060.838
+2000,Petroleum,111220.965
+2001,Petroleum,124880.221
+2002,Petroleum,94567.395
+2003,Petroleum,119405.643
+2004,Petroleum,121145.057
+2005,Petroleum,122225.017
+2006,Petroleum,64166.414
+2007,Petroleum,65738.978
+2008,Petroleum,46242.612
+2009,Petroleum,38936.515
+2010,Petroleum,37061.013
+2011,Petroleum,30182.245
+2012,Petroleum,23189.542
+2013,Petroleum,27164.444
+2014,Petroleum,30231.862
+2015,Petroleum,28248.749
+2016,Petroleum,24204.806
+2017,Petroleum,21389.958
+2018,Petroleum,24571.82
+1949,Natural Gas,36966.709
+1950,Natural Gas,44559.159
+1951,Natural Gas,56615.678
+1952,Natural Gas,68453.088
+1953,Natural Gas,79790.975
+1954,Natural Gas,93688.271
+1955,Natural Gas,95285.441
+1956,Natural Gas,104037.208
+1957,Natural Gas,114212.525
+1958,Natural Gas,119759.302
+1959,Natural Gas,146619.391
+1960,Natural Gas,157969.787
+1961,Natural Gas,169285.998
+1962,Natural Gas,184301.293
+1963,Natural Gas,201602.073
+1964,Natural Gas,220038.479
+1965,Natural Gas,221559.434
+1966,Natural Gas,251151.562
+1967,Natural Gas,264805.785
+1968,Natural Gas,304432.723
+1969,Natural Gas,333278.945
+1970,Natural Gas,372890.063
+1971,Natural Gas,374030.784
+1972,Natural Gas,375747.796
+1973,Natural Gas,340858.192
+1974,Natural Gas,320065.088
+1975,Natural Gas,299778.408
+1976,Natural Gas,294623.911
+1977,Natural Gas,305504.859
+1978,Natural Gas,305390.836
+1979,Natural Gas,329485.107
+1980,Natural Gas,346239.9
+1981,Natural Gas,345777.173
+1982,Natural Gas,305259.749
+1983,Natural Gas,274098.458
+1984,Natural Gas,297393.596
+1985,Natural Gas,291945.965
+1986,Natural Gas,248508.433
+1987,Natural Gas,272620.803
+1988,Natural Gas,252800.704
+1989,Natural Gas,352628.866
+1990,Natural Gas,372765.154
+1991,Natural Gas,381553.017
+1992,Natural Gas,404074.372
+1993,Natural Gas,414926.798
+1994,Natural Gas,460218.682
+1995,Natural Gas,496057.945
+1996,Natural Gas,455055.576
+1997,Natural Gas,479398.67
+1998,Natural Gas,531257.104
+1999,Natural Gas,556396.127
+2000,Natural Gas,601038.159
+2001,Natural Gas,639129.119
+2002,Natural Gas,691005.744
+2003,Natural Gas,649907.539
+2004,Natural Gas,710100.017
+2005,Natural Gas,760960.254
+2006,Natural Gas,816440.77
+2007,Natural Gas,896589.791
+2008,Natural Gas,882980.599
+2009,Natural Gas,920978.681
+2010,Natural Gas,987697.234
+2011,Natural Gas,1013688.929
+2012,Natural Gas,1225894.175
+2013,Natural Gas,1124835.56
+2014,Natural Gas,1126608.958
+2015,Natural Gas,1333482.11
+2016,Natural Gas,1378306.934
+2017,Natural Gas,1296414.692
+2018,Natural Gas,1468012.599
+1949,Other Gases,0
+1950,Other Gases,0
+1951,Other Gases,0
+1952,Other Gases,0
+1953,Other Gases,0
+1954,Other Gases,0
+1955,Other Gases,0
+1956,Other Gases,0
+1957,Other Gases,0
+1958,Other Gases,0
+1959,Other Gases,0
+1960,Other Gases,0
+1961,Other Gases,0
+1962,Other Gases,0
+1963,Other Gases,0
+1964,Other Gases,0
+1965,Other Gases,0
+1966,Other Gases,0
+1967,Other Gases,0
+1968,Other Gases,0
+1969,Other Gases,0
+1970,Other Gases,0
+1971,Other Gases,0
+1972,Other Gases,0
+1973,Other Gases,0
+1974,Other Gases,0
+1975,Other Gases,0
+1976,Other Gases,0
+1977,Other Gases,0
+1978,Other Gases,0
+1979,Other Gases,0
+1980,Other Gases,0
+1981,Other Gases,0
+1982,Other Gases,0
+1983,Other Gases,0
+1984,Other Gases,0
+1985,Other Gases,0
+1986,Other Gases,0
+1987,Other Gases,0
+1988,Other Gases,0
+1989,Other Gases,7862.418
+1990,Other Gases,10382.83
+1991,Other Gases,11335.593
+1992,Other Gases,13270.237
+1993,Other Gases,12955.798
+1994,Other Gases,13319.051
+1995,Other Gases,13869.951
+1996,Other Gases,14355.813
+1997,Other Gases,13350.634
+1998,Other Gases,13492.23
+1999,Other Gases,14125.592
+2000,Other Gases,13954.758
+2001,Other Gases,9039.473
+2002,Other Gases,11462.684
+2003,Other Gases,15600.022
+2004,Other Gases,15252.431
+2005,Other Gases,13464.144
+2006,Other Gases,14176.808
+2007,Other Gases,13453.354
+2008,Other Gases,11706.876
+2009,Other Gases,10632.107
+2010,Other Gases,11312.787
+2011,Other Gases,11566.2
+2012,Other Gases,11897.585
+2013,Other Gases,12852.937
+2014,Other Gases,12021.786
+2015,Other Gases,13116.698
+2016,Other Gases,12807.432
+2017,Other Gases,12468.967
+2018,Other Gases,12191.182
+1949,Nuclear,0
+1950,Nuclear,0
+1951,Nuclear,0
+1952,Nuclear,0
+1953,Nuclear,0
+1954,Nuclear,0
+1955,Nuclear,0
+1956,Nuclear,0
+1957,Nuclear,9.67
+1958,Nuclear,164.691
+1959,Nuclear,188.101
+1960,Nuclear,518.182
+1961,Nuclear,1692.149
+1962,Nuclear,2269.685
+1963,Nuclear,3211.836
+1964,Nuclear,3342.743
+1965,Nuclear,3656.699
+1966,Nuclear,5519.909
+1967,Nuclear,7655.214
+1968,Nuclear,12528.419
+1969,Nuclear,13927.839
+1970,Nuclear,21804.448
+1971,Nuclear,38104.545
+1972,Nuclear,54091.135
+1973,Nuclear,83479.463
+1974,Nuclear,113975.74
+1975,Nuclear,172505.075
+1976,Nuclear,191103.531
+1977,Nuclear,250883.283
+1978,Nuclear,276403.07
+1979,Nuclear,255154.623
+1980,Nuclear,251115.575
+1981,Nuclear,272673.503
+1982,Nuclear,282773.248
+1983,Nuclear,293677.119
+1984,Nuclear,327633.549
+1985,Nuclear,383690.727
+1986,Nuclear,414038.063
+1987,Nuclear,455270.382
+1988,Nuclear,526973.047
+1989,Nuclear,529354.717
+1990,Nuclear,576861.678
+1991,Nuclear,612565.087
+1992,Nuclear,618776.263
+1993,Nuclear,610291.214
+1994,Nuclear,640439.832
+1995,Nuclear,673402.123
+1996,Nuclear,674728.546
+1997,Nuclear,628644.171
+1998,Nuclear,673702.104
+1999,Nuclear,728254.124
+2000,Nuclear,753892.94
+2001,Nuclear,768826.308
+2002,Nuclear,780064.087
+2003,Nuclear,763732.695
+2004,Nuclear,788528.387
+2005,Nuclear,781986.365
+2006,Nuclear,787218.636
+2007,Nuclear,806424.753
+2008,Nuclear,806208.435
+2009,Nuclear,798854.585
+2010,Nuclear,806968.301
+2011,Nuclear,790204.367
+2012,Nuclear,769331.249
+2013,Nuclear,789016.473
+2014,Nuclear,797165.982
+2015,Nuclear,797177.877
+2016,Nuclear,805693.948
+2017,Nuclear,804949.635
+2018,Nuclear,807077.759
+1949,Hydroelectric Pumped Storage,0
+1950,Hydroelectric Pumped Storage,0
+1951,Hydroelectric Pumped Storage,0
+1952,Hydroelectric Pumped Storage,0
+1953,Hydroelectric Pumped Storage,0
+1954,Hydroelectric Pumped Storage,0
+1955,Hydroelectric Pumped Storage,0
+1956,Hydroelectric Pumped Storage,0
+1957,Hydroelectric Pumped Storage,0
+1958,Hydroelectric Pumped Storage,0
+1959,Hydroelectric Pumped Storage,0
+1960,Hydroelectric Pumped Storage,0
+1961,Hydroelectric Pumped Storage,0
+1962,Hydroelectric Pumped Storage,0
+1963,Hydroelectric Pumped Storage,0
+1964,Hydroelectric Pumped Storage,0
+1965,Hydroelectric Pumped Storage,0
+1966,Hydroelectric Pumped Storage,0
+1967,Hydroelectric Pumped Storage,0
+1968,Hydroelectric Pumped Storage,0
+1969,Hydroelectric Pumped Storage,0
+1970,Hydroelectric Pumped Storage,0
+1971,Hydroelectric Pumped Storage,0
+1972,Hydroelectric Pumped Storage,0
+1973,Hydroelectric Pumped Storage,0
+1974,Hydroelectric Pumped Storage,0
+1975,Hydroelectric Pumped Storage,0
+1976,Hydroelectric Pumped Storage,0
+1977,Hydroelectric Pumped Storage,0
+1978,Hydroelectric Pumped Storage,0
+1979,Hydroelectric Pumped Storage,0
+1980,Hydroelectric Pumped Storage,0
+1981,Hydroelectric Pumped Storage,0
+1982,Hydroelectric Pumped Storage,0
+1983,Hydroelectric Pumped Storage,0
+1984,Hydroelectric Pumped Storage,0
+1985,Hydroelectric Pumped Storage,0
+1986,Hydroelectric Pumped Storage,0
+1987,Hydroelectric Pumped Storage,0
+1988,Hydroelectric Pumped Storage,0
+1989,Hydroelectric Pumped Storage,0
+1990,Hydroelectric Pumped Storage,-3507.741
+1991,Hydroelectric Pumped Storage,-4541.435
+1992,Hydroelectric Pumped Storage,-4176.582
+1993,Hydroelectric Pumped Storage,-4035.572
+1994,Hydroelectric Pumped Storage,-3377.825
+1995,Hydroelectric Pumped Storage,-2725.131
+1996,Hydroelectric Pumped Storage,-3088.078
+1997,Hydroelectric Pumped Storage,-4039.905
+1998,Hydroelectric Pumped Storage,-4467.28
+1999,Hydroelectric Pumped Storage,-6096.899
+2000,Hydroelectric Pumped Storage,-5538.86
+2001,Hydroelectric Pumped Storage,-8823.445
+2002,Hydroelectric Pumped Storage,-8742.928
+2003,Hydroelectric Pumped Storage,-8535.065
+2004,Hydroelectric Pumped Storage,-8488.21
+2005,Hydroelectric Pumped Storage,-6557.788
+2006,Hydroelectric Pumped Storage,-6557.842
+2007,Hydroelectric Pumped Storage,-6896.352
+2008,Hydroelectric Pumped Storage,-6288.062
+2009,Hydroelectric Pumped Storage,-4627.345
+2010,Hydroelectric Pumped Storage,-5501.132
+2011,Hydroelectric Pumped Storage,-6420.516
+2012,Hydroelectric Pumped Storage,-4950.496
+2013,Hydroelectric Pumped Storage,-4681.033
+2014,Hydroelectric Pumped Storage,-6173.548
+2015,Hydroelectric Pumped Storage,-5091.488
+2016,Hydroelectric Pumped Storage,-6686.127
+2017,Hydroelectric Pumped Storage,-6494.548
+2018,Hydroelectric Pumped Storage,-5904.539
+1949,Conventional Hydroelectric Power,94772.992
+1950,Conventional Hydroelectric Power,100884.575
+1951,Conventional Hydroelectric Power,104376.12
+1952,Conventional Hydroelectric Power,109708.251
+1953,Conventional Hydroelectric Power,109617.396
+1954,Conventional Hydroelectric Power,111639.772
+1955,Conventional Hydroelectric Power,116235.946
+1956,Conventional Hydroelectric Power,125236.621
+1957,Conventional Hydroelectric Power,133357.93
+1958,Conventional Hydroelectric Power,143614.545
+1959,Conventional Hydroelectric Power,141154.533
+1960,Conventional Hydroelectric Power,149440.035
+1961,Conventional Hydroelectric Power,155536.444
+1962,Conventional Hydroelectric Power,172015.646
+1963,Conventional Hydroelectric Power,168990.14
+1964,Conventional Hydroelectric Power,180301.506
+1965,Conventional Hydroelectric Power,196984.345
+1966,Conventional Hydroelectric Power,197937.538
+1967,Conventional Hydroelectric Power,224948.605
+1968,Conventional Hydroelectric Power,225873.158
+1969,Conventional Hydroelectric Power,253468.237
+1970,Conventional Hydroelectric Power,250957.442
+1971,Conventional Hydroelectric Power,269531.459
+1972,Conventional Hydroelectric Power,275928.828
+1973,Conventional Hydroelectric Power,275430.574
+1974,Conventional Hydroelectric Power,304211.805
+1975,Conventional Hydroelectric Power,303152.673
+1976,Conventional Hydroelectric Power,286924.238
+1977,Conventional Hydroelectric Power,223598.687
+1978,Conventional Hydroelectric Power,283465.224
+1979,Conventional Hydroelectric Power,283075.976
+1980,Conventional Hydroelectric Power,279182.09
+1981,Conventional Hydroelectric Power,263844.664
+1982,Conventional Hydroelectric Power,312374.013
+1983,Conventional Hydroelectric Power,335290.855
+1984,Conventional Hydroelectric Power,324311.365
+1985,Conventional Hydroelectric Power,284310.538
+1986,Conventional Hydroelectric Power,294005.219
+1987,Conventional Hydroelectric Power,252856.093
+1988,Conventional Hydroelectric Power,226100.803
+1989,Conventional Hydroelectric Power,271976.936
+1990,Conventional Hydroelectric Power,292865.846
+1991,Conventional Hydroelectric Power,288994.189
+1992,Conventional Hydroelectric Power,253088.003
+1993,Conventional Hydroelectric Power,280494.008
+1994,Conventional Hydroelectric Power,260125.733
+1995,Conventional Hydroelectric Power,310832.748
+1996,Conventional Hydroelectric Power,347162.063
+1997,Conventional Hydroelectric Power,356453.295
+1998,Conventional Hydroelectric Power,323335.661
+1999,Conventional Hydroelectric Power,319536.029
+2000,Conventional Hydroelectric Power,275572.597
+2001,Conventional Hydroelectric Power,216961.045
+2002,Conventional Hydroelectric Power,264328.831
+2003,Conventional Hydroelectric Power,275806.323
+2004,Conventional Hydroelectric Power,268417.308
+2005,Conventional Hydroelectric Power,270321.255
+2006,Conventional Hydroelectric Power,289246.416
+2007,Conventional Hydroelectric Power,247509.974
+2008,Conventional Hydroelectric Power,254831.385
+2009,Conventional Hydroelectric Power,273445.094
+2010,Conventional Hydroelectric Power,260203.069
+2011,Conventional Hydroelectric Power,319354.904
+2012,Conventional Hydroelectric Power,276240.223
+2013,Conventional Hydroelectric Power,268565.383
+2014,Conventional Hydroelectric Power,259366.622
+2015,Conventional Hydroelectric Power,249080.085
+2016,Conventional Hydroelectric Power,267812.153
+2017,Conventional Hydroelectric Power,300333.156
+2018,Conventional Hydroelectric Power,291723.816
+1949,Wood,386.036
+1950,Wood,389.585
+1951,Wood,390.784
+1952,Wood,481.647
+1953,Wood,389.418
+1954,Wood,263.434
+1955,Wood,276.469
+1956,Wood,151.678
+1957,Wood,176.678
+1958,Wood,175.003
+1959,Wood,152.877
+1960,Wood,140.166
+1961,Wood,125.734
+1962,Wood,127.796
+1963,Wood,127.94
+1964,Wood,148.076
+1965,Wood,268.804
+1966,Wood,333.926
+1967,Wood,315.688
+1968,Wood,375.062
+1969,Wood,319.933
+1970,Wood,136
+1971,Wood,111.33
+1972,Wood,130.859
+1973,Wood,130.403
+1974,Wood,68.523
+1975,Wood,17.551
+1976,Wood,84.386
+1977,Wood,307.634
+1978,Wood,197.193
+1979,Wood,299.859
+1980,Wood,275.366
+1981,Wood,245.201
+1982,Wood,195.94
+1983,Wood,215.867
+1984,Wood,461.411
+1985,Wood,743.294
+1986,Wood,491.509
+1987,Wood,783.088
+1988,Wood,935.986
+1989,Wood,27236.668
+1990,Wood,32521.889
+1991,Wood,33725.358
+1992,Wood,36528.662
+1993,Wood,37623.407
+1994,Wood,37937.364
+1995,Wood,36521.082
+1996,Wood,36800.31
+1997,Wood,36948.441
+1998,Wood,36338.384
+1999,Wood,37040.734
+2000,Wood,37594.866
+2001,Wood,35199.905
+2002,Wood,38665.037
+2003,Wood,37529.096
+2004,Wood,38116.883
+2005,Wood,38856.417
+2006,Wood,38762.096
+2007,Wood,39014.024
+2008,Wood,37299.853
+2009,Wood,36050.138
+2010,Wood,37172.16
+2011,Wood,37449.067
+2012,Wood,37799.129
+2013,Wood,40027.537
+2014,Wood,42339.725
+2015,Wood,41928.506
+2016,Wood,40947.227
+2017,Wood,41151.779
+2018,Wood,41411.26
+1949,Waste,0
+1950,Waste,0
+1951,Waste,0
+1952,Waste,0
+1953,Waste,0
+1954,Waste,0
+1955,Waste,0
+1956,Waste,0
+1957,Waste,0
+1958,Waste,0
+1959,Waste,0
+1960,Waste,0
+1961,Waste,0
+1962,Waste,0
+1963,Waste,0
+1964,Waste,0
+1965,Waste,0
+1966,Waste,0
+1967,Waste,0
+1968,Waste,0
+1969,Waste,0
+1970,Waste,220.45
+1971,Waste,199.869
+1972,Waste,199.774
+1973,Waste,197.89
+1974,Waste,182.154
+1975,Waste,173.568
+1976,Waste,182.078
+1977,Waste,173.271
+1978,Waste,140.434
+1979,Waste,198.192
+1980,Waste,157.797
+1981,Waste,122.628
+1982,Waste,124.979
+1983,Waste,162.745
+1984,Waste,424.54
+1985,Waste,639.578
+1986,Waste,685.234
+1987,Waste,693.941
+1988,Waste,738.258
+1989,Waste,9162.887
+1990,Waste,13260.379
+1991,Waste,15664.746
+1992,Waste,17816.035
+1993,Waste,18333.031
+1994,Waste,19128.595
+1995,Waste,20404.971
+1996,Waste,20911.336
+1997,Waste,21709.073
+1998,Waste,22447.935
+1999,Waste,22572.175
+2000,Waste,23131.314
+2001,Waste,14548.152
+2002,Waste,15043.712
+2003,Waste,15811.992
+2004,Waste,15420.57
+2005,Waste,15420.393
+2006,Waste,16098.525
+2007,Waste,16524.554
+2008,Waste,17733.759
+2009,Waste,18442.596
+2010,Waste,18917.207
+2011,Waste,19221.763
+2012,Waste,19823.037
+2013,Waste,20830.49
+2014,Waste,21649.719
+2015,Waste,21703.372
+2016,Waste,21813.231
+2017,Waste,21609.891
+2018,Waste,21353.868
+1949,Geothermal,0
+1950,Geothermal,0
+1951,Geothermal,0
+1952,Geothermal,0
+1953,Geothermal,0
+1954,Geothermal,0
+1955,Geothermal,0
+1956,Geothermal,0
+1957,Geothermal,0
+1958,Geothermal,0
+1959,Geothermal,0
+1960,Geothermal,33.368
+1961,Geothermal,94.021
+1962,Geothermal,100.462
+1963,Geothermal,167.953
+1964,Geothermal,203.791
+1965,Geothermal,189.214
+1966,Geothermal,187.988
+1967,Geothermal,316.309
+1968,Geothermal,435.826
+1969,Geothermal,614.71
+1970,Geothermal,525.183
+1971,Geothermal,547.752
+1972,Geothermal,1452.795
+1973,Geothermal,1965.713
+1974,Geothermal,2452.636
+1975,Geothermal,3246.172
+1976,Geothermal,3616.407
+1977,Geothermal,3582.335
+1978,Geothermal,2977.63
+1979,Geothermal,3888.968
+1980,Geothermal,5073.079
+1981,Geothermal,5686.163
+1982,Geothermal,4842.865
+1983,Geothermal,6075.101
+1984,Geothermal,7740.504
+1985,Geothermal,9325.23
+1986,Geothermal,10307.954
+1987,Geothermal,10775.461
+1988,Geothermal,10300.079
+1989,Geothermal,14593.443
+1990,Geothermal,15434.271
+1991,Geothermal,15966.444
+1992,Geothermal,16137.962
+1993,Geothermal,16788.565
+1994,Geothermal,15535.453
+1995,Geothermal,13378.258
+1996,Geothermal,14328.684
+1997,Geothermal,14726.102
+1998,Geothermal,14773.918
+1999,Geothermal,14827.013
+2000,Geothermal,14093.158
+2001,Geothermal,13740.501
+2002,Geothermal,14491.31
+2003,Geothermal,14424.231
+2004,Geothermal,14810.975
+2005,Geothermal,14691.745
+2006,Geothermal,14568.029
+2007,Geothermal,14637.213
+2008,Geothermal,14839.977
+2009,Geothermal,15008.658
+2010,Geothermal,15219.213
+2011,Geothermal,15316.068
+2012,Geothermal,15562.426
+2013,Geothermal,15774.674
+2014,Geothermal,15876.941
+2015,Geothermal,15917.575
+2016,Geothermal,15825.807
+2017,Geothermal,15926.765
+2018,Geothermal,16728.455
+1949,Solar,0
+1950,Solar,0
+1951,Solar,0
+1952,Solar,0
+1953,Solar,0
+1954,Solar,0
+1955,Solar,0
+1956,Solar,0
+1957,Solar,0
+1958,Solar,0
+1959,Solar,0
+1960,Solar,0
+1961,Solar,0
+1962,Solar,0
+1963,Solar,0
+1964,Solar,0
+1965,Solar,0
+1966,Solar,0
+1967,Solar,0
+1968,Solar,0
+1969,Solar,0
+1970,Solar,0
+1971,Solar,0
+1972,Solar,0
+1973,Solar,0
+1974,Solar,0
+1975,Solar,0
+1976,Solar,0
+1977,Solar,0
+1978,Solar,0
+1979,Solar,0
+1980,Solar,0
+1981,Solar,0
+1982,Solar,0
+1983,Solar,0
+1984,Solar,5.248
+1985,Solar,10.63
+1986,Solar,14.032
+1987,Solar,10.497
+1988,Solar,9.094
+1989,Solar,250.601
+1990,Solar,367.087
+1991,Solar,471.765
+1992,Solar,399.64
+1993,Solar,462.452
+1994,Solar,486.622
+1995,Solar,496.821
+1996,Solar,521.205
+1997,Solar,511.168
+1998,Solar,502.473
+1999,Solar,495.082
+2000,Solar,493.375
+2001,Solar,542.755
+2002,Solar,554.831
+2003,Solar,534.001
+2004,Solar,575.155
+2005,Solar,550.294
+2006,Solar,507.706
+2007,Solar,611.793
+2008,Solar,864.315
+2009,Solar,891.179
+2010,Solar,1212.182
+2011,Solar,1817.696
+2012,Solar,4326.675
+2013,Solar,9035.62
+2014,Solar,17691.031
+2015,Solar,24892.904
+2016,Solar,36054.121
+2017,Solar,53286.174
+2018,Solar,66603.684
+1949,Wind,0
+1950,Wind,0
+1951,Wind,0
+1952,Wind,0
+1953,Wind,0
+1954,Wind,0
+1955,Wind,0
+1956,Wind,0
+1957,Wind,0
+1958,Wind,0
+1959,Wind,0
+1960,Wind,0
+1961,Wind,0
+1962,Wind,0
+1963,Wind,0
+1964,Wind,0
+1965,Wind,0
+1966,Wind,0
+1967,Wind,0
+1968,Wind,0
+1969,Wind,0
+1970,Wind,0
+1971,Wind,0
+1972,Wind,0
+1973,Wind,0
+1974,Wind,0
+1975,Wind,0
+1976,Wind,0
+1977,Wind,0
+1978,Wind,0
+1979,Wind,0
+1980,Wind,0
+1981,Wind,0
+1982,Wind,0
+1983,Wind,2.668
+1984,Wind,6.49
+1985,Wind,5.762
+1986,Wind,4.189
+1987,Wind,3.541
+1988,Wind,0.871
+1989,Wind,2112.043
+1990,Wind,2788.6
+1991,Wind,2950.951
+1992,Wind,2887.523
+1993,Wind,3005.827
+1994,Wind,3447.109
+1995,Wind,3164.253
+1996,Wind,3234.069
+1997,Wind,3288.035
+1998,Wind,3025.696
+1999,Wind,4487.998
+2000,Wind,5593.261
+2001,Wind,6737.331
+2002,Wind,10354.28
+2003,Wind,11187.466
+2004,Wind,14143.741
+2005,Wind,17810.549
+2006,Wind,26589.137
+2007,Wind,34449.927
+2008,Wind,55363.1
+2009,Wind,73886.132
+2010,Wind,94652.246
+2011,Wind,120176.599
+2012,Wind,140821.703
+2013,Wind,167839.745
+2014,Wind,181655.282
+2015,Wind,190718.548
+2016,Wind,226992.562
+2017,Wind,254302.662
+2018,Wind,274951.815

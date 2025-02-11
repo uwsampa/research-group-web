@@ -1,0 +1,30 @@
+<ul class="project-people">
+    {% for uname in include.people %}
+    <li>
+    {% if site.data.people[uname] %}
+        {% assign person = site.data.people[uname] %}
+        {% assign name = person.display_name %}
+        
+        {% assign imgurl = false %}
+        {% if person.image %}
+            {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+            {% if init == "//" %}
+                {% assign imgurl = person.image %}
+            {% else %}
+                {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+            {% endif %}
+        {% endif %}
+        
+        <a class="person" href="{{person.webpage}}">
+        {% if imgurl %}
+        <img class="img-circle" src="{{imgurl}}" alt="{{name}}"/>
+        {% else %}
+        {{uname}}
+        {% endif %}
+        </a>
+    {% else %}
+        <div>{{uname}}</div>
+    {% endif %}
+    </li>
+    {% endfor %}
+</ul>
