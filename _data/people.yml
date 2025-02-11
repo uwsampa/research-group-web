@@ -1,161 +1,386 @@
+# grad
 
-prof-a:
-    display_name: "Prof A"
+basel:
+    display_name: "Basel Hussein"
+    role: grad
+    webpage: https://www.baselhussein.com/
+    image: https://miro.medium.com/fit/c/256/256/0*yVz4jBIFR7PKLy6d.jpg #/img/people/male_placeholder.jpg
+    bio: "PhD Candidate"
+
+jiayu:
+    display_name: "Jiayu Cheng"
+    role: grad
+    image: /img/people/Jiayu.JPG
+    webpage: https://www.linkedin.com/in/jiayu-cheng-7b489b248/
+    bio: "PhD student"
+
+yuwei:
+    display_name: "Yuwei Liang"
+    role: grad
+    image: /img/people/female_placeholder.png
+    bio: "PhD student"
+
+vivian:
+    display_name: "Vivian Leung"
+    role: grad
+    webpage: https://vyleung.github.io/ 
+    image:  /img/people/vivian.png
+    bio: "MSEd"
+
+amanda:
+    display_name: "Amanda Tran"
+    role: grad
+    webpage: https://github.com/mandachan-727
+    image: https://avatars.githubusercontent.com/u/85417121?v=4
+    bio: "MSEd student"
+
+emily:
+    display_name: "Emily Yan"
+    role: grad
+    webpage: http://linkedin.com/in/emily-yan-a9b146230/
+    image:  /img/people/emily.png
+    bio: "MSEd student"
+
+chenw:
+    display_name: "Chen Wang"
+    role: grad
+    # webpage: https://kloechen.webflow.io/
+    image:  /img/people/chenw.jpeg
+    bio: "Instructional Technologist"
+
+kexin:
+    display_name: "Kexin Chen"
+    role: grad
+    webpage: https://kloechen.webflow.io/
+    image:  /img/people/kchen.jpg
+    bio: "MSEd student"
+# developer
+
+benji:
+    display_name: "Benji Encalada Mora"
+    role: developer
+    bio: "Lead Software Engineer"
+    webpage: https://www.benji.dog/
+    image: https://benji.dog/assets/photo.jpg
+
+wenxi:
+    display_name: "Wenxi Chen"
+    role: developer
+    bio: "Developer"
+    webpage: https://github.com/wenxich
+    image: https://avatars.githubusercontent.com/u/92760430?v=4
+
+# alum
+
+rachel:
+    display_name: "Rachel Liu"
+    role: collab
+    webpage: https://www.linkedin.com/in/xiner-liu-rachel/
+    image:  "https://media.licdn.com/dms/image/C5103AQGItoSMAugCZw/profile-displayphoto-shrink_800_800/0/1582490517674?e=2147483647&v=beta&t=lwyZlD_81qBckeKOf-tE6s-fT7HFiq2UkrJjG7_NK-4"
+    bio: "PhD student"
+
+xinran:
+    display_name: "Xinran Zhu"
+    role: alum
+    webpage: "https://zhu-xinran.com/"
+    image: /img/people/xinran2.jpg
+    bio: "PhD --> assistant prof at UIUC"
+
+hongs:
+    display_name: "Hong Shui"
+    webpage: "https://twitter.com/shui_hong"
+    role: alum
+    image: /img/people/hongs.jpg
+    bio: "PhD; faculty at Sichuan Normal University"
+
+zixi:
+    display_name: "Zixi Chen"
+    role: alum
+    webpage: https://scholar.google.com/citations?user=zfkOwi4AAAAJ&hl=en
+    image: https://innovation.umn.edu/informatics/wp-content/uploads/sites/59/2021/08/avatar-2-edited-150x150.png
+    bio: "Postdoc --> assistant professor at NYU Shanghai"
+
+mengchen:
+    display_name: "Mengchen Su"
+    role: alum
+    webpage: https://www.mengchensu.com/
+    image: https://innovation.umn.edu/informatics/wp-content/uploads/sites/59/2021/10/Su-pic-150x150.jpg
+    bio: "Postdoc --> Research Scientist at UMN"
+
+pingting:
+    display_name: "Pingting Chen"
+    role: alum
+    image:  /img/people/pingting.jpg
+    bio: "MSEd"
+
+xiping:
+    display_name: "Xiping Jiang"
+    role: alum
+    webpage: http://sisypher.com/
+    image: /img/people/xiping.png
+    bio: "MSEd --> PhD student at UT-Austin"
+    
+keerthi:
+    display_name: "Keerthanya Rajesh"
+    role: alum
+    webpage: https://www.linkedin.com/in/keerthanya-rajesh/
+    image:  /img/people/keerthi.png
+    bio: "MSEd --> Research Analyst at Research for Action"
+
+yuhui:
+    display_name: "Yu-Hui Chang"
+    webpage: "https://education.nsysu.edu.tw/p/405-1134-275857,c11706.php?Lang=en"
+    role: alum
+    image: /img/people/hui.jpg
+    bio: "PhD --> Assistant Professor at National Sun Yat-sen University"
+
+rukmini:
+    display_name: "Rukmini Manasa"
+    webpage: "https://www.researchgate.net/profile/Rukmini_Manasa_Avadhanam"
+    role: alum
+    image: /img/people/rukmini.jpg
+    bio: "PhD --> Research Associate at UIC"
+
+fan:
+    display_name: "Fan Ouyang"
+    webpage: "https://fanouyang.net/"
+    role: alum
+    image: /img/people/fan.jpg
+    bio: "PhD --> faculty at Zhejiang University"
+
+# shanyu:
+#     display_name: "Shan Yu"
+#     role: alum
+#     image: https://i1.rgstatic.net/ii/profile.image/299399507922950-1448393813833_Q512/Shan-Yu-22.jpg
+#     bio: "PhD in Design"
+
+wenjing:
+    display_name: "Wenjing Chen"
+    role: alum
+    image: /img/people/wenjing.jpg
+    bio: "MEd"
+batu:
+    display_name: "William Batu"
+    role: alum
+    image: /img/people/batu.jpeg
+    bio: "M.S. in CS"
+
+# ethan:
+#     display_name: "Ethan Brown"
+#     webpage: "http://statisfactions.com/"
+#     role: alum
+#     image: /img/people/ethan.jpg
+#     bio: "PhD in EdPsy"
+
+hwu:
+    display_name: "Huanqing Wu"
+    role: alum
+    webpage: http://cm.qfnu.edu.cn/info/1052/2208.htm
+    image: http://cm.qfnu.edu.cn/__local/3/0A/9F/4FBF99668D6239F124901D2E35C_E6E072E2_178E4.jpg
+    bio: "Visiting scholar from Qufu Normal University"
+
+# xing:
+#     display_name: "Xing Liu"
+#     role: alum
+#     image: /img/people/male_placeholder.jpg
+#     bio: "Master's graduate in Financial Math"
+
+wanying:
+    display_name: "Wanying Zhou"
+    role: alum
+    image: /img/people/female_placeholder.png
+    bio: "Undergrad in Psychology --> Master's student at Penn"
+
+tianhui:
+    display_name: "Tianhui Huang"
+    role: alum
+    webpage: https://www.researchgate.net/profile/Huang_Tianhui
+    image: /img/people/thuang.jpg
+    bio: "Visiting scholar --> faculty at Yunnan University"
+
+yizhou:
+    display_name: "Yizhou Fan"
+    role: alum
+    image: /img/people/yizhou.jpg
+    bio: "Visiting scholar --> faculty at Peking University"
+
+# jon:
+#     display_name: "Jonathan Shoberg"
+#     webpage: "https://github.com/lordgentlehosen"
+#     role: alum
+#     image: /img/people/jon.jpg
+#     bio: "Computer Science"
+#       # I am an undergraduate student studying computer science at the College of Science and Engineering at the University of Minnesota, with a focus in Human-Computer Interaction. I am interested in using technology in new and innovative ways to enhance learning experiences, and I have a particular interest in using video games for this purpose. In my studies, I have found that I have a passion for both technology and psychology, and I try to keep both of these things in mind in my work, to come up with the best solution possible for both the user and the software.
+
+mustafa:
+    display_name: "Mustafa Serkan Günbatar"
+    role: alum
+    webpage: https://avesis.yyu.edu.tr/mustafaserkan
+    image: https://avesis.yyu.edu.tr/user/image/2984
+    bio: "Visiting scholar, Associate Professor at Van Yüzüncü Yıl University"
+
+
+# robert:
+#     display_name: "Robert Kreml"
+#     role: alum
+#     bio: "PhD candidate"
+
+# collaborators
+
+tina:
+    display_name: "Tina Jeon"
+    role: collab
+    image: https://lt.umn.edu/sites/lt-d8.umn.edu/files/styles/crop_freeform/public/2022-09/Screen%20Shot%202022-09-28%20at%2014.57.48.png?itok=cCeOlUka
+    bio: "PhD student in LT"
+
+johnb:
+    display_name: "John Bartucz"
+    role: collab
+    image: https://lt.umn.edu/sites/lt-d8.umn.edu/files/styles/crop_freeform/public/2022-01/JABpltw%20-%20John%20Bartucz%20%281%29_0.png?itok=W5_7vf47
+    bio: "PhD student in LT"
+
+
+# undergrad
+
+
+# visiting scholars
+
+alwyn:
+    display_name: "Lee, Vwen Yen Alwyn"
+    role: vscholar
+    bio: "Research Scientist at National Institute of Education, Singapore"
+    image: /img/people/Alwyn3.JPG
+
+simone:
+    display_name: "Simone Luchini"
+    role: vscholar
+    bio: "PhD student at PSU"
+    image: /img/people/simone.jpeg
+
+# tianhui:
+#     display_name: "Tianhui Huang"
+#     # webpage: "https://fanouyang.net/"
+#     role: vscholar
+#     image: /img/people/thuang.jpg
+#     bio: "PhD student from Fudan University"
+#       # Tianhui is a visiting PhD student from Fudan University (China), who majors in educational economics and management. Tianhui got her master's degree in distance education and studied educational technology for her undergraduate degree. She is currently visiting the U for a year to work with Professor Chen.
+#
+# yizhou:
+#     display_name: "Yizhou Fan"
+#     role: vscholar
+#     image: /img/people/yizhou.jpg
+#     bio: "PhD student from Peking University"
+
+# collaborators
+
+hong:
+    display_name: "Huang-Yao Hong"
+    role: collab
+    webpage: https://edu.nccu.edu.tw/en/Faculty/HUANG-YAO-HONG-50562481
+    image: /img/people/male_placeholder.jpg
+    bio: "National Chengchi U"
+
+deliema:
+    display_name: "David DeLiema"
+    role: collab
+    image: https://i1.rgstatic.net/ii/profile.image/804481717518336-1568814796052_Q512/David-Deliema-2.jpg
+
+scharber:
+    display_name: "Cassie Scharber"
+    role: collab
+    image: /img/people/female_placeholder.png
+
+
+# lund:
+#     display_name: "Kris Lund"
+#     role: collab
+#     image: /img/people/female_placeholder.jpg
+#     bio: "U of Lyon"
+
+matsuzawa:
+    display_name: "Yoshiaki Matsuzawa"
+    role: collab
+    webpage: http://www.matsuzawalab.info/
+    image: /img/people/yoshiaki.jpg
+    bio: "Aoyama Gakuin U"
+
+qiong:
+    display_name: "Qiong Wang"
+    role: collab
+    image: /img/people/qiong.jpg
+    bio: "Peking University"
+
+# afwise:
+#     display_name: "Alyssa Wise"
+#     role: collab
+#     bio: "New York University"
+
+# ninger:
+#     display_name: "Ninger Zhou"
+#     role: collab
+#     image: https://0.academia-photos.com/34232858/11052788/12334059/s200_ninger.zhou.jpg
+#     bio: "Postdoc at UC-Irvine"
+
+stian:
+    display_name: "Stian Haklev"
+    role: collab
+    webpage: http://reganmian.net/blog/
+    image: https://lh6.googleusercontent.com/-9D1p8dRbFoQ/AAAAAAAAAAI/AAAAAAAAAAA/Y78D89dOYOM/s128-c-k/photo.jpg
+    bio: "Minerva Project"
+
+michelle:
+    display_name: "Michelle Driessen"
+    # role: collab
+    webpage: https://chem.umn.edu/profiles/michelle-driessen
+    image: https://cse.umn.edu/sites/cse.umn.edu/files/styles/full/public/DreissenMichelleNP.jpg
+    bio: "University of Minnesota"
+
+konstan:
+    display_name: "Joseph A. Konstan"
+    role: collab
+    webpage: http://konstan.umn.edu/
+    image: https://innovation.umn.edu/informatics/wp-content/uploads/sites/59/2021/08/konstan-2010-photo-edited.jpg
+    bio: "U of Minnesota"
+
+svarma:
+    display_name: "Sashank Varma"
+    role: collab
+    webpage: https://ic.gatech.edu/people/sashank-varma
+    image: https://innovation.umn.edu/informatics/wp-content/uploads/sites/59/2021/08/VarmaS-2019-edited.jpg
+    bio: "Georgia Tech"
+# postdocs
+
+
+
+
+# teacher
+
+david:
+    display_name: "David Groos"
+    webpage: "https://twitter.com/djgroos?lang=en"
+    role: teacher
+    image: "https://pbs.twimg.com/profile_images/3742118341/786217c615101e9ada82a6066c60b99b_400x400.jpeg"
+    bio: "MPS Science Teacher"
+
+craig:
+    display_name: "Craig Karlen"
+    role: teacher
+    image: /img/people/male_placeholder.jpg
+    bio: "SPPS Science Teacher"
+
+dan:
+    display_name: "Daniel Weyandt"
+    role: teacher
+    image: /img/people/male_placeholder.jpg
+    bio: "SPPS Science Teacher"
+
+# faculty
+
+bodong:
+    display_name: "Bodong Chen"
+    webpage: "https://bodong.ch/"
+    github: meefen
     role: faculty
-
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
-
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: grad
-    image: /img/people/storm.png
-
-grad-a:
-    display_name: "Grad A"
-    role: grad
-
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
-
-grad-c:
-    display_name: "Grad C"
-    role: grad
-
-grad-d:
-    display_name: "Grad D"
-    role: grad
-
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
-
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
-
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
-
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
-
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
-
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+    image: /img/people/bodong.jpg
+    bio: "Associate Professor"
+    
