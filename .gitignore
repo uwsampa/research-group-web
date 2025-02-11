@@ -1,3 +1,4 @@
 _site
-_includes/pubs.html
-/test-deploy.sh
+.jekyll-metadata
+.DS_store
+.jekyll-cache
