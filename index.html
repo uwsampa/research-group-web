@@ -3,123 +3,73 @@ layout: default
 title: Home
 notitle: true
 
-role_groups:
-<!-- - [faculty, postdoc] -->
-- [grad, developer]
-- [vscholar]
-- [faculty]
-
-role_remain:
-- [collab, ugrad-alum]
-- [alum]
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [faculty, postdoc, staff]
+    width: 4
+    image: true
+  - roles: [grad]
+    width: 8
+    image: true
+- - roles: [collab, ugrad, ugrad-alum]
+    width: 5
+    image: false
+  - roles: [alum]
+    width: 7
+    image: false
 
 ---
 
-<h2>About</h2>
-
 <div class="jumbotron">
-    <img src="img/aybu-logo.png" width="120px" alt="">
-    <h3>
-        The <b>Aybu Roam Lab</b> strives to support human wonderment <br> in authentic contexts of learning.
-    </h3>
-    <p><big>As an interdisciplinary research group at the University of Pennsylvania Graduate School of Education, we
-            design technology-enhanced learning environments, develop learning analytics applications, and conduct
-            empirical research in various educational settings.</big></p>
-    <!-- <br> -->
-    <!-- <h4> The central question we ask is: <i>How can we better support human wonderment in various contexts of learning?</i></h4> -->
-    <!-- <p>Please get in touch if you're interested in joining the Group!</p> -->
+    <p>
+        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
+        research. Here is a place where we tell you exactly what that is!
+    </p>
 </div>
 
-<h2 id="news">News</h2>
-<ul class="news">
-    {% for post in site.posts limit: site.front_page_news %}
-    {% include news-item.html item=post %}
-    {% endfor %}
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
     {% assign numposts = site.posts | size %}
-    <li>
-        <div class="icon"><i class="fa fa-history"></i></div>
-        <div class="text"><a
-                href="{{ site.base }}/{% if numposts >= site.front_page_news %}post/{%else%}oldnews.html{%endif%}">Older
-                news&hellip;</a></div>
-    </li>
-</ul>
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>
 
-<h2 id="people">People</h2>
-
-<div class="row">
-    {% for grp in page.role_groups %}
-    <div class="col-md-{% if grp contains 'grad' or grp contains 'developer' %}12{% else %}4{% endif %}">
-        {% for role in site.roles %}
-        {% if grp contains role.key %}
-        <h3>{{ role.name }}</h3>
-        <ul class="people {{ role.key }}">
-            {% for item in site.data.people %}
-            {% assign person = item[1] %}
-            {% if person.role == role.key %}
-            <li>
-                {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
-                    {% assign imgurl = false %}
-                    {% if person.image %}
-                    {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
-                    {% if init == "//" %}
-                    {% assign imgurl = person.image %}
-                    {% else %}
-                    {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
-                    {% endif %}
-                    {% endif %}
-
-                    {% if imgurl %}
-                    <img class="img-circle profile" src="{{imgurl}}" />
-                    {% else %}
-                    <svg class="profile">
-                        <circle class="noprofile" />
-                    </svg>
-                    {% endif %}
-                    {% if person.webpage %}</a>{% endif %}
-                <div class="person">
-                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
-                        <h4>{{person.display_name}}</h4>
-                        {% if person.webpage %}
-                    </a>{% endif %}
-                    {% if person.bio %}<p class="bio">{{person.bio}}</p>{% endif %}
-                </div>
-            </li>
+<section>
+    <h2>Research</h2>
+    <div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.status != "inactive" %}
+                {% include project-card.html project=p %}
             {% endif %}
-            {% endfor %}
-        </ul>
-        {% endif %}
         {% endfor %}
     </div>
+</section>
+
+<div id="people">
+    <h2>People</h2>
+    {% for role-table in page.role-tables %}
+        <section class="people row justify-content-between">
+            {% for role-column in role-table %}
+                <div class="col-md-{{ role-column.width }}">
+                    {% for role in role-column.roles %}
+                        {% include role-people.html role=role image=role-column.image %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </section>
     {% endfor %}
 </div>
-
-<!--Remaining roles (collaborators, undergrads, alumni) -->
-<div class="row">
-    {% for grp in page.role_remain %}
-    <div class="col-md-12">
-        {% for role in site.roles %}
-        {% if grp contains role.key %}
-        <h3>{{ role.name }}</h3>
-        <ul class="people {{role.key}}">
-            {% for item in site.data.people %}
-            {% assign person = item[1] %}
-            {% if person.role == role.key %}
-            <li>
-                {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if
-                    person.webpage %}</a>{% endif %}
-                {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
-            </li>
-            {% endif %}
-            {% endfor %}
-            </dl>
-            {% endif %}
-            {% endfor %}
-    </div>
-    {% endfor %}
-</div>
-
-<h2>Funding</h2>
-<p>
-    Our work is supported by the National Science Foundation, the Schmidt Futures, Carina Initiatives, and other funding
-    agencies.
-</p>
